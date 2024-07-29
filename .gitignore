@@ -1,3 +1,5 @@
 lib/
 bin/
 pyvenv.cfg
+site/
+.DS_Store

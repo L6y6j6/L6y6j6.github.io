@@ -1,3 +1,5 @@
-site_name: My Docs
+site_name: LYJ 的笔记本
+site_url: https://l6y6j6.github.io/mydocs/
+use_directory_urls: true
 theme:
   name: material
