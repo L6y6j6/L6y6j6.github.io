@@ -3,4 +3,3 @@ bin/
 pyvenv.cfg
 site/
 .DS_Store
-deploy.sh
