@@ -3,6 +3,9 @@
 # 退出时如果有错误则终止脚本
 set -e
 
+# 激活 Python 虚拟环境
+source bin/activate
+
 # 构建 MkDocs 网站
 mkdocs build
 
@@ -21,7 +24,7 @@ cp -r site/* $temp_dir/mydocs
 # 提交并推送更改
 cd $temp_dir
 git add .
-git commit -m "Customize My Notebook"
+git commit -m "complete notebook structure"
 git push origin gh-pages
 
 # 清理临时目录
