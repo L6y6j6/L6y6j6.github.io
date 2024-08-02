@@ -157,6 +157,9 @@ nav:
               - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
       - Windows 指南:
           - pc-guide/windows/index.md
+          - WSL:
+              - pc-guide/windows/wsl/index.md
+              - 问题日志: pc-guide/windows/wsl/log.md
       - macOS 指南:
           - pc-guide/macos/index.md
       - Linux 指南:
