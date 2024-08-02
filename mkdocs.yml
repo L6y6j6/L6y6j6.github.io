@@ -9,389 +9,389 @@ site_author: LYJ
 use_directory_urls: true
 
 theme:
-        name: "material"
-        language: "zh"
-        icon:
-                logo: material/notebook-outline
-        favicon: assets/images/favicon.ico
-        custom_dir: overrides
-        features:
-                - content.code.select
-                - content.code.copy
-                - content.code.annotate
-                - navigation.tracking
-                - navigation.tabs
-                - navigation.indexes
-                - navigation.top
-                - search.suggest
-                - search.highlight
-                - search.share
-                - header.autohide
-        font: false
-        palette:
-                - scheme: default
+  name: "material"
+  language: "zh"
+  icon:
+    logo: material/notebook-outline
+  favicon: assets/images/favicon.ico
+  custom_dir: overrides
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  font: false
+  palette:
+    - scheme: default
 
 markdown_extensions:
-        - toc:
-                  permalink: true
-                  toc_depth: 4
-        - meta
-        - def_list
-        - attr_list
-        - md_in_html
-        - sane_lists
-        - admonition
-        - pymdownx.keys
-        - pymdownx.mark
-        - pymdownx.tilde
-        - pymdownx.critic
-        - pymdownx.details
-        - pymdownx.snippets
-        - pymdownx.magiclink
-        - pymdownx.superfences
-        - pymdownx.inlinehilite
-        - pymdownx.emoji:
-                  emoji_index: !!python/name:material.extensions.emoji.twemoji
-                  emoji_generator: !!python/name:material.extensions.emoji.to_svg
-        - pymdownx.tabbed:
-                  alternate_style: true
-        - pymdownx.tasklist:
-                  custom_checkbox: true
-        - pymdownx.highlight:
-                  anchor_linenums: true
-                  line_spans: __span
-                  pygments_lang_class: true
-        - pymdownx.arithmatex:
-                  generic: true
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.arithmatex:
+      generic: true
 
 validation:
-        nav:
-                omitted_files: info
-                not_found: warn
-                absolute_links: info
-        links:
-                not_found: ignore
-                absolute_links: ignore
-                unrecognized_links: ignore
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: ignore
+    absolute_links: ignore
+    unrecognized_links: ignore
 
 extra_css:
-        - https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
-        - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
-        - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
-        - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-        # - https://cdn.tonycrane.cc/utils/katex.min.css
-        # - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
-        # - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
-        - css/tasklist.css
-        - css/custom.css
-        - css/card.css
-        - css/flink.css
-        - css/changelog_extra.css
-        # - css/heti.css
+  - https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
+  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  # - https://cdn.tonycrane.cc/utils/katex.min.css
+  # - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  # - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - css/tasklist.css
+  - css/custom.css
+  - css/card.css
+  - css/flink.css
+  - css/changelog_extra.css
+  # - css/heti.css
 
 extra_javascript:
-        - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
-        # - https://cdn.tonycrane.cc/utils/katex.min.js
-        - js/katex.js
-        # - js/heti.js
-        # - js/scheme.js # this is in template 'base.html'
+  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
+  # - https://cdn.tonycrane.cc/utils/katex.min.js
+  - js/katex.js
+  # - js/heti.js
+  # - js/scheme.js # this is in template 'base.html'
 
 plugins:
-        # - rss
-        - search
-        - glightbox:
-                  width: 80%
-        - git-revision-date-localized:
-                  type: datetime
-                  timezone: Asia/Shanghai
-                  locale: zh
-                  enable_creation_date: true
-                  exclude:
-                          - index.md
-                          - writeups/AAA.md
-        - changelog
+  # - rss
+  - search
+  - glightbox:
+      width: 80%
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+      exclude:
+        - index.md
+        - writeups/AAA.md
+  - changelog
 
 # not_in_nav: todo.md
 
 nav:
-        - 🏠 Home:
-                  - index.md
-                  - 更新记录: changelog.md
-                  - 待办事项: todo.md
-                  - 友情链接: links.md
-                  - 站点示例: example.md
-                  - 个人简介: about.md
-        - 💻 PC:
-                  - pc-guide/index.md
-                  - 系统安装:
-                            - pc-guide/os-install/index.md
-                            - 安装 Windows:
-                                      - pc-guide/os-install/windows/index.md
-                                      - WinPE: pc-guide/os-install/windows/winpe.md
-                                      - Windows XP: pc-guide/os-install/windows/winxp.md
-                                      - Windows 7: pc-guide/os-install/windows/win7.md
-                                      - Windows 10: pc-guide/os-install/windows/win10.md
-                                      - Windows 11: pc-guide/os-install/windows/win11.md
-                                      - WinToGo: pc-guide/os-install/windows/wtg.md
-                            - 安装 Linux:
-                                      - pc-guide/os-install/linux/index.md
-                                      - GUI 安装: pc-guide/os-install/linux/gui-install.md
-                                      - CLI 安装:
-                                                - pc-guide/os-install/linux/cli-install/index.md
-                                                - Arch: pc-guide/os-install/linux/cli-install/arch.md
-                                                - Gentoo: pc-guide/os-install/linux/cli-install/gentoo.md
-                                                - LFS: pc-guide/os-install/linux/cli-install/lfs.md
-                            - 安装 macOS:
-                                      - pc-guide/os-install/macos/index.md
-                            - 安装黑苹果:
-                                      - pc-guide/os-install/hackintosh/index.md
-                                      - 硬件要求: pc-guide/os-install/hackintosh/hardware.md
-                                      - 适配 EFI: pc-guide/os-install/hackintosh/efi.md
-                                      - 安装驱动: pc-guide/os-install/hackintosh/driver.md
-                                      - 安装详解: pc-guide/os-install/hackintosh/install.md
-                                      - 各种问题: pc-guide/os-install/hackintosh/qa.md
-                            - 安装 UNIX:
-                                      - pc-guide/os-install/unix/index.md
-                                      - 安装 FreeBSD: pc-guide/os-install/unix/freebsd.md
-                                      - 安装 OpenBSD: pc-guide/os-install/unix/openbsd.md
-                                      - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
-                  - Windows 指南:
-                            - pc-guide/windows/index.md
-                  - macOS 指南:
-                            - pc-guide/macos/index.md
-                  - Linux 指南:
-                            - pc-guide/linux/index.md
-                            - Arch Linux:
-                                      - pc-guide/linux/arch/index.md
-                            - Ubuntu:
-                                      - pc-guide/linux/ubuntu/index.md
-                  - 电脑小队:
-                            - pc-guide/pc-squad/index.md
-                            - 绪论: pc-guide/pc-squad/intro.md
-                            - 电脑知识入门（原理和构造）: pc-guide/pc-squad/pcintro.md
-                            - 拆机实操: pc-guide/pc-squad/practice.md
-                            - 服务意识: pc-guide/pc-squad/awareness.md
-                            - 硬件进阶: pc-guide/pc-squad/hw-advanced.md
-                            - 软件进阶: pc-guide/pc-squad/sw-advanced.md
-                            - 寻求帮助: pc-guide/pc-squad/help.md
-                            - 电脑小队常见问题一: pc-guide/pc-squad/question1.md
-                            - 电脑小队常见问题二: pc-guide/pc-squad/question2.md
-                  - LCPU Missing Semester:
-                            - pc-guide/lcpu-ms/index.md
-        - 🟰 Math:
-                  - math/index.md
-                  - 高等数学:
-                            - math/calculus/index.md
-                  - 线性代数:
-                            - math/linear-algebra/index.md
-                  - 概率论:
-                            - math/prob-theory/index.md
-                  - 信息论:
-                            - math/info-theory/index.md
-        - 🖥️ CS:
-                  - cs/index.md
-                  - 必学工具:
-                            - 翻墙: cs/tools/over-gfw.md
-                            - Vim: cs/tools/Vim.md
-                            - Emacs: cs/tools/Emacs.md
-                            - Git: cs/tools/Git.md
-                            - GitHub: cs/tools/GitHub.md
-                            - GNU Make: cs/tools/GNU_Make.md
-                            - CMake: cs/tools/CMake.md
-                            - LaTeX: cs/tools/LaTeX.md
-                            - Docker: cs/tools/Docker.md
-                            - Package Manager: cs/tools/pm.md
-                            - 日常学习工作流: cs/tools/workflow.md
-                            - 实用工具箱: cs/tools/tools.md
-                            - 毕业论文: cs/tools/thesis.md
-                            - 信息检索: cs/tools/info-search.md
-                  - 好书推荐: cs/book-rec.md
-                  - 数学基础:
-                            - "MIT18.01/18.02: Calculus": cs/math-base/MITmaths.md
-                            - "MIT18.06: Linear Algebra": cs/math-base/MITLA.md
-                            - "MIT6.050J: Information theory and Entropy": cs/math-base/information.md
-                  - 数学进阶:
-                            - "UCB CS70: discrete Math and probability theory": cs/math-advanced/CS70.md
-                            - "UCB CS126: probability theory": cs/math-advanced/CS126.md
-                            - "MIT 6.042J: Mathematics for Computer Science": cs/math-advanced/6.042J.md
-                            - "MIT18.330: Introduction to numerical analysis": cs/math-advanced/numerical.md
-                            - "Standford EE364A: Convex Optimization": cs/math-advanced/convex.md
-                            - "The Information Theory, Pattern Recognition, and Neural Networks": cs/math-advanced/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md
-                  - 编程入门:
-                            - "MIT-Missing-Semester": cs/programming-base/MIT-Missing-Semester.md
-                            - "Sysadmin DeCal": cs/programming-base/DeCal.md
-                            - Python 语言:
-                                      - "UCB CS61A: Structure and Interpretation of Computer Programs": cs/programming-base/Python/CS61A.md
-                                      - "CS50P: CS50's Introduction to Programming with Python": cs/programming-base/Python/CS50P.md
-                            - C 语言:
-                                      - "Harvard CS50: This is CS50x": cs/programming-base/C/CS50.md
-                                      - "Duke University: Introductory C Programming Specialization": cs/programming-base/C/Duke-Coursera-Intro-C.md
-                            - C++ 语言:
-                                      - "AmirKabir University of Technology AP1400-2: Advanced Programming": cs/programming-base/cpp/AUT1400.md
-                                      - "Stanford CS106L: Standard C++ Programming": cs/programming-base/cpp/CS106L.md
-                                      - "Stanford CS106B/X": cs/programming-base/cpp/CS106B_CS106X.md
-                            - Java 语言:
-                                      - "MIT 6.092: Introduction To Programming In Java": cs/programming-base/Java/MIT 6.092.md
-                            - Rust 语言:
-                                      - "Stanford CS110L: Safety in Systems Programming": cs/programming-base/Rust/CS110L.md
-                                      - "KAIST CS431: Concurrent Programming": cs/programming-base/Rust/cs431.md
-                            - 函数式语言:
-                                      - "Cornell CS3110: OCaml Programming Correct + Efficient + Beautiful": cs/programming-base/Functional/CS3110.md
-                                      - "Haskell MOOC": cs/programming-base/Functional/Haskell-MOOC.md
-                  - 电子基础:
-                            - "EE16A&B: Designing Information Devices and Systems I&II": cs/ee-base/EE16.md
-                            - "UCB EE120 : Signal and Systems": cs/ee-base/signal.md
-                            - "MIT 6.007 Signals and Systems": cs/ee-base/Signals_and_Systems_AVO.md
-                  - 数据结构与算法:
-                            - "UCB CS61B: Data Structures and Algorithms": cs/data-struct-algo/CS61B.md
-                            - "Coursera: Algorithms I & II": cs/data-struct-algo/Algo.md
-                            - "MIT 6.006: Introduction to Algorithms": cs/data-struct-algo/6.006.md
-                            - "MIT 6.046: Design and Analysis of Algorithms": cs/data-struct-algo/6.046.md
-                            - "UCB CS170: Efficient Algorithms and Intractable Problems": cs/data-struct-algo/CS170.md
-                  - 软件工程:
-                            - "MIT 6.031: Software Construction": cs/sw-engineering/6031.md
-                            - "UCB CS169: software engineering": cs/sw-engineering/CS169.md
-                            - "CMU 17-803: Empirical Methods": cs/sw-engineering/17803.md
-                  - 计算机系统基础:
-                            - "CMU 15-213: CSAPP": cs/sys-basic/CSAPP.md
-                            - "Stanford CS110: Principles of Computer Systems": cs/sys-basic/CS110.md
-                  - 体系结构:
-                            - "Coursera: Nand2Tetris": cs/architecture/N2T.md
-                            - "UCB CS61C: Great Ideas in Computer Architecture": cs/architecture/CS61C.md
-                            - "ETHz: Digital Design and Computer Architecture": cs/architecture/DDCA.md
-                            - "ETHz: Computer Architecture": cs/architecture/CA.md
-                  - 操作系统:
-                            - "MIT 6.S081: Operating System Engineering": cs/os/MIT6.S081.md
-                            - "UCB CS162: Operating System": cs/os/CS162.md
-                            - "NJU OS: Operating System Design and Implementation": cs/os/NJUOS.md
-                            - "HIT OS: Operating System": cs/os/HITOS.md
-                  - 并行与分布式系统:
-                            - "CMU 15-418/Stanford CS149: Parallel Computing": cs/par-dis-sys/CS149.md
-                            - "MIT 6.824: Distributed System": cs/par-dis-sys/MIT6.824.md
-                  - 计算机系统安全:
-                            - "UCB CS161: Computer Security": cs/sys-safety/CS161.md
-                            - "MIT 6.1600: Foundations of Computer Security": cs/sys-safety/MIT6.1600.md
-                            - "MIT 6.858: Computer System Security": cs/sys-safety/MIT6.858.md
-                            - "ASU CSE365: Introduction to Cybersecurity": cs/sys-safety/CSE365.md
-                            - "ASU CSE466: Computer Systems Security": cs/sys-safety/CSE466.md
-                            - "SU SEED Labs": cs/sys-safety/SEEDLabs.md
-                  - 计算机网络:
-                            - "USTC Computer Networking:A Top-Down Approach": cs/computer-network/topdown_ustc.md
-                            - "Computer Networking: A Top-Down Approach": cs/computer-network/topdown.md
-                            - "Stanford CS144: Computer Network": cs/computer-network/CS144.md
-                  - 数据库系统:
-                            - "UCB CS186: Introduction to Database System": cs/db-sys/CS186.md
-                            - "CMU 15-445: Database Systems": cs/db-sys/15445.md
-                            - "Caltech CS122: Database System Implementation": cs/db-sys/CS122.md
-                            - "Stanford CS346: Database System Implementation": cs/db-sys/CS346.md
-                            - "CMU 15-799: Special Topics in Database Systems": cs/db-sys/15799.md
-                  - 编译原理:
-                            - "PKU 编译原理实践": cs/compiler/PKU-Compilers.md
-                            - "Stanford CS143: Compilers": cs/compiler/CS143.md
-                            - "NJU 编译原理": cs/compiler/NJU-Compilers.md
-                            - "KAIST CS420: Compiler Design": cs/compiler/CS420.md
-                  - 编程语言设计与分析:
-                            - "Stanford CS242: Programming Languages": cs/pl-des-ana/CS242.md
-                            - "NJU 软件分析": cs/pl-des-ana/NJU-SoftwareAnalysis.md
-                            - "PKU 软件分析": cs/pl-des-ana/PKU-SoftwareAnalysis.md
-                            - "Cambridge: Semantics of Programming Languages": cs/pl-des-ana/Cambridge-Semantics.md
-                  - 计算机图形学:
-                            - "GAMES101": cs/cg/GAMES101.md
-                            - "GAMES202": cs/cg/GAMES202.md
-                            - "GAMES103": cs/cg/GAMES103.md
-                            - "Stanford CS148": cs/cg/CS148.md
-                            - "CMU 15-462": cs/cg/15462.md
-                            - "USTC CG": cs/cg/USTC ComputerGraphics.md
-                  - Web 开发:
-                            - "MIT web development course": cs/web-dev/mitweb.md
-                            - "Stanford CS142: Web Applications": cs/web-dev/CS142.md
-                            - "University of Helsinki: Full Stack open 2022": cs/web-dev/fullstackopen.md
-                            - "CS571 Building UI (React & React Native)": cs/web-dev/CS571.md
-                  - 数据科学:
-                            - "UCB Data100: Principles and Techniques of Data Science": cs/data-science/Data100.md
-                  - 人工智能:
-                            - "Harvard CS50's Introduction to AI with Python": cs/ai/CS50.md
-                            - "UCB CS188: Introduction to Artificial Intelligence": cs/ai/CS188.md
-                  - 机器学习:
-                            - "Coursera: Machine Learning": cs/ml/ML.md
-                            - "Stanford CS229: Machine Learning": cs/ml/CS229.md
-                            - "UCB CS189: Introduction to Machine Learning": cs/ml/CS189.md
-                  - 机器学习系统:
-                            - "智能计算系统": cs/ml-sys/AICS.md
-                            - "CMU 10-414/714: Deep Learning Systems": cs/ml-sys/CMU10-414.md
-                            - "Machine Learning Compilation": cs/ml-sys/MLC.md
-                  - 深度学习:
-                            - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": cs/dl/EECS498-007.md
-                            - "Coursera: Deep Learning": cs/dl/CS230.md
-                            - "国立台湾大学: 李宏毅机器学习": cs/dl/LHY.md
-                            - "Stanford CS231n: CNN for Visual Recognition": cs/dl/CS231.md
-                            - "Stanford CS224n: Natural Language Processing": cs/dl/CS224n.md
-                            - "Stanford CS224w: Machine Learning with Graphs": cs/dl/CS224w.md
-                            - "UCB CS285: Deep Reinforcement Learning": cs/dl/CS285.md
-                  - 机器学习进阶:
-                            - "进阶路线图": cs/ml-advanced/roadmap.md
-                            - "CMU 10-708: Probabilistic Graphical Models": cs/ml-advanced/CMU10-708.md
-                            - "Columbia STAT 8201: Deep Generative Models": cs/ml-advanced/STAT8201.md
-                            - "U Toronto STA 4273 Winter 2021: Minimizing Expectations": cs/ml-advanced/STA4273.md
-                            - "Stanford STATS214 / CS229M: Machine Learning Theory": cs/ml-advanced/CS229M.md
-        - 🔬 EE:
-                  - ee/index.md
-        - 🇬🇧 English:
-                  - english/index.md
-                  - 四级:
-                            - english/cet4/index.md
-                  - 六级:
-                            - english/cet6/index.md
-                  - 雅思:
-                            - english/ielts/index.md
-                  - 托福:
-                            - english/toefl/index.md
-                  - GRE:
-                            - english/gre/index.md
-        - 🐍 SS:
-                  - ss/index.md
-                  - 经济学原理:
-                            - ss/poe/index.md
-                  - 日本经济:
-                            - ss/jp-economics/index.md
-                  - 社会科学中的计算思维与方法:
-                            - ss/ss-cal/index.md
-        - 🧑‍🎨 Art:
-                  - art/index.md
-                  - 🎥 电影:
-                            - art/films/index.md
-                            - 我的 Top 榜: art/films/top.md
-                            - 认识电影:
-                                      - art/films/understand/index.md
-                            - 我的影评:
-                                      - art/films/my-review/index.md
-                            - 影评收藏:
-                                      - art/films/review-collection/index.md
-                  - 🍿 电视剧:
-                            - art/series/index.md
-                            - 我的 Top 榜: art/series/top.md
-                            - 我的观后感:
-                                      - art/series/my-review/index.md
-                            - 观后感收藏:
-                                      - art/series/review-collection/index.md
-                  - 🎨 绘画:
-                            - art/paintings/index.md
-                            - 最爱的画: art/paintings/top.md
-                  - 🎵 音乐:
-                            - art/music/index.md
-                            - 最爱的音乐: art/music/top.md
-                  - 📹 摄影:
-                            - art/photography/index.md
-                            - 最爱的摄影: art/photography/top.md
-        - 🌿 Life:
-                  - life/index.md
-                  - 📖 读书:
-                            - life/reading/index.md
-                            - 红楼梦:
-                                      - life/reading/hlm/index.md
-                            - 罪与罚:
-                                      - life/reading/zyf/index.md
-                  - ✈️ 旅行:
-                            - life/travel/index.md
-                            - 郑州: life/travel/zhengzhou.md
-                            - 西安: life/travel/xian.md
+  - 🏠 Home:
+      - index.md
+      - 更新记录: changelog.md
+      - 待办事项: todo.md
+      - 友情链接: links.md
+      - 站点示例: example.md
+      - 个人简介: about.md
+  - 💻 PC:
+      - pc-guide/index.md
+      - 系统安装:
+          - pc-guide/os-install/index.md
+          - 安装 Windows:
+              - pc-guide/os-install/windows/index.md
+              - WinPE: pc-guide/os-install/windows/winpe.md
+              - Windows XP: pc-guide/os-install/windows/winxp.md
+              - Windows 7: pc-guide/os-install/windows/win7.md
+              - Windows 10: pc-guide/os-install/windows/win10.md
+              - Windows 11: pc-guide/os-install/windows/win11.md
+              - WinToGo: pc-guide/os-install/windows/wtg.md
+          - 安装 Linux:
+              - pc-guide/os-install/linux/index.md
+              - GUI 安装: pc-guide/os-install/linux/gui-install.md
+              - CLI 安装:
+                  - pc-guide/os-install/linux/cli-install/index.md
+                  - Arch: pc-guide/os-install/linux/cli-install/arch.md
+                  - Gentoo: pc-guide/os-install/linux/cli-install/gentoo.md
+                  - LFS: pc-guide/os-install/linux/cli-install/lfs.md
+          - 安装 macOS:
+              - pc-guide/os-install/macos/index.md
+          - 安装黑苹果:
+              - pc-guide/os-install/hackintosh/index.md
+              - 硬件要求: pc-guide/os-install/hackintosh/hardware.md
+              - 适配 EFI: pc-guide/os-install/hackintosh/efi.md
+              - 安装驱动: pc-guide/os-install/hackintosh/driver.md
+              - 安装详解: pc-guide/os-install/hackintosh/install.md
+              - 各种问题: pc-guide/os-install/hackintosh/qa.md
+          - 安装 UNIX:
+              - pc-guide/os-install/unix/index.md
+              - 安装 FreeBSD: pc-guide/os-install/unix/freebsd.md
+              - 安装 OpenBSD: pc-guide/os-install/unix/openbsd.md
+              - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
+      - Windows 指南:
+          - pc-guide/windows/index.md
+      - macOS 指南:
+          - pc-guide/macos/index.md
+      - Linux 指南:
+          - pc-guide/linux/index.md
+          - Arch Linux:
+              - pc-guide/linux/arch/index.md
+          - Ubuntu:
+              - pc-guide/linux/ubuntu/index.md
+      - 电脑小队:
+          - pc-guide/pc-squad/index.md
+          - 绪论: pc-guide/pc-squad/intro.md
+          - 电脑知识入门（原理和构造）: pc-guide/pc-squad/pcintro.md
+          - 拆机实操: pc-guide/pc-squad/practice.md
+          - 服务意识: pc-guide/pc-squad/awareness.md
+          - 硬件进阶: pc-guide/pc-squad/hw-advanced.md
+          - 软件进阶: pc-guide/pc-squad/sw-advanced.md
+          - 寻求帮助: pc-guide/pc-squad/help.md
+          - 电脑小队常见问题一: pc-guide/pc-squad/question1.md
+          - 电脑小队常见问题二: pc-guide/pc-squad/question2.md
+      - LCPU Missing Semester:
+          - pc-guide/lcpu-ms/index.md
+  - 🟰 Math:
+      - math/index.md
+      - 高等数学:
+          - math/calculus/index.md
+      - 线性代数:
+          - math/linear-algebra/index.md
+      - 概率论:
+          - math/prob-theory/index.md
+      - 信息论:
+          - math/info-theory/index.md
+  - 🖥️ CS:
+      - cs/index.md
+      - 必学工具:
+          - 翻墙: cs/tools/over-gfw.md
+          - Vim: cs/tools/Vim.md
+          - Emacs: cs/tools/Emacs.md
+          - Git: cs/tools/Git.md
+          - GitHub: cs/tools/GitHub.md
+          - GNU Make: cs/tools/GNU_Make.md
+          - CMake: cs/tools/CMake.md
+          - LaTeX: cs/tools/LaTeX.md
+          - Docker: cs/tools/Docker.md
+          - Package Manager: cs/tools/pm.md
+          - 日常学习工作流: cs/tools/workflow.md
+          - 实用工具箱: cs/tools/tools.md
+          - 毕业论文: cs/tools/thesis.md
+          - 信息检索: cs/tools/info-search.md
+      - 好书推荐: cs/book-rec.md
+      - 数学基础:
+          - "MIT18.01/18.02: Calculus": cs/math-base/MITmaths.md
+          - "MIT18.06: Linear Algebra": cs/math-base/MITLA.md
+          - "MIT6.050J: Information theory and Entropy": cs/math-base/information.md
+      - 数学进阶:
+          - "UCB CS70: discrete Math and probability theory": cs/math-advanced/CS70.md
+          - "UCB CS126: probability theory": cs/math-advanced/CS126.md
+          - "MIT 6.042J: Mathematics for Computer Science": cs/math-advanced/6.042J.md
+          - "MIT18.330: Introduction to numerical analysis": cs/math-advanced/numerical.md
+          - "Standford EE364A: Convex Optimization": cs/math-advanced/convex.md
+          - "The Information Theory, Pattern Recognition, and Neural Networks": cs/math-advanced/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md
+      - 编程入门:
+          - "MIT-Missing-Semester": cs/programming-base/MIT-Missing-Semester.md
+          - "Sysadmin DeCal": cs/programming-base/DeCal.md
+          - Python 语言:
+              - "UCB CS61A: Structure and Interpretation of Computer Programs": cs/programming-base/Python/CS61A.md
+              - "CS50P: CS50's Introduction to Programming with Python": cs/programming-base/Python/CS50P.md
+          - C 语言:
+              - "Harvard CS50: This is CS50x": cs/programming-base/C/CS50.md
+              - "Duke University: Introductory C Programming Specialization": cs/programming-base/C/Duke-Coursera-Intro-C.md
+          - C++ 语言:
+              - "AmirKabir University of Technology AP1400-2: Advanced Programming": cs/programming-base/cpp/AUT1400.md
+              - "Stanford CS106L: Standard C++ Programming": cs/programming-base/cpp/CS106L.md
+              - "Stanford CS106B/X": cs/programming-base/cpp/CS106B_CS106X.md
+          - Java 语言:
+              - "MIT 6.092: Introduction To Programming In Java": cs/programming-base/Java/MIT 6.092.md
+          - Rust 语言:
+              - "Stanford CS110L: Safety in Systems Programming": cs/programming-base/Rust/CS110L.md
+              - "KAIST CS431: Concurrent Programming": cs/programming-base/Rust/cs431.md
+          - 函数式语言:
+              - "Cornell CS3110: OCaml Programming Correct + Efficient + Beautiful": cs/programming-base/Functional/CS3110.md
+              - "Haskell MOOC": cs/programming-base/Functional/Haskell-MOOC.md
+      - 电子基础:
+          - "EE16A&B: Designing Information Devices and Systems I&II": cs/ee-base/EE16.md
+          - "UCB EE120 : Signal and Systems": cs/ee-base/signal.md
+          - "MIT 6.007 Signals and Systems": cs/ee-base/Signals_and_Systems_AVO.md
+      - 数据结构与算法:
+          - "UCB CS61B: Data Structures and Algorithms": cs/data-struct-algo/CS61B.md
+          - "Coursera: Algorithms I & II": cs/data-struct-algo/Algo.md
+          - "MIT 6.006: Introduction to Algorithms": cs/data-struct-algo/6.006.md
+          - "MIT 6.046: Design and Analysis of Algorithms": cs/data-struct-algo/6.046.md
+          - "UCB CS170: Efficient Algorithms and Intractable Problems": cs/data-struct-algo/CS170.md
+      - 软件工程:
+          - "MIT 6.031: Software Construction": cs/sw-engineering/6031.md
+          - "UCB CS169: software engineering": cs/sw-engineering/CS169.md
+          - "CMU 17-803: Empirical Methods": cs/sw-engineering/17803.md
+      - 计算机系统基础:
+          - "CMU 15-213: CSAPP": cs/sys-basic/CSAPP.md
+          - "Stanford CS110: Principles of Computer Systems": cs/sys-basic/CS110.md
+      - 体系结构:
+          - "Coursera: Nand2Tetris": cs/architecture/N2T.md
+          - "UCB CS61C: Great Ideas in Computer Architecture": cs/architecture/CS61C.md
+          - "ETHz: Digital Design and Computer Architecture": cs/architecture/DDCA.md
+          - "ETHz: Computer Architecture": cs/architecture/CA.md
+      - 操作系统:
+          - "MIT 6.S081: Operating System Engineering": cs/os/MIT6.S081.md
+          - "UCB CS162: Operating System": cs/os/CS162.md
+          - "NJU OS: Operating System Design and Implementation": cs/os/NJUOS.md
+          - "HIT OS: Operating System": cs/os/HITOS.md
+      - 并行与分布式系统:
+          - "CMU 15-418/Stanford CS149: Parallel Computing": cs/par-dis-sys/CS149.md
+          - "MIT 6.824: Distributed System": cs/par-dis-sys/MIT6.824.md
+      - 计算机系统安全:
+          - "UCB CS161: Computer Security": cs/sys-safety/CS161.md
+          - "MIT 6.1600: Foundations of Computer Security": cs/sys-safety/MIT6.1600.md
+          - "MIT 6.858: Computer System Security": cs/sys-safety/MIT6.858.md
+          - "ASU CSE365: Introduction to Cybersecurity": cs/sys-safety/CSE365.md
+          - "ASU CSE466: Computer Systems Security": cs/sys-safety/CSE466.md
+          - "SU SEED Labs": cs/sys-safety/SEEDLabs.md
+      - 计算机网络:
+          - "USTC Computer Networking:A Top-Down Approach": cs/computer-network/topdown_ustc.md
+          - "Computer Networking: A Top-Down Approach": cs/computer-network/topdown.md
+          - "Stanford CS144: Computer Network": cs/computer-network/CS144.md
+      - 数据库系统:
+          - "UCB CS186: Introduction to Database System": cs/db-sys/CS186.md
+          - "CMU 15-445: Database Systems": cs/db-sys/15445.md
+          - "Caltech CS122: Database System Implementation": cs/db-sys/CS122.md
+          - "Stanford CS346: Database System Implementation": cs/db-sys/CS346.md
+          - "CMU 15-799: Special Topics in Database Systems": cs/db-sys/15799.md
+      - 编译原理:
+          - "PKU 编译原理实践": cs/compiler/PKU-Compilers.md
+          - "Stanford CS143: Compilers": cs/compiler/CS143.md
+          - "NJU 编译原理": cs/compiler/NJU-Compilers.md
+          - "KAIST CS420: Compiler Design": cs/compiler/CS420.md
+      - 编程语言设计与分析:
+          - "Stanford CS242: Programming Languages": cs/pl-des-ana/CS242.md
+          - "NJU 软件分析": cs/pl-des-ana/NJU-SoftwareAnalysis.md
+          - "PKU 软件分析": cs/pl-des-ana/PKU-SoftwareAnalysis.md
+          - "Cambridge: Semantics of Programming Languages": cs/pl-des-ana/Cambridge-Semantics.md
+      - 计算机图形学:
+          - "GAMES101": cs/cg/GAMES101.md
+          - "GAMES202": cs/cg/GAMES202.md
+          - "GAMES103": cs/cg/GAMES103.md
+          - "Stanford CS148": cs/cg/CS148.md
+          - "CMU 15-462": cs/cg/15462.md
+          - "USTC CG": cs/cg/USTC ComputerGraphics.md
+      - Web 开发:
+          - "MIT web development course": cs/web-dev/mitweb.md
+          - "Stanford CS142: Web Applications": cs/web-dev/CS142.md
+          - "University of Helsinki: Full Stack open 2022": cs/web-dev/fullstackopen.md
+          - "CS571 Building UI (React & React Native)": cs/web-dev/CS571.md
+      - 数据科学:
+          - "UCB Data100: Principles and Techniques of Data Science": cs/data-science/Data100.md
+      - 人工智能:
+          - "Harvard CS50's Introduction to AI with Python": cs/ai/CS50.md
+          - "UCB CS188: Introduction to Artificial Intelligence": cs/ai/CS188.md
+      - 机器学习:
+          - "Coursera: Machine Learning": cs/ml/ML.md
+          - "Stanford CS229: Machine Learning": cs/ml/CS229.md
+          - "UCB CS189: Introduction to Machine Learning": cs/ml/CS189.md
+      - 机器学习系统:
+          - "智能计算系统": cs/ml-sys/AICS.md
+          - "CMU 10-414/714: Deep Learning Systems": cs/ml-sys/CMU10-414.md
+          - "Machine Learning Compilation": cs/ml-sys/MLC.md
+      - 深度学习:
+          - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": cs/dl/EECS498-007.md
+          - "Coursera: Deep Learning": cs/dl/CS230.md
+          - "国立台湾大学: 李宏毅机器学习": cs/dl/LHY.md
+          - "Stanford CS231n: CNN for Visual Recognition": cs/dl/CS231.md
+          - "Stanford CS224n: Natural Language Processing": cs/dl/CS224n.md
+          - "Stanford CS224w: Machine Learning with Graphs": cs/dl/CS224w.md
+          - "UCB CS285: Deep Reinforcement Learning": cs/dl/CS285.md
+      - 机器学习进阶:
+          - "进阶路线图": cs/ml-advanced/roadmap.md
+          - "CMU 10-708: Probabilistic Graphical Models": cs/ml-advanced/CMU10-708.md
+          - "Columbia STAT 8201: Deep Generative Models": cs/ml-advanced/STAT8201.md
+          - "U Toronto STA 4273 Winter 2021: Minimizing Expectations": cs/ml-advanced/STA4273.md
+          - "Stanford STATS214 / CS229M: Machine Learning Theory": cs/ml-advanced/CS229M.md
+  - 🔬 EE:
+      - ee/index.md
+  - 🇬🇧 English:
+      - english/index.md
+      - 四级:
+          - english/cet4/index.md
+      - 六级:
+          - english/cet6/index.md
+      - 雅思:
+          - english/ielts/index.md
+      - 托福:
+          - english/toefl/index.md
+      - GRE:
+          - english/gre/index.md
+  - 🐍 SS:
+      - ss/index.md
+      - 经济学原理:
+          - ss/poe/index.md
+      - 日本经济:
+          - ss/jp-economics/index.md
+      - 社会科学中的计算思维与方法:
+          - ss/ss-cal/index.md
+  - 🧑‍🎨 Art:
+      - art/index.md
+      - 🎥 电影:
+          - art/films/index.md
+          - 我的 Top 榜: art/films/top.md
+          - 认识电影:
+              - art/films/understand/index.md
+          - 我的影评:
+              - art/films/my-review/index.md
+          - 影评收藏:
+              - art/films/review-collection/index.md
+      - 🍿 电视剧:
+          - art/series/index.md
+          - 我的 Top 榜: art/series/top.md
+          - 我的观后感:
+              - art/series/my-review/index.md
+          - 观后感收藏:
+              - art/series/review-collection/index.md
+      - 🎨 绘画:
+          - art/paintings/index.md
+          - 最爱的画: art/paintings/top.md
+      - 🎵 音乐:
+          - art/music/index.md
+          - 最爱的音乐: art/music/top.md
+      - 📹 摄影:
+          - art/photography/index.md
+          - 最爱的摄影: art/photography/top.md
+  - 🌿 Life:
+      - life/index.md
+      - 📖 读书:
+          - life/reading/index.md
+          - 红楼梦:
+              - life/reading/hlm/index.md
+          - 罪与罚:
+              - life/reading/zyf/index.md
+      - ✈️ 旅行:
+          - life/travel/index.md
+          - 郑州: life/travel/zhengzhou.md
+          - 西安: life/travel/xian.md
