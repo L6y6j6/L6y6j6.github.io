@@ -1,6 +1,19 @@
 # 待办事项
 
-## 建站类
+## Top Priority
+
+??? list "List"
+
+    - [ ] 开始写 Arch Linux 安装教程
+    - [ ] 写个人简介 about.md
+    - [ ] 根据 Material for MkDocs 的文档，修改主题，写站点示例 example.md
+    - [ ] 完成各分区的 index.md，细化分区情况
+    - [ ] 电脑小队培训大纲写作
+    - [ ] 电脑知识入门（原理与构造）
+    - [ ] 软件进阶
+    - [ ] 电脑小队常见问题二
+
+## 建站类（Not Mine）
 
 ??? list "List"
 
