@@ -123,8 +123,102 @@ nav:
       - 个人简介: about.md
   - 💻 PC:
       - pc-guide/index.md
+      - 选购电脑:
+          - pc-guide/buy/index.md
+          - 装机 DIY:
+              - pc-guide/buy/diy/index.md
+              - 选购指南:
+                  - pc-guide/buy/diy/buy/index.md
+                  - CPU: pc-guide/buy/diy/buy/cpu.md
+                  - GPU: pc-guide/buy/diy/buy/gpu.md
+                  - RAM: pc-guide/buy/diy/buy/ram.md
+                  - SSD: pc-guide/buy/diy/buy/ssd.md
+                  - HDD: pc-guide/buy/diy/buy/hdd.md
+                  - PSU: pc-guide/buy/diy/buy/psu.md
+                  - MB: pc-guide/buy/diy/buy/mb.md
+                  - Case: pc-guide/buy/diy/buy/case.md
+                  - Cooler: pc-guide/buy/diy/buy/cooler.md
+                  - Monitor: pc-guide/buy/diy/buy/monitor.md
+                  - Keyboard: pc-guide/buy/diy/buy/keyboard.md
+                  - Mouse: pc-guide/buy/diy/buy/mouse.md
+                  - Headset: pc-guide/buy/diy/buy/headset.md
+                  - Speaker: pc-guide/buy/diy/buy/speaker.md
+                  - Microphone: pc-guide/buy/diy/buy/microphone.md
+                  - Webcam: pc-guide/buy/diy/buy/webcam.md
+                  - Capture Card: pc-guide/buy/diy/buy/capture-card.md
+                  - Controller: pc-guide/buy/diy/buy/controller.md
+                  - VR: pc-guide/buy/diy/buy/vr.md
+                  - UPS: pc-guide/buy/diy/buy/ups.md
+                  - NAS: pc-guide/buy/diy/buy/nas.md
+                  - Router: pc-guide/buy/diy/buy/router.md
+                  - Switch: pc-guide/buy/diy/buy/switch.md
+                  - Accessory: pc-guide/buy/diy/buy/accessory.md
+              - 组装指南:
+                  - pc-guide/buy/diy/assemble/index.md
+                  - CPU: pc-guide/buy/diy/assemble/cpu.md
+                  - GPU: pc-guide/buy/diy/assemble/gpu.md
+                  - RAM: pc-guide/buy/diy/assemble/ram.md
+                  - SSD: pc-guide/buy/diy/assemble/ssd.md
+                  - HDD: pc-guide/buy/diy/assemble/hdd.md
+                  - PSU: pc-guide/buy/diy/assemble/psu.md
+                  - MB: pc-guide/buy/diy/assemble/mb.md
+                  - Case: pc-guide/buy/diy/assemble/case.md
+                  - Cooler: pc-guide/buy/diy/assemble/cooler.md
+                  - Monitor: pc-guide/buy/diy/assemble/monitor.md
+                  - Keyboard: pc-guide/buy/diy/assemble/keyboard.md
+                  - Mouse: pc-guide/buy/diy/assemble/mouse.md
+                  - Headset: pc-guide/buy/diy/assemble/headset.md
+                  - Speaker: pc-guide/buy/diy/assemble/speaker.md
+                  - Microphone: pc-guide/buy/diy/assemble/microphone.md
+                  - Webcam: pc-guide/buy/diy/assemble/webcam.md
+                  - Capture Card: pc-guide/buy/diy/assemble/capture-card.md
+                  - Controller: pc-guide/buy/diy/assemble/controller.md
+                  - VR: pc-guide/buy/diy/assemble/vr.md
+                  - UPS: pc-guide/buy/diy/assemble/ups.md
+                  - NAS: pc-guide/buy/diy/assemble/nas.md
+                  - Router: pc-guide/buy/diy/assemble/router.md
+                  - Switch: pc-guide/buy/diy/assemble/switch.md
+                  - Accessory: pc-guide/buy/diy/assemble/accessory.md
+          - 笔记本选购:
+              - pc-guide/buy/laptop/index.md
+              - ThinkPad: pc-guide/buy/laptop/thinkpad.md
+              - MacBook: pc-guide/buy/laptop/macbook.md
+              - Surface: pc-guide/buy/laptop/surface.md
+              - XPS: pc-guide/buy/laptop/xps.md
+              - ZenBook: pc-guide/buy/laptop/zenbook.md
+              - MateBook: pc-guide/buy/laptop/matebook.md
+              - Gram: pc-guide/buy/laptop/gram.md
+              - Swift: pc-guide/buy/laptop/swift.md
+              - Spectre: pc-guide/buy/laptop/spectre.md
+              - EliteBook: pc-guide/buy/laptop/elitebook.md
+              - Envy: pc-guide/buy/laptop/envy.md
+              - Pavilion: pc-guide/buy/laptop/pavilion.md
+              - Yoga: pc-guide/buy/laptop/yoga.md
+              - Legion: pc-guide/buy/laptop/legion.md
+              - IdeaPad: pc-guide/buy/laptop/ideapad.md
+              - ROG: pc-guide/buy/laptop/rog.md
+              - TUF: pc-guide/buy/laptop/tuf.md
+          - 微型电脑选购:
+              - pc-guide/buy/pi/index.md
+              - 树莓派: pc-guide/buy/pi/raspberry-pi.md
+              - Jetson Nano: pc-guide/buy/pi/jetson-nano.md
+              - LattePanda: pc-guide/buy/pi/latte-panda.md
+              - BeagleBone: pc-guide/buy/pi/beaglebone.md
+              - Orange Pi: pc-guide/buy/pi/orange-pi.md
+              - Banana Pi: pc-guide/buy/pi/banana-pi.md
+              - Rock Pi: pc-guide/buy/pi/rock-pi.md
+              - NanoPi: pc-guide/buy/pi/nano-pi.md
+              - Odroid: pc-guide/buy/pi/odroid.md
+              - Pine64: pc-guide/buy/pi/pine64.md
+              - FriendlyElec: pc-guide/buy/pi/friendlyelec.md
+              - ASUS Tinker Board: pc-guide/buy/pi/asus-tinker-board.md
+              - UP Board: pc-guide/buy/pi/up-board.md
+              - LattePanda Alpha: pc-guide/buy/pi/latte-panda-alpha.md
+              - LattePanda Delta: pc-guide/buy/pi/latte-panda-delta.md
       - 系统安装:
           - pc-guide/os-install/index.md
+          - 多系统安装:
+              - pc-guide/os-install/multi-system.md
           - 安装 Windows:
               - pc-guide/os-install/windows/index.md
               - WinPE: pc-guide/os-install/windows/winpe.md
@@ -157,9 +251,29 @@ nav:
               - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
       - Windows 指南:
           - pc-guide/windows/index.md
+          - 系统及软件激活:
+              - pc-guide/windows/activate/index.md
+              - 激活 Windows: pc-guide/windows/activate/win.md
+              - 激活 Office: pc-guide/windows/activate/office.md
+              - 激活原理简介: pc-guide/windows/activate/principle.md # 正版激活，KMS，HWIDGEN，MAS
+          - 基础设置:
+              - pc-guide/windows/basic/index.md
+              - 系统设置: pc-guide/windows/basic/system.md
+              - 网络设置: pc-guide/windows/basic/network.md
+              - 隐私设置: pc-guide/windows/basic/privacy.md
+              - 系统优化: pc-guide/windows/basic/optimize.md
+              - 系统维护: pc-guide/windows/basic/maintain.md
           - WSL:
               - pc-guide/windows/wsl/index.md
               - 问题日志: pc-guide/windows/wsl/log.md
+          - WSA:
+              - pc-guide/windows/wsa/index.md
+              - 问题日志: pc-guide/windows/wsa/log.md
+          - 播放器:
+              - pc-guide/windows/player/index.md
+              - PotPlayer: pc-guide/windows/player/potplayer.md
+              - MPC-HC: pc-guide/windows/player/mpc-hc.md
+              - VLC: pc-guide/windows/player/vlc.md
       - macOS 指南:
           - pc-guide/macos/index.md
       - Linux 指南:
@@ -168,6 +282,269 @@ nav:
               - pc-guide/linux/arch/index.md
           - Ubuntu:
               - pc-guide/linux/ubuntu/index.md
+      - 树莓派指南:
+          - pc-guide/raspberry-pi/index.md
+      - 软件指南:
+          - pc-guide/sw/index.md
+          - 跨平台软件: pc-guide/sw/cross-platform.md
+          - 软件兼容性: pc-guide/sw/compatibility.md
+          - 浏览器:
+              - pc-guide/sw/browser/index.md
+              - Google Chrome: pc-guide/sw/browser/chrome.md
+              - Microsoft Edge: pc-guide/sw/browser/edge.md
+              - Firefox: pc-guide/sw/browser/firefox.md
+              - Brave: pc-guide/sw/browser/brave.md
+              - Vivaldi: pc-guide/sw/browser/vivaldi.md
+              - Opera: pc-guide/sw/browser/opera.md
+              - Safari: pc-guide/sw/browser/safari.md
+              - Tor: pc-guide/sw/browser/tor.md
+              - Ungoogled Chromium: pc-guide/sw/browser/ungoogled-chromium.md
+              - Waterfox: pc-guide/sw/browser/waterfox.md
+              - Pale Moon: pc-guide/sw/browser/pale-moon.md
+              - SeaMonkey: pc-guide/sw/browser/seamonkey.md
+              - Midori: pc-guide/sw/browser/midori.md
+              - Falkon: pc-guide/sw/browser/falkon.md
+              - Qutebrowser: pc-guide/sw/browser/qutebrowser.md
+              - Min: pc-guide/sw/browser/min.md
+              - Surf: pc-guide/sw/browser/surf.md
+              - Luakit: pc-guide/sw/browser/luakit.md
+              - Eolie: pc-guide/sw/browser/eolie.md
+              - GNOME Web: pc-guide/sw/browser/gnome-web.md
+              - Epiphany: pc-guide/sw/browser/epiphany.md
+              - Konqueror: pc-guide/sw/browser/konqueror.md
+              - Otter Browser: pc-guide/sw/browser/otter-browser.md
+              - Dillo: pc-guide/sw/browser/dillo.md
+              - Links: pc-guide/sw/browser/links.md
+              - Lynx: pc-guide/sw/browser/lynx.md
+              - w3m: pc-guide/sw/browser/w3m.md
+              - ELinks: pc-guide/sw/browser/elinks.md
+              - NetSurf: pc-guide/sw/browser/netsurf.md
+              - IceCat: pc-guide/sw/browser/icecat.md
+              - IceWeasel: pc-guide/sw/browser/iceweasel.md
+              - Iceape: pc-guide/sw/browser/iceape.md
+              - 傲游浏览器: pc-guide/sw/browser/maxthon.md
+              - 360 极速浏览器: pc-guide/sw/browser/360x.md
+              - Cent Browser: pc-guide/sw/browser/cent.md
+          - Adobe 全家桶:
+              - pc-guide/sw/adobe/index.md
+              - Photoshop:
+                  - pc-guide/sw/adobe/ps/index.md
+              - Premiere Pro:
+                  - pc-guide/sw/adobe/pr/index.md
+              - Acrobat:
+                  - pc-guide/sw/adobe/acrobat/index.md
+              - Flash Player: pc-guide/sw/adobe/flash.md
+              - Illustrator: pc-guide/sw/adobe/ai.md
+              - After Effects: pc-guide/sw/adobe/ae.md
+              - Lightroom: pc-guide/sw/adobe/lr.md
+              - Audition: pc-guide/sw/adobe/audition.md
+              - InDesign: pc-guide/sw/adobe/indesign.md
+              - Dreamweaver: pc-guide/sw/adobe/dreamweaver.md
+              - Animate: pc-guide/sw/adobe/animate.md
+              - XD: pc-guide/sw/adobe/xd.md
+              - Character Animator: pc-guide/sw/adobe/character-animator.md
+              - Dimension: pc-guide/sw/adobe/dimension.md
+              - Lightroom Classic: pc-guide/sw/adobe/lr-classic.md
+              - Substance 3D: pc-guide/sw/adobe/substance-3d.md
+          - Office:
+              - pc-guide/sw/office/index.md
+              - Microsoft Office:
+                  - pc-guide/sw/office/ms-office/index.md
+                  - Word:
+                      - pc-guide/sw/office/ms-office/word/index.md
+                  - Excel:
+                      - pc-guide/sw/office/ms-office/excel/index.md
+                  - PowerPoint:
+                      - pc-guide/sw/office/ms-office/ppt/index.md
+                  - Visio:
+                      - pc-guide/sw/office/ms-office/visio/index.md
+                  - Project:
+                      - pc-guide/sw/office/ms-office/project/index.md
+                  - Access:
+                      - pc-guide/sw/office/ms-office/access/index.md
+              - WPS Office:
+                  - pc-guide/sw/office/wps/index.md
+              - LibreOffice:
+                  - pc-guide/sw/office/libre/index.md
+              - Google Docs:
+                  - pc-guide/sw/office/gg-docs/index.md
+          - IDE & Text Editor:
+              - pc-guide/sw/ide/index.md
+              - Visual Studio Code:
+                  - pc-guide/sw/ide/vscode/index.md
+                  - 基础设置: pc-guide/sw/ide/vscode/basic.md
+                  - 插件推荐: pc-guide/sw/ide/vscode/plugins.md
+                  - 主题推荐: pc-guide/sw/ide/vscode/themes.md
+                  - 快捷键: pc-guide/sw/ide/vscode/shortcuts.md
+                  - 配置文件: pc-guide/sw/ide/vscode/config.md
+                  - 问题解决: pc-guide/sw/ide/vscode/qa.md
+              - Vim:
+                  - pc-guide/sw/ide/vim/index.md
+              - Emacs:
+                  - pc-guide/sw/ide/emacs/index.md
+              - JetBrains:
+                  - pc-guide/sw/ide/jetbrains/index.md
+                  - IntelliJ IDEA:
+                      - pc-guide/sw/ide/jetbrains/idea/index.md
+                      - 基础设置: pc-guide/sw/ide/jetbrains/idea/basic.md
+                      - 插件推荐: pc-guide/sw/ide/jetbrains/idea/plugins.md
+                      - 主题推荐: pc-guide/sw/ide/jetbrains/idea/themes.md
+                      - 快捷键: pc-guide/sw/ide/jetbrains/idea/shortcuts.md
+                      - 配置文件: pc-guide/sw/ide/jetbrains/idea/config.md
+                      - 问题解决: pc-guide/sw/ide/jetbrains/idea/qa.md
+                  - PyCharm:
+                      - pc-guide/sw/ide/jetbrains/pycharm/index.md
+                      - 基础设置: pc-guide/sw/ide/jetbrains/pycharm/basic.md
+                      - 插件推荐: pc-guide/sw/ide/jetbrains/pycharm/plugins.md
+                      - 主题推荐: pc-guide/sw/ide/jetbrains/pycharm/themes.md
+                      - 快捷键: pc-guide/sw/ide/jetbrains/pycharm/shortcuts.md
+                      - 配置文件: pc-guide/sw/ide/jetbrains/pycharm/config.md
+                      - 问题解决: pc-guide/sw/ide/jetbrains/pycharm/qa.md
+                  - WebStorm: pc-guide/sw/ide/jetbrains/webstorm.md
+                  - PhpStorm: pc-guide/sw/ide/jetbrains/phpstorm.md
+                  - RubyMine: pc-guide/sw/ide/jetbrains/rubymine.md
+                  - CLion: pc-guide/sw/ide/jetbrains/clion.md
+                  - DataGrip: pc-guide/sw/ide/jetbrains/datagrip.md
+                  - DataSpell: pc-guide/sw/ide/jetbrains/dataspell.md
+                  - dotTrace: pc-guide/sw/ide/jetbrains/dottrace.md
+                  - datMemory: pc-guide/sw/ide/jetbrains/dotmemory.md
+                  - GoLand: pc-guide/sw/ide/jetbrains/goland.md
+                  - Rider: pc-guide/sw/ide/jetbrains/rider.md
+                  - RustRover: pc-guide/sw/ide/jetbrains/rustrover.md
+                  - MPS: pc-guide/sw/ide/jetbrains/mps.md
+                  - AppCode: pc-guide/sw/ide/jetbrains/appcode.md
+                  - Space Desktop: pc-guide/sw/ide/jetbrains/space.md
+                  - Android Studio: pc-guide/sw/ide/jetbrains/android-studio.md
+                  - Writerside: pc-guide/sw/ide/jetbrains/writerside.md
+                  - Fleet: pc-guide/sw/ide/jetbrains/fleet.md
+                  - JetBains Gateway: pc-guide/sw/ide/jetbrains/gateway.md
+              - Visual Studio:
+                  - pc-guide/sw/ide/vs/index.md
+              - Sublime Text: pc-guide/sw/ide/sublime.md
+              - Atom: pc-guide/sw/ide/atom.md
+              - Notepad++: pc-guide/sw/ide/notepad++.md
+              - Eclipse: pc-guide/sw/ide/eclipse.md
+              - NetBeans: pc-guide/sw/ide/netbeans.md
+              - Xcode: pc-guide/sw/ide/xcode.md
+              - Unity: pc-guide/sw/ide/unity.md
+              - Unreal Engine: pc-guide/sw/ide/unreal-engine.md
+          - Dev Toolbox:
+              - pc-guide/sw/devtool/index.md
+              - Shell:
+                  - pc-guide/sw/devtool/shell/index.md
+                  - PowerShell: pc-guide/sw/devtool/shell/powershell.md
+                  - Bash: pc-guide/sw/devtool/shell/bash.md
+                  - Zsh:
+                      - pc-guide/sw/devtool/shell/zsh/index.md
+                      - Oh My Zsh 美化: pc-guide/sw/devtool/shell/zsh/omz.md
+                  - Fish: pc-guide/sw/devtool/shell/fish.md
+                  - Tcsh: pc-guide/sw/devtool/shell/tcsh.md
+                  - Ksh: pc-guide/sw/devtool/shell/ksh.md
+                  - Csh: pc-guide/sw/devtool/shell/csh.md
+                  - Dash: pc-guide/sw/devtool/shell/dash.md
+                  - Alacritty: pc-guide/sw/devtool/shell/alacritty.md
+                  - Windows Terminal: pc-guide/sw/devtool/shell/windows-terminal.md
+                  - ConEmu: pc-guide/sw/devtool/shell/conemu.md
+                  - Hyper: pc-guide/sw/devtool/shell/hyper.md
+                  - Terminus: pc-guide/sw/devtool/shell/terminus.md
+                  - Kitty: pc-guide/sw/devtool/shell/kitty.md
+                  - Guake: pc-guide/sw/devtool/shell/guake.md
+                  - Yakuake: pc-guide/sw/devtool/shell/yakuake.md
+                  - Tilda: pc-guide/sw/devtool/shell/tilda.md
+                  - Tilix: pc-guide/sw/devtool/shell/tilix.md
+                  - Terminator: pc-guide/sw/devtool/shell/terminator.md
+                  - Xfce Terminal: pc-guide/sw/devtool/shell/xfce-terminal.md
+                  - Konsole: pc-guide/sw/devtool/shell/konsole.md
+                  - GNOME Terminal: pc-guide/sw/devtool/shell/gnome-terminal.md
+                  - MATE Terminal: pc-guide/sw/devtool/shell/mate-terminal.md
+                  - LXTerminal: pc-guide/sw/devtool/shell/lxterminal.md
+                  - Urxvt: pc-guide/sw/devtool/shell/urxvt.md
+                  - Xterm: pc-guide/sw/devtool/shell/xterm.md
+                  - St: pc-guide/sw/devtool/shell/st.md
+                  - Termite: pc-guide/sw/devtool/shell/termite.md
+                  - Cool Retro Term: pc-guide/sw/devtool/shell/cool-retro-term.md
+              - Docker:
+                  - pc-guide/sw/devtool/docker/index.md
+                  - 基础设置: pc-guide/sw/devtool/docker/basic.md
+                  - 容器管理: pc-guide/sw/devtool/docker/management.md
+                  - 网络设置: pc-guide/sw/devtool/docker/network.md
+                  - 数据卷: pc-guide/sw/devtool/docker/volume.md
+                  - 安全设置: pc-guide/sw/devtool/docker/security.md
+                  - 镜像管理: pc-guide/sw/devtool/docker/image.md
+                  - 问题解决: pc-guide/sw/devtool/docker/qa.md
+          - 📒 Note APPs:
+              - pc-guide/sw/note-app/index.md
+              - Notion:
+                  - pc-guide/sw/note-app/notion/index.md
+              - Obsidian:
+                  - pc-guide/sw/note-app/obsidian/index.md
+              - Joplin:
+                  - pc-guide/sw/note-app/joplin/index.md
+              - Typora:
+                  - pc-guide/sw/note-app/typora/index.md
+              - OneNote: pc-guide/sw/note-app/onenote.md
+              - Evernote: pc-guide/sw/note-app/evernote.md
+              - Roam Research: pc-guide/sw/note-app/roam-research.md
+              - Standard Notes: pc-guide/sw/note-app/standard-notes.md
+              - Bear: pc-guide/sw/note-app/bear.md
+              - Zettlr: pc-guide/sw/note-app/zettlr.md
+              - MarkdownPad: pc-guide/sw/note-app/markdownpad.md
+              - Mark Text: pc-guide/sw/note-app/mark-text.md
+              - Inkdrop: pc-guide/sw/note-app/inkdrop.md
+              - Quiver: pc-guide/sw/note-app/quiver.md
+              - Boostnote: pc-guide/sw/note-app/boostnote.md
+              - CherryTree: pc-guide/sw/note-app/cherrytree.md
+              - Turtl: pc-guide/sw/note-app/turtl.md
+              - Simplenote: pc-guide/sw/note-app/simplenote.md
+              - Notable: pc-guide/sw/note-app/notable.md
+              - Trilium: pc-guide/sw/note-app/trilium.md
+              - Foam: pc-guide/sw/note-app/foam.md
+              - Logseq: pc-guide/sw/note-app/logseq.md
+              - Dendron: pc-guide/sw/note-app/dendron.md
+              - RemNote: pc-guide/sw/note-app/remnote.md
+              - Athens: pc-guide/sw/note-app/athens.md
+              - Hypernotes: pc-guide/sw/note-app/hypernotes.md
+              - NotePlan: pc-guide/sw/note-app/noteplan.md
+              - Notejoy: pc-guide/sw/note-app/notejoy.md
+              - Coda: pc-guide/sw/note-app/coda.md
+              - Slite: pc-guide/sw/note-app/slite.md
+              - Milanote: pc-guide/sw/note-app/milanote.md
+          - 📞 即时通讯:
+              - pc-guide/sw/im/index.md
+              - Telegram: pc-guide/sw/im/telegram.md
+              - WhatsApp: pc-guide/sw/im/whatsapp.md
+              - Signal: pc-guide/sw/im/signal.md
+              - Discord: pc-guide/sw/im/discord.md
+              - Slack: pc-guide/sw/im/slack.md
+              - Microsoft Teams: pc-guide/sw/im/teams.md
+              - Zoom: pc-guide/sw/im/zoom.md
+              - Skype: pc-guide/sw/im/skype.md
+              - WeChat: pc-guide/sw/im/wechat.md
+              - QQ: pc-guide/sw/im/qq.md
+              - DingTalk: pc-guide/sw/im/dingtalk.md
+              - Lark: pc-guide/sw/im/lark.md
+              - Feishu: pc-guide/sw/im/feishu.md
+              - Zulip: pc-guide/sw/im/zulip.md
+              - Mattermost: pc-guide/sw/im/mattermost.md
+              - Rocket.Chat: pc-guide/sw/im/rocketchat.md
+              - Element: pc-guide/sw/im/element.md
+              - Jitsi: pc-guide/sw/im/jitsi.md
+              - BigBlueButton: pc-guide/sw/im/bigbluebutton.md
+              - Whereby: pc-guide/sw/im/whereby.md
+              - Google Meet: pc-guide/sw/im/google-meet.md
+              - Cisco Webex: pc-guide/sw/im/webex.md
+              - GoToMeeting: pc-guide/sw/im/gotomeeting.md
+              - BlueJeans: pc-guide/sw/im/bluejeans.md
+              - Zoom Rooms: pc-guide/sw/im/zoom-rooms.md
+              - Skype Room Systems: pc-guide/sw/im/skype-room-systems.md
+              - Microsoft Teams Rooms: pc-guide/sw/im/teams-rooms.md
+              - Cisco Webex Room Series: pc-guide/sw/im/webex-room-series.md
+              - Google Meet Hardware: pc-guide/sw/im/google-meet-hardware.md
+              - Zoom for Home: pc-guide/sw/im/zoom-for-home.md
+              - Facebook Portal: pc-guide/sw/im/facebook-portal.md
+              - Amazon Echo Show: pc-guide/sw/im/amazon-echo-show.md
+              - Lenovo Smart Display: pc-guide/sw/im/lenovo-smart-display.md
+              - Google Nest Hub: pc-guide/sw/im/google-nest-hub.md
       - 电脑小队:
           - pc-guide/pc-squad/index.md
           - 绪论: pc-guide/pc-squad/intro.md
@@ -198,9 +575,29 @@ nav:
           - Vim: cs/tools/Vim.md
           - Emacs: cs/tools/Emacs.md
           - Git: cs/tools/Git.md
-          - GitHub: cs/tools/GitHub.md
+          - GitHub:
+              - cs/tools/github/index.md
+              - GitHub: cs/tools/github/github.md
+              - GitHub Desktop: cs/tools/github/desktop.md
+              - GitHub Actions: cs/tools/github/github-actions.md
+              - GitHub Gist: cs/tools/github/gist.md
+              - GitHub Pages: cs/tools/github/pages.md
+              - GitHub CLI: cs/tools/github/cli.md
+              - GitHub Copilot: cs/tools/github/copilot.md
+              - GitHub Codespaces: cs/tools/github/codespaces.md
+              - GitHub Discussions: cs/tools/github/discussions.md
+              - GitHub Security Lab: cs/tools/github/security-lab.md
+              - GitHub Archive Program: cs/tools/github/archive-program.md
+              - GitHub Learning Lab: cs/tools/github/learning-lab.md
+              - GitHub Student Developer Pack: cs/tools/github/student-pack.md
+              - GitHub Campus Expert: cs/tools/github/campus-expert.md
+              - GitHub Teacher Toolbox: cs/tools/github/teacher-toolbox.md
+              - GitHub Classroom: cs/tools/github/classroom.md
+              - GitHub Enterprise: cs/tools/github/enterprise.md
+              - GitHub Profile: cs/tools/github/profile.md
           - GNU Make: cs/tools/GNU_Make.md
           - CMake: cs/tools/CMake.md
+          - Markdown: cs/tools/markdown.md
           - LaTeX: cs/tools/LaTeX.md
           - Docker: cs/tools/Docker.md
           - Package Manager: cs/tools/pm.md
@@ -221,7 +618,22 @@ nav:
           - "Standford EE364A: Convex Optimization": cs/math-advanced/convex.md
           - "The Information Theory, Pattern Recognition, and Neural Networks": cs/math-advanced/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md
       - 编程入门:
-          - "MIT-Missing-Semester": cs/programming-base/MIT-Missing-Semester.md
+          - Missing Semester:
+              - cs/programming-base/ms/index.md
+              - MIT Missing Semester:
+                  - cs/programming-base/ms/mit/MIT-Missing-Semester.md
+                  - 课程概览与 shell: cs/programming-base/ms/mit/01-shell.md
+                  - Shell 工具和脚本: cs/programming-base/ms/mit/02-shell-tools.md
+                  - 编辑器 (Vim): cs/programming-base/ms/mit/03-vim.md
+                  - 数据整理: cs/programming-base/ms/mit/04-data-wrangling.md
+                  - 命令行环境: cs/programming-base/ms/mit/05-cmd-env.md
+                  - 版本控制(Git): cs/programming-base/ms/mit/06-git.md
+                  - 调试及性能分析: cs/programming-base/ms/mit/07-debug-profiling.md
+                  - 元编程: cs/programming-base/ms/mit/08-metaprogramming.md
+                  - 安全和密码学: cs/programming-base/ms/mit/09-cryptography.md
+                  - 大杂烩: cs/programming-base/ms/mit/10-potpourri.md
+                  - 提问&回答: cs/programming-base/ms/mit/11-qa.md
+              - LCPU Missing Semester: cs/programming-base/ms/lcpu/LCPU-Missing-Semester.md
           - "Sysadmin DeCal": cs/programming-base/DeCal.md
           - Python 语言:
               - "UCB CS61A: Structure and Interpretation of Computer Programs": cs/programming-base/Python/CS61A.md
@@ -370,7 +782,7 @@ nav:
               - art/films/my-review/index.md
           - 影评收藏:
               - art/films/review-collection/index.md
-      - 🍿 电视剧:
+      - 📺 电视剧:
           - art/series/index.md
           - 我的 Top 榜: art/series/top.md
           - 我的观后感:
@@ -398,3 +810,80 @@ nav:
           - life/travel/index.md
           - 郑州: life/travel/zhengzhou.md
           - 西安: life/travel/xian.md
+      - 🎮 游戏:
+          - life/games/index.md
+          - 游戏库: life/games/vault.md
+      - 🎲 棋牌:
+          - life/board-games/index.md
+          - 棋牌规则: life/board-games/rules.md
+  - 🎐 Z7Z8:
+      - 🛬 Crash Course:
+          - z7z8/crash-course/index.md
+          - 人工智能: z7z8/crash-course/ai.md
+          - 解剖学: z7z8/crash-course/anatomy.md
+          - 天文学: z7z8/crash-course/astronomy.md
+          - 大历史: z7z8/crash-course/big-history.md
+          - 生物学: z7z8/crash-course/biology.md
+          - 美国黑人历史: z7z8/crash-course/black-american-history.md
+          - 植物学: z7z8/crash-course/botany.md
+          - 商业: z7z8/crash-course/business.md
+          - 化学: z7z8/crash-course/chemistry.md
+          - 气候与能源: z7z8/crash-course/climate-energy.md
+          - 计算机科学: z7z8/crash-course/cs.md
+          - 生态学: z7z8/crash-course/ecology.md
+          - 经济学: z7z8/crash-course/economics.md
+          - 工程学: z7z8/crash-course/engineering.md
+          - 创业: z7z8/crash-course/entrepreneurship.md
+          - 欧洲历史: z7z8/crash-course/european-history.md
+          - 电影批评: z7z8/crash-course/film-criticism.md
+          - 电影史: z7z8/crash-course/film-history.md
+          - 电影制作: z7z8/crash-course/film-production.md
+          - 游戏设计: z7z8/crash-course/games.md
+          - 地理学: z7z8/crash-course/geography.md
+          - 政府管理: z7z8/crash-course/gov.md
+          - 科学史: z7z8/crash-course/history-of-science.md
+          - 知识产权: z7z8/crash-course/intellectual-property.md
+          - 语言学: z7z8/crash-course/linguistics.md
+          - 媒介素养: z7z8/crash-course/media-literacy.md
+          - 神话学: z7z8/crash-course/mythology.md
+          - 探索信息世界: z7z8/crash-course/nav-digi-info.md
+          - 有机化学: z7z8/crash-course/organic-chemistry.md
+          - 科学突破: z7z8/crash-course/outbreak-science.md
+          - 哲学: z7z8/crash-course/philosophy.md
+          - 物理学: z7z8/crash-course/physics.md
+          - 心理学: z7z8/crash-course/psychology.md
+          - 公共健康: z7z8/crash-course/public-health.md
+          - 社会学: z7z8/crash-course/sociology.md
+          - 统计学: z7z8/crash-course/statistics.md
+          - 学习技巧: z7z8/crash-course/study-skills.md
+          - 戏剧: z7z8/crash-course/theater.md
+          - 美国历史: z7z8/crash-course/us-history.md
+          - 世界历史: z7z8/crash-course/world-history.md
+          - 世界历史 II: z7z8/crash-course/world-history-2.md
+          - 动物学: z7z8/crash-course/zoology.md
+      - 如此设计:
+          - z7z8/why-the-design/index.md
+          - Linux 为何 Swap: z7z8/why-the-design/why-linux-swap.md
+          - Linux 为何需要虚拟内存: z7z8/why-the-design/why-linux-vm.md
+          - "*nix 为何不需要碎片整理": z7z8/why-the-design/why-nix-no-defragment.md
+          - Windows 为何需要碎片整理: z7z8/why-the-design/why-windows-defragment.md
+      - 字体:
+          - z7z8/fonts/index.md
+          - 连字: z7z8/fonts/ligature.md
+          - 字体基础: z7z8/fonts/basic.md
+          - 字体分类: z7z8/fonts/classification.md
+          - 字体设计: z7z8/fonts/design.md
+          - 字体历史: z7z8/fonts/history.md
+          - 字体知识: z7z8/fonts/knowledge.md
+          - 字体排印: z7z8/fonts/printing.md
+          - 字体技术: z7z8/fonts/technology.md
+          - 字体工具: z7z8/fonts/tools.md
+          - 字体收藏: z7z8/fonts/vault.md
+  - 💾 Vault:
+      - vault/index.md
+      - 知乎:
+          - vault/zhihu/index.md
+      - 豆瓣:
+          - vault/douban/index.md
+  - 🗑️ Trash:
+      - trash/index.md
