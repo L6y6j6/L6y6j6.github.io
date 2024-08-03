@@ -288,6 +288,71 @@ nav:
           - pc-guide/sw/index.md
           - 跨平台软件: pc-guide/sw/cross-platform.md
           - 软件兼容性: pc-guide/sw/compatibility.md
+          - 包管理器:
+              - pc-guide/sw/pm/index.md
+              - macOS 包管理器:
+                  - pc-guide/sw/pm/mac/index.md
+                  - Homebrew: pc-guide/sw/pm/mac/brew.md
+                  - MacPorts: pc-guide/sw/pm/mac/macports.md
+                  - Fink: pc-guide/sw/pm/mac/fink.md
+              - Windows 包管理器:
+                  - pc-guide/sw/pm/win/index.md
+                  - scoop: pc-guide/sw/pm/win/scoop.md
+                  - winget: pc-guide/sw/pm/win/winget.md
+                  - choco: pc-guide/sw/pm/win/choco.md
+                  - nuget: pc-guide/sw/pm/win/nuget.md
+              - Linux 包管理器:
+                  - pc-guide/sw/pm/linux/index.md
+                  - APT: pc-guide/sw/pm/linux/apt.md
+                  - DNF: pc-guide/sw/pm/linux/dnf.md
+                  - YUM: pc-guide/sw/pm/linux/yum.md
+                  - Zypper: pc-guide/sw/pm/linux/zypper.md
+                  - Pacman: pc-guide/sw/pm/linux/pacman.md
+                  - Pamac: pc-guide/sw/pm/linux/pamac.md
+                  - Snap: pc-guide/sw/pm/linux/snap.md
+                  - Flatpak: pc-guide/sw/pm/linux/flatpak.md
+                  - AppImage: pc-guide/sw/pm/linux/appimage.md
+                  - Nix: pc-guide/sw/pm/linux/nix.md
+                  - Guix: pc-guide/sw/pm/linux/guix.md
+                  - Portage: pc-guide/sw/pm/linux/portage.md
+                  - Emerge: pc-guide/sw/pm/linux/emerge.md
+                  - Pkg: pc-guide/sw/pm/linux/pkg.md
+                  - Pkgsrc: pc-guide/sw/pm/linux/pkgsrc.md
+                  - RPM: pc-guide/sw/pm/linux/rpm.md
+                  - URPMI: pc-guide/sw/pm/linux/urpmi.md
+                  - APT-RPM: pc-guide/sw/pm/linux/apt-rpm.md
+                  - Smart: pc-guide/sw/pm/linux/smart.md
+                  - Conary: pc-guide/sw/pm/linux/conary.md
+                  - Entropy: pc-guide/sw/pm/linux/entropy.md
+                  - Equo: pc-guide/sw/pm/linux/equo.md
+                  - Pisi: pc-guide/sw/pm/linux/pisi.md
+                  - PiSi: pc-guide/sw/pm/linux/pisi.md
+                  - Pardus: pc-guide/sw/pm/linux/pardus.md
+                  - Pkgin: pc-guide/sw/pm/linux/pkgin.md
+                  - NetBSD Packages: pc-guide/sw/pm/linux/netbsd-packages.md
+                  - OpenBSD Packages: pc-guide/sw/pm/linux/openbsd-packages.md
+                  - FreeBSD Ports: pc-guide/sw/pm/linux/freebsd-ports.md
+                  - FreeBSD Packages: pc-guide/sw/pm/linux/freebsd-packages.md
+                  - MacPorts: pc-guide/sw/pm/linux/macports.md
+                  - Fink: pc-guide/sw/pm/linux/fink.md
+                  - Nix: pc-guide/sw/pm/linux/nix.md
+                  - Guix: pc-guide/sw/pm/linux/guix.md
+              - Android 包管理器:
+                  - pc-guide/sw/pm/android/index.md
+                  - Google Play: pc-guide/sw/pm/android/play.md
+                  - Aurora Store: pc-guide/sw/pm/android/aurora.md
+                  - F-Droid: pc-guide/sw/pm/android/f-droid.md
+                  - APKPure: pc-guide/sw/pm/android/apkpure.md
+                  - APKMirror: pc-guide/sw/pm/android/apkmirror.md
+                  - Aptoide: pc-guide/sw/pm/android/aptoide.md
+                  - Uptodown: pc-guide/sw/pm/android/uptodown.md
+                  - APKMonk: pc-guide/sw/pm/android/apkmonk.md
+                  - APKCombo: pc-guide/sw/pm/android/apkcombo.md
+                  - APKTime: pc-guide/sw/pm/android/apktime.md
+                  - Uptodown: pc-guide/sw/pm/android/uptodown.md
+                  - APKMonk: pc-guide/sw/pm/android/apkmonk.md
+                  - APKCombo: pc-guide/sw/pm/android/apkcombo.md
+                  - APKTime: pc-guide/sw/pm/android/apktime.md
           - 浏览器:
               - pc-guide/sw/browser/index.md
               - Google Chrome: pc-guide/sw/browser/chrome.md
@@ -545,6 +610,33 @@ nav:
               - Amazon Echo Show: pc-guide/sw/im/amazon-echo-show.md
               - Lenovo Smart Display: pc-guide/sw/im/lenovo-smart-display.md
               - Google Nest Hub: pc-guide/sw/im/google-nest-hub.md
+          - 输入法:
+              - pc-guide/sw/ime/index.md
+              - 中文输入法:
+                  - pc-guide/sw/ime/chinese/index.md
+                  - 搜狗输入法: pc-guide/sw/ime/chinese/sogou.md
+                  - 百度输入法: pc-guide/sw/ime/chinese/baidu.md
+                  - QQ输入法: pc-guide/sw/ime/chinese/qq.md
+                  - 紫光输入法: pc-guide/sw/ime/chinese/ziguang.md
+                  - 小狼毫: pc-guide/sw/ime/chinese/xiaoluanhao.md
+                  - 鼠须管: pc-guide/sw/ime/chinese/squirrel.md
+                  - Rime: pc-guide/sw/ime/chinese/rime.md
+                  - 小鹤双拼: pc-guide/sw/ime/chinese/xiaohe.md
+                  - 朙月拼音: pc-guide/sw/ime/chinese/luna.md
+                  - 搜狗五笔: pc-guide/sw/ime/chinese/sogou-wubi.md
+                  - QQ五笔: pc-guide/sw/ime/chinese/qq-wubi.md
+                  - 小狼毫五笔: pc-guide/sw/ime/chinese/xiaoluanhao-wubi.md
+                  - 鼠须管五笔: pc-guide/sw/ime/chinese/squirrel-wubi.md
+                  - Rime五笔: pc-guide/sw/ime/chinese/rime-wubi.md
+                  - 小鹤双拼五笔: pc-guide/sw/ime/chinese/xiaohe-wubi.md
+                  - 朙月拼音五笔: pc-guide/sw/ime/chinese/luna-wubi.md
+              - 英文输入法:
+                  - pc-guide/sw/ime/english/index.md
+                  - Microsoft Keyboard Layout Creator: pc-guide/sw/ime/english/msklc.md
+                  - AutoHotkey: pc-guide/sw/ime/english/autohotkey.md
+                  - Keyman: pc-guide/sw/ime/english/keyman.md
+                  - Ukelele: pc-guide/sw/ime/english/ukelele.md
+                  - Karabiner-Elements: pc-guide/sw/ime/english/karabiner-elements.md
       - 电脑小队:
           - pc-guide/pc-squad/index.md
           - 绪论: pc-guide/pc-squad/intro.md
