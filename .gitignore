@@ -1,6 +1,7 @@
 lib/
 bin/
-pyvenv.cfg
 site/
+.idea/
 .DS_Store
 deploy.sh
+pyvenv.cfg
