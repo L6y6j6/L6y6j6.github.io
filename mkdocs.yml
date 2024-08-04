@@ -392,7 +392,7 @@ nav:
                   - C#:
                         - pc-guide/sw/pm/lang/c-sharp/index.md
                         - NuGet: pc-guide/sw/pm/lang/c-sharp/nuget.md
-                        - Paket: pc-guide/sw/pm/lang/c sharp/paket.md
+                        - Paket: pc-guide/sw/pm/lang/c-sharp/paket.md
                   - Common Lisp:
                       - pc-guide/sw/pm/lang/common-lisp/index.md
                       - Quicklisp: pc-guide/sw/pm/lang/common-lisp/quicklisp.md
@@ -1159,18 +1159,18 @@ nav:
               - CoffeeScript 语言: z7z8/related-cs/pl/coffeescript.md
               - ActionScript 语言: z7z8/related-cs/pl/actionscript.md
           - 各种开源协议:
-              - z7z8/related-cs/license/index.md
-              - GPL: z7z8/related-cs/license/gpl.md
-              - LGPL: z7z8/related-cs/license/lgpl.md
-              - AGPL: z7z8/related-cs/license/agpl.md
-              - Apache: z7z8/related-cs/license/apache.md
-              - MIT: z7z8/related-cs/license/mit.md
-              - BSD: z7z8/related-cs/license/bsd.md
-              - MPL: z7z8/related-cs/license/mpl.md
-              - CC: z7z8/related-cs/license/cc.md
-              - WTFPL: z7z8/related-cs/license/wtfpl.md
-              - Unlicense: z7z8/related-cs/license/unlicense.md
-              - Public Domain: z7z8/related-cs/license/public-domain.md
+              - z7z8/related-cs/os-license/index.md
+              - GPL: z7z8/related-cs/os-license/gpl.md
+              - LGPL: z7z8/related-cs/os-license/lgpl.md
+              - AGPL: z7z8/related-cs/os-license/agpl.md
+              - Apache: z7z8/related-cs/os-license/apache.md
+              - MIT: z7z8/related-cs/os-license/mit.md
+              - BSD: z7z8/related-cs/os-license/bsd.md
+              - MPL: z7z8/related-cs/os-license/mpl.md
+              - CC: z7z8/related-cs/os-license/cc.md
+              - WTFPL: z7z8/related-cs/os-license/wtfpl.md
+              - Unlicense: z7z8/related-cs/os-license/unlicense.md
+              - Public Domain: z7z8/related-cs/os-license/public-domain.md
           - Dotfiles:
               - z7z8/related-cs/dotfiles/index.md
               - 我的 Dotfiles:
