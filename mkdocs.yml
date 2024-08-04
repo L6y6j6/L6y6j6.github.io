@@ -116,18 +116,20 @@ plugins:
 nav:
   - 🏠 Home:
       - index.md
-      - 更新记录: changelog.md
-      - 待办事项: todo.md
-      - 友情链接: links.md
-      - 站点示例: example.md
-      - 个人简介: about.md
+      - 🆕 更新记录: changelog.md
+      - 📅 待办事项: todo.md
+      - 🔗 友情链接: links.md
+      - 📊 站点示例: example.md
+      - 👤 个人简介: about.md
+      - 📧 联系方式: contact.md
+      - 🔌 我的设备: equipment.md
   - 💻 PC:
       - pc-guide/index.md
-      - 选购电脑:
+      - 🛍️ 选购电脑:
           - pc-guide/buy/index.md
-          - 装机 DIY:
+          - 🔧 装机 DIY:
               - pc-guide/buy/diy/index.md
-              - 选购指南:
+              - 🔍 选购指南:
                   - pc-guide/buy/diy/buy/index.md
                   - CPU: pc-guide/buy/diy/buy/cpu.md
                   - GPU: pc-guide/buy/diy/buy/gpu.md
@@ -153,7 +155,7 @@ nav:
                   - Router: pc-guide/buy/diy/buy/router.md
                   - Switch: pc-guide/buy/diy/buy/switch.md
                   - Accessory: pc-guide/buy/diy/buy/accessory.md
-              - 组装指南:
+              - 🔩 组装指南:
                   - pc-guide/buy/diy/assemble/index.md
                   - CPU: pc-guide/buy/diy/assemble/cpu.md
                   - GPU: pc-guide/buy/diy/assemble/gpu.md
@@ -179,7 +181,7 @@ nav:
                   - Router: pc-guide/buy/diy/assemble/router.md
                   - Switch: pc-guide/buy/diy/assemble/switch.md
                   - Accessory: pc-guide/buy/diy/assemble/accessory.md
-          - 笔记本选购:
+          - 🛒 笔记本选购:
               - pc-guide/buy/laptop/index.md
               - ThinkPad: pc-guide/buy/laptop/thinkpad.md
               - MacBook: pc-guide/buy/laptop/macbook.md
@@ -198,7 +200,7 @@ nav:
               - IdeaPad: pc-guide/buy/laptop/ideapad.md
               - ROG: pc-guide/buy/laptop/rog.md
               - TUF: pc-guide/buy/laptop/tuf.md
-          - 微型电脑选购:
+          - 🤖 微型电脑选购:
               - pc-guide/buy/pi/index.md
               - 树莓派: pc-guide/buy/pi/raspberry-pi.md
               - Jetson Nano: pc-guide/buy/pi/jetson-nano.md
@@ -215,11 +217,11 @@ nav:
               - UP Board: pc-guide/buy/pi/up-board.md
               - LattePanda Alpha: pc-guide/buy/pi/latte-panda-alpha.md
               - LattePanda Delta: pc-guide/buy/pi/latte-panda-delta.md
-      - 系统安装:
+      - 💿 系统安装:
           - pc-guide/os-install/index.md
-          - 多系统安装:
+          - 🔄 多系统安装:
               - pc-guide/os-install/multi-system.md
-          - 安装 Windows:
+          - 🪟 安装 Windows:
               - pc-guide/os-install/windows/index.md
               - WinPE: pc-guide/os-install/windows/winpe.md
               - Windows XP: pc-guide/os-install/windows/winxp.md
@@ -227,7 +229,7 @@ nav:
               - Windows 10: pc-guide/os-install/windows/win10.md
               - Windows 11: pc-guide/os-install/windows/win11.md
               - WinToGo: pc-guide/os-install/windows/wtg.md
-          - 安装 Linux:
+          - 🐧 安装 Linux:
               - pc-guide/os-install/linux/index.md
               - GUI 安装: pc-guide/os-install/linux/gui-install.md
               - CLI 安装:
@@ -235,21 +237,21 @@ nav:
                   - Arch: pc-guide/os-install/linux/cli-install/arch.md
                   - Gentoo: pc-guide/os-install/linux/cli-install/gentoo.md
                   - LFS: pc-guide/os-install/linux/cli-install/lfs.md
-          - 安装 macOS:
+          - 🍎 安装 macOS:
               - pc-guide/os-install/macos/index.md
-          - 安装黑苹果:
+          - 🔓 安装黑苹果:
               - pc-guide/os-install/hackintosh/index.md
               - 硬件要求: pc-guide/os-install/hackintosh/hardware.md
               - 适配 EFI: pc-guide/os-install/hackintosh/efi.md
               - 安装驱动: pc-guide/os-install/hackintosh/driver.md
               - 安装详解: pc-guide/os-install/hackintosh/install.md
               - 各种问题: pc-guide/os-install/hackintosh/qa.md
-          - 安装 UNIX:
+          - 📁 安装 UNIX:
               - pc-guide/os-install/unix/index.md
               - 安装 FreeBSD: pc-guide/os-install/unix/freebsd.md
               - 安装 OpenBSD: pc-guide/os-install/unix/openbsd.md
               - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
-      - Windows 指南:
+      - 🧭 Windows 指南:
           - pc-guide/windows/index.md
           - 系统及软件激活:
               - pc-guide/windows/activate/index.md
@@ -258,6 +260,10 @@ nav:
               - 激活原理简介: pc-guide/windows/activate/principle.md # 正版激活，KMS，HWIDGEN，MAS
           - 基础设置:
               - pc-guide/windows/basic/index.md
+              - C 盘各文件夹介绍: pc-guide/windows/basic/c-folders.md
+              - 分盘设置: pc-guide/windows/basic/partition.md
+              - 软件装到哪？: pc-guide/windows/basic/sw-location.md
+              - 转移用户文件夹: pc-guide/windows/basic/move-user-folder.md
               - 系统设置: pc-guide/windows/basic/system.md
               - 网络设置: pc-guide/windows/basic/network.md
               - 隐私设置: pc-guide/windows/basic/privacy.md
@@ -274,27 +280,38 @@ nav:
               - PotPlayer: pc-guide/windows/player/potplayer.md
               - MPC-HC: pc-guide/windows/player/mpc-hc.md
               - VLC: pc-guide/windows/player/vlc.md
-      - macOS 指南:
+          - 云盘管理:
+                - pc-guide/windows/cloud/index.md
+                - Alist: pc-guide/windows/cloud/alist.md
+                - OneDrive: pc-guide/windows/cloud/onedrive.md
+                - Google Drive: pc-guide/windows/cloud/google-drive.md
+                - Dropbox: pc-guide/windows/cloud/dropbox.md
+                - Mega: pc-guide/windows/cloud/mega.md
+                - Baidu Netdisk: pc-guide/windows/cloud/baidu-netdisk.md
+                - Tencent Weiyun: pc-guide/windows/cloud/tencent-weiyun.md
+                - Huawei Cloud: pc-guide/windows/cloud/huawei-cloud.md
+                - 360 Yunpan: pc-guide/windows/cloud/360-yunpan.md
+      - 🗺️ macOS 指南:
           - pc-guide/macos/index.md
-      - Linux 指南:
+      - 🗝️ Linux 指南:
           - pc-guide/linux/index.md
           - Arch Linux:
               - pc-guide/linux/arch/index.md
           - Ubuntu:
               - pc-guide/linux/ubuntu/index.md
-      - 树莓派指南:
+      - 🔭 树莓派指南:
           - pc-guide/raspberry-pi/index.md
-      - 软件指南:
+      - 📌 软件指南:
           - pc-guide/sw/index.md
           - 跨平台软件: pc-guide/sw/cross-platform.md
           - 软件兼容性: pc-guide/sw/compatibility.md
           - 包管理器:
               - pc-guide/sw/pm/index.md
               - macOS 包管理器:
-                  - pc-guide/sw/pm/mac/index.md
-                  - Homebrew: pc-guide/sw/pm/mac/brew.md
-                  - MacPorts: pc-guide/sw/pm/mac/macports.md
-                  - Fink: pc-guide/sw/pm/mac/fink.md
+                  - pc-guide/sw/pm/macos/index.md
+                  - Homebrew: pc-guide/sw/pm/macos/brew.md
+                  - MacPorts: pc-guide/sw/pm/macos/macports.md
+                  - Fink: pc-guide/sw/pm/macos/fink.md
               - Windows 包管理器:
                   - pc-guide/sw/pm/win/index.md
                   - scoop: pc-guide/sw/pm/win/scoop.md
@@ -353,9 +370,134 @@ nav:
                   - APKMonk: pc-guide/sw/pm/android/apkmonk.md
                   - APKCombo: pc-guide/sw/pm/android/apkcombo.md
                   - APKTime: pc-guide/sw/pm/android/apktime.md
+              - 编程语言包管理器:
+                  - pc-guide/sw/pm/lang/index.md
+                  - Python:
+                      - pc-guide/sw/pm/lang/python/index.md
+                      - pip: pc-guide/sw/pm/lang/python/pip.md
+                      - conda: pc-guide/sw/pm/lang/python/conda.md
+                      - poetry: pc-guide/sw/pm/lang/python/poetry.md
+                  - JavaScript:
+                      - pc-guide/sw/pm/lang/js/index.md
+                      - npm: pc-guide/sw/pm/lang/js/npm.md
+                      - yarn: pc-guide/sw/pm/lang/js/yarn.md
+                      - pnpm: pc-guide/sw/pm/lang/js/pnpm.md
+                      - npx: pc-guide/sw/pm/lang/js/npx.md
+                      - deno: pc-guide/sw/pm/lang/js/deno.md
+                  - Java:
+                      - pc-guide/sw/pm/lang/java/index.md
+                      - Maven: pc-guide/sw/pm/lang/java/maven.md
+                      - Gradle: pc-guide/sw/pm/lang/java/gradle.md
+                      - Ant: pc-guide/sw/pm/lang/java/ant.md
+                  - C#:
+                        - pc-guide/sw/pm/lang/c-sharp/index.md
+                        - NuGet: pc-guide/sw/pm/lang/c-sharp/nuget.md
+                        - Paket: pc-guide/sw/pm/lang/c sharp/paket.md
+                  - Common Lisp:
+                      - pc-guide/sw/pm/lang/common-lisp/index.md
+                      - Quicklisp: pc-guide/sw/pm/lang/common-lisp/quicklisp.md
+                      - ASDF: pc-guide/sw/pm/lang/common-lisp/asdf.md
+                  - C++:
+                        - pc-guide/sw/pm/lang/cpp/index.md
+                        - Conan: pc-guide/sw/pm/lang/cpp/conan.md
+                        - Vcpkg: pc-guide/sw/pm/lang/cpp/vcpkg.md
+                        - Hunter: pc-guide/sw/pm/lang/cpp/hunter.md
+                  - Crystal:
+                        - pc-guide/sw/pm/lang/crystal/index.md
+                        - Shards: pc-guide/sw/pm/lang/crystal/shards.md
+                        - Lucky: pc-guide/sw/pm/lang/crystal/lucky.md
+                  - D:
+                        - pc-guide/sw/pm/lang/d/index.md
+                        - Dub: pc-guide/sw/pm/lang/d/dub.md
+                  - Dart:
+                        - pc-guide/sw/pm/lang/dart/index.md
+                        - Pub: pc-guide/sw/pm/lang/dart/pub.md
+                  - Elixir:
+                        - pc-guide/sw/pm/lang/elixir/index.md
+                        - Hex: pc-guide/sw/pm/lang/elixir/hex.md
+                  - Erlang:
+                        - pc-guide/sw/pm/lang/erlang/index.md
+                        - rebar3: pc-guide/sw/pm/lang/erlang/rebar3.md
+                  - F#:
+                        - pc-guide/sw/pm/lang/f-sharp/index.md
+                        - Paket: pc-guide/sw/pm/lang/f-sharp/paket.md
+                  - Go:
+                        - pc-guide/sw/pm/lang/go/index.md
+                        - Go Modules: pc-guide/sw/pm/lang/go/go-modules.md
+                        - Dep: pc-guide/sw/pm/lang/go/dep.md
+                        - Glide: pc-guide/sw/pm/lang/go/glide.md
+                        - Godep: pc-guide/sw/pm/lang/go/godep.md
+                  - Groovy:
+                        - pc-guide/sw/pm/lang/groovy/index.md
+                        - Grape: pc-guide/sw/pm/lang/groovy/grape.md
+                  - Haskell:
+                      - pc-guide/sw/pm/lang/haskell/index.md
+                      - Cabal: pc-guide/sw/pm/lang/haskell/cabal.md
+                      - Stack: pc-guide/sw/pm/lang/haskell/stack.md
+                  - julia:
+                      - pc-guide/sw/pm/lang/julia/index.md
+                      - Pkg: pc-guide/sw/pm/lang/julia/pkg.md
+                  - Kotlin:
+                      - pc-guide/sw/pm/lang/kotlin/index.md
+                      - Gradle: pc-guide/sw/pm/lang/kotlin/gradle.md
+                      - Maven: pc-guide/sw/pm/lang/kotlin/maven.md
+                      - Ant: pc-guide/sw/pm/lang/kotlin/ant.md
+                      - KScript: pc-guide/sw/pm/lang/kotlin/kscript.md
+                  - Lua:
+                        - pc-guide/sw/pm/lang/lua/index.md
+                        - LuaRocks: pc-guide/sw/pm/lang/lua/luarocks.md
+                  - Nim:
+                        - pc-guide/sw/pm/lang/nim/index.md
+                        - Nimble: pc-guide/sw/pm/lang/nim/nimble.md
+                  - Objective-C:
+                        - pc-guide/sw/pm/lang/objective-c/index.md
+                        - CocoaPods: pc-guide/sw/pm/lang/objective-c/cocoapods.md
+                        - Carthage: pc-guide/sw/pm/lang/objective-c/carthage.md
+                  - OCaml:
+                        - pc-guide/sw/pm/lang/ocaml/index.md
+                        - OPAM: pc-guide/sw/pm/lang/ocaml/opam.md
+                  - Perl:
+                        - pc-guide/sw/pm/lang/perl/index.md
+                        - CPAN: pc-guide/sw/pm/lang/perl/cpan.md
+                        - Carton: pc-guide/sw/pm/lang/perl/carton.md
+                        - Pinto: pc-guide/sw/pm/lang/perl/pinto.md
+                        - Perlbrew: pc-guide/sw/pm/lang/perl/perlbrew.md
+                        - cpanm: pc-guide/sw/pm/lang/perl/cpanm.md
+                  - PHP:
+                        - pc-guide/sw/pm/lang/php/index.md
+                        - Composer: pc-guide/sw/pm/lang/php/composer.md
+                        - PEAR: pc-guide/sw/pm/lang/php/pear.md
+                  - R:
+                        - pc-guide/sw/pm/lang/r/index.md
+                        - CRAN: pc-guide/sw/pm/lang/r/cran.md
+                        - Bioconductor: pc-guide/sw/pm/lang/r/bioconductor.md
+                  - Racket:
+                        - pc-guide/sw/pm/lang/racket/index.md
+                        - raco: pc-guide/sw/pm/lang/racket/raco.md
+                  - Ruby:
+                        - pc-guide/sw/pm/lang/ruby/index.md
+                        - RubyGems: pc-guide/sw/pm/lang/ruby/rubygems.md
+                        - Bundler: pc-guide/sw/pm/lang/ruby/bundler.md
+                  - Rust:
+                        - pc-guide/sw/pm/lang/rust/index.md
+                        - Cargo: pc-guide/sw/pm/lang/rust/cargo.md
+                        - Crates.io: pc-guide/sw/pm/lang/rust/crates-io.md
+                  - Scala:
+                        - pc-guide/sw/pm/lang/scala/index.md
+                        - sbt: pc-guide/sw/pm/lang/scala/sbt.md
+                        - Mill: pc-guide/sw/pm/lang/scala/mill.md
+                  - Swift:
+                        - pc-guide/sw/pm/lang/swift/index.md
+                        - Swift Package Manager: pc-guide/sw/pm/lang/swift/spm.md
+                        - CocoaPods: pc-guide/sw/pm/lang/swift/cocoapods.md
+                        - Carthage: pc-guide/sw/pm/lang/swift/carthage.md
           - 浏览器:
               - pc-guide/sw/browser/index.md
-              - Google Chrome: pc-guide/sw/browser/chrome.md
+              - Google Chrome:
+                  - pc-guide/sw/browser/chrome/index.md
+                  - 书签管理: pc-guide/sw/browser/chrome/bookmark.md
+                  - 小书签: pc-guide/sw/browser/chrome/bookmarklet.md
+                  - 扩展: pc-guide/sw/browser/chrome/extensions.md
               - Microsoft Edge: pc-guide/sw/browser/edge.md
               - Firefox: pc-guide/sw/browser/firefox.md
               - Brave: pc-guide/sw/browser/brave.md
@@ -637,7 +779,13 @@ nav:
                   - Keyman: pc-guide/sw/ime/english/keyman.md
                   - Ukelele: pc-guide/sw/ime/english/ukelele.md
                   - Karabiner-Elements: pc-guide/sw/ime/english/karabiner-elements.md
-      - 电脑小队:
+          - 文件同步:
+              - pc-guide/sw/file-sync/index.md
+          - 文件传输:
+              - pc-guide/sw/file-transfer/index.md
+      - ☁️ 云服务器 ☁:
+          - pc-guide/cloud/index.md
+      - 👨‍💻 电脑小队:
           - pc-guide/pc-squad/index.md
           - 绪论: pc-guide/pc-squad/intro.md
           - 电脑知识入门（原理和构造）: pc-guide/pc-squad/pcintro.md
@@ -648,7 +796,7 @@ nav:
           - 寻求帮助: pc-guide/pc-squad/help.md
           - 电脑小队常见问题一: pc-guide/pc-squad/question1.md
           - 电脑小队常见问题二: pc-guide/pc-squad/question2.md
-      - LCPU Missing Semester:
+      - 🎖️ LCPU Missing Semester:
           - pc-guide/lcpu-ms/index.md
   - 🟰 Math:
       - math/index.md
@@ -662,7 +810,7 @@ nav:
           - math/info-theory/index.md
   - 🖥️ CS:
       - cs/index.md
-      - 必学工具:
+      - 🧰 必学工具:
           - 翻墙: cs/tools/over-gfw.md
           - Vim: cs/tools/Vim.md
           - Emacs: cs/tools/Emacs.md
@@ -697,19 +845,19 @@ nav:
           - 实用工具箱: cs/tools/tools.md
           - 毕业论文: cs/tools/thesis.md
           - 信息检索: cs/tools/info-search.md
-      - 好书推荐: cs/book-rec.md
-      - 数学基础:
+      - 📚 好书推荐: cs/book-rec.md
+      - 🔢 数学基础:
           - "MIT18.01/18.02: Calculus": cs/math-base/MITmaths.md
           - "MIT18.06: Linear Algebra": cs/math-base/MITLA.md
           - "MIT6.050J: Information theory and Entropy": cs/math-base/information.md
-      - 数学进阶:
+      - 📉 数学进阶:
           - "UCB CS70: discrete Math and probability theory": cs/math-advanced/CS70.md
           - "UCB CS126: probability theory": cs/math-advanced/CS126.md
           - "MIT 6.042J: Mathematics for Computer Science": cs/math-advanced/6.042J.md
           - "MIT18.330: Introduction to numerical analysis": cs/math-advanced/numerical.md
           - "Standford EE364A: Convex Optimization": cs/math-advanced/convex.md
           - "The Information Theory, Pattern Recognition, and Neural Networks": cs/math-advanced/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md
-      - 编程入门:
+      - 📏 编程入门:
           - Missing Semester:
               - cs/programming-base/ms/index.md
               - MIT Missing Semester:
@@ -745,7 +893,7 @@ nav:
           - 函数式语言:
               - "Cornell CS3110: OCaml Programming Correct + Efficient + Beautiful": cs/programming-base/Functional/CS3110.md
               - "Haskell MOOC": cs/programming-base/Functional/Haskell-MOOC.md
-      - 电子基础:
+      - 📡 电子基础:
           - "EE16A&B: Designing Information Devices and Systems I&II": cs/ee-base/EE16.md
           - "UCB EE120 : Signal and Systems": cs/ee-base/signal.md
           - "MIT 6.007 Signals and Systems": cs/ee-base/Signals_and_Systems_AVO.md
@@ -841,6 +989,12 @@ nav:
           - "Columbia STAT 8201: Deep Generative Models": cs/ml-advanced/STAT8201.md
           - "U Toronto STA 4273 Winter 2021: Minimizing Expectations": cs/ml-advanced/STA4273.md
           - "Stanford STATS214 / CS229M: Machine Learning Theory": cs/ml-advanced/CS229M.md
+      - 从头开始前端开发:
+          - cs/frontend/index.md
+          - SSG:
+              - cs/frontend/ssg/index.md
+      - 从头开始后端开发:
+          - cs/backend/index.md
   - 🔬 EE:
       - ee/index.md
   - 🇬🇧 English:
@@ -953,24 +1107,205 @@ nav:
           - 世界历史: z7z8/crash-course/world-history.md
           - 世界历史 II: z7z8/crash-course/world-history-2.md
           - 动物学: z7z8/crash-course/zoology.md
-      - 如此设计:
+      - 🛠️ 如此设计:
           - z7z8/why-the-design/index.md
           - Linux 为何 Swap: z7z8/why-the-design/why-linux-swap.md
           - Linux 为何需要虚拟内存: z7z8/why-the-design/why-linux-vm.md
           - "*nix 为何不需要碎片整理": z7z8/why-the-design/why-nix-no-defragment.md
           - Windows 为何需要碎片整理: z7z8/why-the-design/why-windows-defragment.md
-      - 字体:
-          - z7z8/fonts/index.md
-          - 连字: z7z8/fonts/ligature.md
-          - 字体基础: z7z8/fonts/basic.md
-          - 字体分类: z7z8/fonts/classification.md
-          - 字体设计: z7z8/fonts/design.md
-          - 字体历史: z7z8/fonts/history.md
-          - 字体知识: z7z8/fonts/knowledge.md
-          - 字体排印: z7z8/fonts/printing.md
-          - 字体技术: z7z8/fonts/technology.md
-          - 字体工具: z7z8/fonts/tools.md
-          - 字体收藏: z7z8/fonts/vault.md
+      - 💽 计算机相关科普:
+          - z7z8/related-cs/index.md
+          - 编程语言介绍:
+              - z7z8/related-cs/pl/index.md
+              - C 语言: z7z8/related-cs/pl/c.md
+              - C++ 语言: z7z8/related-cs/pl/cpp.md
+              - Java 语言: z7z8/related-cs/pl/java.md
+              - Python 语言: z7z8/related-cs/pl/python.md
+              - Rust 语言: z7z8/related-cs/pl/rust.md
+              - Go 语言: z7z8/related-cs/pl/go.md
+              - JavaScript 语言: z7z8/related-cs/pl/js.md
+              - TypeScript 语言: z7z8/related-cs/pl/ts.md
+              - Shell 脚本: z7z8/related-cs/pl/shell.md
+              - SQL 语言: z7z8/related-cs/pl/sql.md
+              - HTML 语言: z7z8/related-cs/pl/html.md
+              - CSS 语言: z7z8/related-cs/pl/css.md
+              - Markdown 语言: z7z8/related-cs/pl/markdown.md
+              - LaTeX 语言: z7z8/related-cs/pl/latex.md
+              - R 语言: z7z8/related-cs/pl/r.md
+              - Julia 语言: z7z8/related-cs/pl/julia.md
+              - MATLAB 语言: z7z8/related-cs/pl/matlab.md
+              - Mathematica 语言: z7z8/related-cs/pl/mathematica.md
+              - Haskell 语言: z7z8/related-cs/pl/haskell.md
+              - OCaml 语言: z7z8/related-cs/pl/ocaml.md
+              - Scheme 语言: z7z8/related-cs/pl/scheme.md
+              - Lisp 语言: z7z8/related-cs/pl/lisp.md
+              - Prolog 语言: z7z8/related-cs/pl/prolog.md
+              - Erlang 语言: z7z8/related-cs/pl/erlang.md
+              - Elixir 语言: z7z8/related-cs/pl/elixir.md
+              - Clojure 语言: z7z8/related-cs/pl/clojure.md
+              - Scala 语言: z7z8/related-cs/pl/scala.md
+              - Kotlin 语言: z7z8/related-cs/pl/kotlin.md
+              - Swift 语言: z7z8/related-cs/pl/swift.md
+              - Objective-C 语言: z7z8/related-cs/pl/objc.md
+              - Ruby 语言: z7z8/related-cs/pl/ruby.md
+              - Perl 语言: z7z8/related-cs/pl/perl.md
+              - PHP 语言: z7z8/related-cs/pl/php.md
+              - ASP 语言: z7z8/related-cs/pl/asp.md
+              - VB 语言: z7z8/related-cs/pl/vb.md
+              - C# 语言: z7z8/related-cs/pl/csharp.md
+              - F# 语言: z7z8/related-cs/pl/fsharp.md
+              - Dart 语言: z7z8/related-cs/pl/dart.md
+              - Lua 语言: z7z8/related-cs/pl/lua.md
+              - CoffeeScript 语言: z7z8/related-cs/pl/coffeescript.md
+              - ActionScript 语言: z7z8/related-cs/pl/actionscript.md
+          - 各种开源协议:
+              - z7z8/related-cs/license/index.md
+              - GPL: z7z8/related-cs/license/gpl.md
+              - LGPL: z7z8/related-cs/license/lgpl.md
+              - AGPL: z7z8/related-cs/license/agpl.md
+              - Apache: z7z8/related-cs/license/apache.md
+              - MIT: z7z8/related-cs/license/mit.md
+              - BSD: z7z8/related-cs/license/bsd.md
+              - MPL: z7z8/related-cs/license/mpl.md
+              - CC: z7z8/related-cs/license/cc.md
+              - WTFPL: z7z8/related-cs/license/wtfpl.md
+              - Unlicense: z7z8/related-cs/license/unlicense.md
+              - Public Domain: z7z8/related-cs/license/public-domain.md
+          - Dotfiles:
+              - z7z8/related-cs/dotfiles/index.md
+              - 我的 Dotfiles:
+                  - z7z8/related-cs/dotfiles/my-dotfiles/index.md
+              - Dotfiles 示例:
+                    - z7z8/related-cs/dotfiles/example/index.md
+          - 数据序列化格式:
+                - z7z8/related-cs/serialization/index.md
+                - JSON: z7z8/related-cs/serialization/json.md
+                - XML: z7z8/related-cs/serialization/xml.md
+                - YAML: z7z8/related-cs/serialization/yaml.md
+                - TOML: z7z8/related-cs/serialization/toml.md
+                - INI: z7z8/related-cs/serialization/ini.md
+                - CSV: z7z8/related-cs/serialization/csv.md
+                - TSV: z7z8/related-cs/serialization/tsv.md
+                - MessagePack: z7z8/related-cs/serialization/msgpack.md
+                - BSON: z7z8/related-cs/serialization/bson.md
+                - Protocol Buffers: z7z8/related-cs/serialization/protobuf.md
+                - Avro: z7z8/related-cs/serialization/avro.md
+                - Thrift: z7z8/related-cs/serialization/thrift.md
+                - Cap'n Proto: z7z8/related-cs/serialization/capnproto.md
+                - FlatBuffers: z7z8/related-cs/serialization/flatbuffers.md
+                - SBE: z7z8/related-cs/serialization/sbe.md
+                - CBOR: z7z8/related-cs/serialization/cbor.md
+                - Smile: z7z8/related-cs/serialization/smile.md
+                - UBJSON: z7z8/related-cs/serialization/ubjson.md
+                - Hessian: z7z8/related-cs/serialization/hessian.md
+                - Kryo: z7z8/related-cs/serialization/kryo.md
+                - FST: z7z8/related-cs/serialization/fst.md
+                - XStream: z7z8/related-cs/serialization/xstream.md
+                - Jackson: z7z8/related-cs/serialization/jackson.md
+                - Gson: z7z8/related-cs/serialization/gson.md
+                - Fastjson: z7z8/related-cs/serialization/fastjson.md
+                - Moshi: z7z8/related-cs/serialization/moshi.md
+          - 媒体格式介绍:
+                - z7z8/related-cs/media/index.md
+                - 图片格式:
+                    - z7z8/related-cs/media/image/index.md
+                - 音频格式:
+                    - z7z8/related-cs/media/audio/index.md
+                - 视频格式:
+                    - z7z8/related-cs/media/video/index.md
+                    - 视频格式介绍:
+                        - z7z8/related-cs/media/video/format/index.md
+                    - 视频编码: z7z8/related-cs/media/video/codec.md
+                    - 视频容器: z7z8/related-cs/media/video/container.md
+                    - 视频分辨率: z7z8/related-cs/media/video/resolution.md
+                    - 视频帧率: z7z8/related-cs/media/video/framerate.md
+                    - 视频比特率: z7z8/related-cs/media/video/bitrate.md
+                    - 视频编码器: z7z8/related-cs/media/video/encoder.md
+                    - 视频解码器: z7z8/related-cs/media/video/decoder.md
+                - 字体格式:
+                    - z7z8/related-cs/media/font/index.md
+                    - 连字: z7z8/related-cs/media/font/ligature.md
+                - 动画格式:
+                    - z7z8/related-cs/media/animation/index.md
+                - 3D 格式:
+                    - z7z8/related-cs/media/3d/index.md
+                - 矢量图形格式:
+                    - z7z8/related-cs/media/vector/index.md
+          - 电子邮件介绍:
+              - z7z8/related-cs/email/index.md
+              - Gmail: z7z8/related-cs/email/gmail.md
+          - 磁盘小传:
+                - z7z8/related-cs/disk/index.md
+                - 硬盘: z7z8/related-cs/disk/hdd.md
+                - 固态硬盘: z7z8/related-cs/disk/ssd.md
+                - 闪存: z7z8/related-cs/disk/flash.md
+                - 光盘: z7z8/related-cs/disk/cd.md
+                - 磁带: z7z8/related-cs/disk/tape.md
+          - 正则表达式:
+                - z7z8/related-cs/regex/index.md
+          - p2p 网络:
+                - z7z8/related-cs/p2p/index.md
+                - PT: z7z8/related-cs/p2p/pt.md
+          - 代码 & 博客风格指南:
+                - z7z8/related-cs/style-guide/index.md
+                - 代码风格指南:
+                    - z7z8/related-cs/style-guide/code/index.md
+                - 博客风格指南:
+                    - z7z8/related-cs/style-guide/blog/index.md
+          - 字符编码小传:
+                - z7z8/related-cs/char-encoding/index.md
+                - Emoji: z7z8/related-cs/char-encoding/emoji.md
+          - 文件系统:
+                - z7z8/related-cs/fs/index.md
+                - FAT: z7z8/related-cs/fs/fat.md
+                - NTFS: z7z8/related-cs/fs/ntfs.md
+                - ext: z7z8/related-cs/fs/ext.md
+                - HFS: z7z8/related-cs/fs/hfs.md
+                - APFS: z7z8/related-cs/fs/apfs.md
+                - ZFS: z7z8/related-cs/fs/zfs.md
+                - Btrfs: z7z8/related-cs/fs/btrfs.md
+                - ReFS: z7z8/related-cs/fs/refs.md
+                - XFS: z7z8/related-cs/fs/xfs.md
+                - JFS: z7z8/related-cs/fs/jfs.md
+                - UFS: z7z8/related-cs/fs/ufs.md
+                - F2FS: z7z8/related-cs/fs/f2fs.md
+                - exFAT: z7z8/related-cs/fs/exfat.md
+                - ISO 9660: z7z8/related-cs/fs/iso9660.md
+                - UDF: z7z8/related-cs/fs/udf.md
+                - NFS: z7z8/related-cs/fs/nfs.md
+                - SMB: z7z8/related-cs/fs/smb.md
+                - AFP: z7z8/related-cs/fs/afp.md
+                - WebDAV: z7z8/related-cs/fs/webdav.md
+                - FTP: z7z8/related-cs/fs/ftp.md
+                - SFTP: z7z8/related-cs/fs/sftp.md
+                - SCP: z7z8/related-cs/fs/scp.md
+                - Rsync: z7z8/related-cs/fs/rsync.md
+                - SSHFS: z7z8/related-cs/fs/sshfs.md
+                - CIFS: z7z8/related-cs/fs/cifs.md
+                - AFS: z7z8/related-cs/fs/afs.md
+                - DFS: z7z8/related-cs/fs/dfs.md
+          - uuid 是什么?: z7z8/related-cs/uuid.md
+      - ⛏️ 挖矿:
+          - z7z8/mining/index.md
+      - 📈 SEO:
+          - z7z8/seo/index.md
+          - 搜索引擎列表: z7z8/seo/search-engine.md
+      - RSS:
+            - z7z8/rss/index.md
+            - RSS 阅读器: z7z8/rss/reader.md
+            - RSS 订阅源: z7z8/rss/feed.md
+      - 🆓 不完全白嫖指南:
+          - z7z8/free/index.md
+          - 下载器: z7z8/free/downloader.md
+          - 影视: z7z8/free/film.md
+          - 音乐: z7z8/free/music.md
+          - 书籍: z7z8/free/book.md
+      - 📢 不完全效率指南:
+            - z7z8/efficiency/index.md
+            - 高效搜索术: z7z8/efficiency/info-search.md
+            - 高效使用 ChatGPT: z7z8/efficiency/chatgpt.md
+            - 邮件管理: z7z8/efficiency/email.md
+            - 文章分发: z7z8/efficiency/article-distribution.md
   - 💾 Vault:
       - vault/index.md
       - 知乎:
