@@ -253,12 +253,12 @@ nav:
               - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
       - 🧭 Windows 指南:
           - pc-guide/windows/index.md
-          - 系统及软件激活:
+          - 🚀 系统及软件激活:
               - pc-guide/windows/activate/index.md
               - 激活 Windows: pc-guide/windows/activate/win.md
               - 激活 Office: pc-guide/windows/activate/office.md
               - 激活原理简介: pc-guide/windows/activate/principle.md # 正版激活，KMS，HWIDGEN，MAS
-          - 基础设置:
+          - ⚙️ 基础设置:
               - pc-guide/windows/basic/index.md
               - C 盘各文件夹介绍: pc-guide/windows/basic/c-folders.md
               - 分盘设置: pc-guide/windows/basic/partition.md
@@ -269,18 +269,18 @@ nav:
               - 隐私设置: pc-guide/windows/basic/privacy.md
               - 系统优化: pc-guide/windows/basic/optimize.md
               - 系统维护: pc-guide/windows/basic/maintain.md
-          - WSL:
+          - 🔒 WSL:
               - pc-guide/windows/wsl/index.md
               - 问题日志: pc-guide/windows/wsl/log.md
-          - WSA:
+          - 💼 WSA:
               - pc-guide/windows/wsa/index.md
               - 问题日志: pc-guide/windows/wsa/log.md
-          - 播放器:
+          - ▶ 播放器:
               - pc-guide/windows/player/index.md
               - PotPlayer: pc-guide/windows/player/potplayer.md
               - MPC-HC: pc-guide/windows/player/mpc-hc.md
               - VLC: pc-guide/windows/player/vlc.md
-          - 云盘管理:
+          - ☁️ 云盘管理:
                 - pc-guide/windows/cloud/index.md
                 - Alist: pc-guide/windows/cloud/alist.md
                 - OneDrive: pc-guide/windows/cloud/onedrive.md
@@ -295,17 +295,17 @@ nav:
           - pc-guide/macos/index.md
       - 🗝️ Linux 指南:
           - pc-guide/linux/index.md
-          - Arch Linux:
+          - 🗽 Arch Linux:
               - pc-guide/linux/arch/index.md
-          - Ubuntu:
+          - 🌍 Ubuntu:
               - pc-guide/linux/ubuntu/index.md
       - 🔭 树莓派指南:
           - pc-guide/raspberry-pi/index.md
       - 📌 软件指南:
           - pc-guide/sw/index.md
-          - 跨平台软件: pc-guide/sw/cross-platform.md
-          - 软件兼容性: pc-guide/sw/compatibility.md
-          - 包管理器:
+          - 📱 跨平台软件: pc-guide/sw/cross-platform.md
+          - 🔗 软件兼容性: pc-guide/sw/compatibility.md
+          - 🔄 包管理器:
               - pc-guide/sw/pm/index.md
               - macOS 包管理器:
                   - pc-guide/sw/pm/macos/index.md
@@ -491,7 +491,7 @@ nav:
                         - Swift Package Manager: pc-guide/sw/pm/lang/swift/spm.md
                         - CocoaPods: pc-guide/sw/pm/lang/swift/cocoapods.md
                         - Carthage: pc-guide/sw/pm/lang/swift/carthage.md
-          - 浏览器:
+          - 🌐 浏览器:
               - pc-guide/sw/browser/index.md
               - Google Chrome:
                   - pc-guide/sw/browser/chrome/index.md
@@ -532,7 +532,7 @@ nav:
               - 傲游浏览器: pc-guide/sw/browser/maxthon.md
               - 360 极速浏览器: pc-guide/sw/browser/360x.md
               - Cent Browser: pc-guide/sw/browser/cent.md
-          - Adobe 全家桶:
+          - 📹 Adobe 全家桶:
               - pc-guide/sw/adobe/index.md
               - Photoshop:
                   - pc-guide/sw/adobe/ps/index.md
@@ -553,7 +553,7 @@ nav:
               - Dimension: pc-guide/sw/adobe/dimension.md
               - Lightroom Classic: pc-guide/sw/adobe/lr-classic.md
               - Substance 3D: pc-guide/sw/adobe/substance-3d.md
-          - Office:
+          - 📑 Office:
               - pc-guide/sw/office/index.md
               - Microsoft Office:
                   - pc-guide/sw/office/ms-office/index.md
@@ -575,7 +575,7 @@ nav:
                   - pc-guide/sw/office/libre/index.md
               - Google Docs:
                   - pc-guide/sw/office/gg-docs/index.md
-          - IDE & Text Editor:
+          - 🔍 IDE & Text Editor:
               - pc-guide/sw/ide/index.md
               - Visual Studio Code:
                   - pc-guide/sw/ide/vscode/index.md
@@ -635,7 +635,7 @@ nav:
               - Xcode: pc-guide/sw/ide/xcode.md
               - Unity: pc-guide/sw/ide/unity.md
               - Unreal Engine: pc-guide/sw/ide/unreal-engine.md
-          - Dev Toolbox:
+          - 🧰 Dev Toolbox:
               - pc-guide/sw/devtool/index.md
               - Shell:
                   - pc-guide/sw/devtool/shell/index.md
@@ -752,7 +752,7 @@ nav:
               - Amazon Echo Show: pc-guide/sw/im/amazon-echo-show.md
               - Lenovo Smart Display: pc-guide/sw/im/lenovo-smart-display.md
               - Google Nest Hub: pc-guide/sw/im/google-nest-hub.md
-          - 输入法:
+          - 💬 输入法:
               - pc-guide/sw/ime/index.md
               - 中文输入法:
                   - pc-guide/sw/ime/chinese/index.md
@@ -779,11 +779,11 @@ nav:
                   - Keyman: pc-guide/sw/ime/english/keyman.md
                   - Ukelele: pc-guide/sw/ime/english/ukelele.md
                   - Karabiner-Elements: pc-guide/sw/ime/english/karabiner-elements.md
-          - 文件同步:
+          - 📁 文件同步:
               - pc-guide/sw/file-sync/index.md
-          - 文件传输:
+          - 📤 文件传输:
               - pc-guide/sw/file-transfer/index.md
-      - ☁️ 云服务器 ☁:
+      - ☁️ 云服务器:
           - pc-guide/cloud/index.md
       - 👨‍💻 电脑小队:
           - pc-guide/pc-squad/index.md
@@ -800,13 +800,13 @@ nav:
           - pc-guide/lcpu-ms/index.md
   - 🟰 Math:
       - math/index.md
-      - 高等数学:
+      - 📈 高等数学:
           - math/calculus/index.md
-      - 线性代数:
+      - 🔡 线性代数:
           - math/linear-algebra/index.md
-      - 概率论:
+      - 🎲 概率论:
           - math/prob-theory/index.md
-      - 信息论:
+      - 🔢 信息论:
           - math/info-theory/index.md
   - 🖥️ CS:
       - cs/index.md
@@ -897,85 +897,85 @@ nav:
           - "EE16A&B: Designing Information Devices and Systems I&II": cs/ee-base/EE16.md
           - "UCB EE120 : Signal and Systems": cs/ee-base/signal.md
           - "MIT 6.007 Signals and Systems": cs/ee-base/Signals_and_Systems_AVO.md
-      - 数据结构与算法:
+      - 📐 数据结构与算法:
           - "UCB CS61B: Data Structures and Algorithms": cs/data-struct-algo/CS61B.md
           - "Coursera: Algorithms I & II": cs/data-struct-algo/Algo.md
           - "MIT 6.006: Introduction to Algorithms": cs/data-struct-algo/6.006.md
           - "MIT 6.046: Design and Analysis of Algorithms": cs/data-struct-algo/6.046.md
           - "UCB CS170: Efficient Algorithms and Intractable Problems": cs/data-struct-algo/CS170.md
-      - 软件工程:
+      - 🎚️ 软件工程:
           - "MIT 6.031: Software Construction": cs/sw-engineering/6031.md
           - "UCB CS169: software engineering": cs/sw-engineering/CS169.md
           - "CMU 17-803: Empirical Methods": cs/sw-engineering/17803.md
-      - 计算机系统基础:
+      - 🗞️ 计算机系统基础:
           - "CMU 15-213: CSAPP": cs/sys-basic/CSAPP.md
           - "Stanford CS110: Principles of Computer Systems": cs/sys-basic/CS110.md
-      - 体系结构:
+      - 📑 体系结构:
           - "Coursera: Nand2Tetris": cs/architecture/N2T.md
           - "UCB CS61C: Great Ideas in Computer Architecture": cs/architecture/CS61C.md
           - "ETHz: Digital Design and Computer Architecture": cs/architecture/DDCA.md
           - "ETHz: Computer Architecture": cs/architecture/CA.md
-      - 操作系统:
+      - 🗂️ 操作系统:
           - "MIT 6.S081: Operating System Engineering": cs/os/MIT6.S081.md
           - "UCB CS162: Operating System": cs/os/CS162.md
           - "NJU OS: Operating System Design and Implementation": cs/os/NJUOS.md
           - "HIT OS: Operating System": cs/os/HITOS.md
-      - 并行与分布式系统:
+      - 🗄️ 并行与分布式系统:
           - "CMU 15-418/Stanford CS149: Parallel Computing": cs/par-dis-sys/CS149.md
           - "MIT 6.824: Distributed System": cs/par-dis-sys/MIT6.824.md
-      - 计算机系统安全:
+      - 🗃️ 计算机系统安全:
           - "UCB CS161: Computer Security": cs/sys-safety/CS161.md
           - "MIT 6.1600: Foundations of Computer Security": cs/sys-safety/MIT6.1600.md
           - "MIT 6.858: Computer System Security": cs/sys-safety/MIT6.858.md
           - "ASU CSE365: Introduction to Cybersecurity": cs/sys-safety/CSE365.md
           - "ASU CSE466: Computer Systems Security": cs/sys-safety/CSE466.md
           - "SU SEED Labs": cs/sys-safety/SEEDLabs.md
-      - 计算机网络:
+      - 🗝️ 计算机网络:
           - "USTC Computer Networking:A Top-Down Approach": cs/computer-network/topdown_ustc.md
           - "Computer Networking: A Top-Down Approach": cs/computer-network/topdown.md
           - "Stanford CS144: Computer Network": cs/computer-network/CS144.md
-      - 数据库系统:
+      - 💡 数据库系统:
           - "UCB CS186: Introduction to Database System": cs/db-sys/CS186.md
           - "CMU 15-445: Database Systems": cs/db-sys/15445.md
           - "Caltech CS122: Database System Implementation": cs/db-sys/CS122.md
           - "Stanford CS346: Database System Implementation": cs/db-sys/CS346.md
           - "CMU 15-799: Special Topics in Database Systems": cs/db-sys/15799.md
-      - 编译原理:
+      - 🛢️ 编译原理:
           - "PKU 编译原理实践": cs/compiler/PKU-Compilers.md
           - "Stanford CS143: Compilers": cs/compiler/CS143.md
           - "NJU 编译原理": cs/compiler/NJU-Compilers.md
           - "KAIST CS420: Compiler Design": cs/compiler/CS420.md
-      - 编程语言设计与分析:
+      - 🔑 编程语言设计与分析:
           - "Stanford CS242: Programming Languages": cs/pl-des-ana/CS242.md
           - "NJU 软件分析": cs/pl-des-ana/NJU-SoftwareAnalysis.md
           - "PKU 软件分析": cs/pl-des-ana/PKU-SoftwareAnalysis.md
           - "Cambridge: Semantics of Programming Languages": cs/pl-des-ana/Cambridge-Semantics.md
-      - 计算机图形学:
+      - 💸 计算机图形学:
           - "GAMES101": cs/cg/GAMES101.md
           - "GAMES202": cs/cg/GAMES202.md
           - "GAMES103": cs/cg/GAMES103.md
           - "Stanford CS148": cs/cg/CS148.md
           - "CMU 15-462": cs/cg/15462.md
           - "USTC CG": cs/cg/USTC ComputerGraphics.md
-      - Web 开发:
+      - 🔦 Web 开发:
           - "MIT web development course": cs/web-dev/mitweb.md
           - "Stanford CS142: Web Applications": cs/web-dev/CS142.md
           - "University of Helsinki: Full Stack open 2022": cs/web-dev/fullstackopen.md
           - "CS571 Building UI (React & React Native)": cs/web-dev/CS571.md
-      - 数据科学:
+      - 🔏 数据科学:
           - "UCB Data100: Principles and Techniques of Data Science": cs/data-science/Data100.md
-      - 人工智能:
+      - 🔐 人工智能:
           - "Harvard CS50's Introduction to AI with Python": cs/ai/CS50.md
           - "UCB CS188: Introduction to Artificial Intelligence": cs/ai/CS188.md
-      - 机器学习:
+      - 🖇️ 机器学习:
           - "Coursera: Machine Learning": cs/ml/ML.md
           - "Stanford CS229: Machine Learning": cs/ml/CS229.md
           - "UCB CS189: Introduction to Machine Learning": cs/ml/CS189.md
-      - 机器学习系统:
+      - 📎 机器学习系统:
           - "智能计算系统": cs/ml-sys/AICS.md
           - "CMU 10-414/714: Deep Learning Systems": cs/ml-sys/CMU10-414.md
           - "Machine Learning Compilation": cs/ml-sys/MLC.md
-      - 深度学习:
+      - 📋 深度学习:
           - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": cs/dl/EECS498-007.md
           - "Coursera: Deep Learning": cs/dl/CS230.md
           - "国立台湾大学: 李宏毅机器学习": cs/dl/LHY.md
@@ -983,39 +983,39 @@ nav:
           - "Stanford CS224n: Natural Language Processing": cs/dl/CS224n.md
           - "Stanford CS224w: Machine Learning with Graphs": cs/dl/CS224w.md
           - "UCB CS285: Deep Reinforcement Learning": cs/dl/CS285.md
-      - 机器学习进阶:
+      - 🗡️ 机器学习进阶:
           - "进阶路线图": cs/ml-advanced/roadmap.md
           - "CMU 10-708: Probabilistic Graphical Models": cs/ml-advanced/CMU10-708.md
           - "Columbia STAT 8201: Deep Generative Models": cs/ml-advanced/STAT8201.md
           - "U Toronto STA 4273 Winter 2021: Minimizing Expectations": cs/ml-advanced/STA4273.md
           - "Stanford STATS214 / CS229M: Machine Learning Theory": cs/ml-advanced/CS229M.md
-      - 从头开始前端开发:
+      - 📐 从头开始前端开发:
           - cs/frontend/index.md
           - SSG:
               - cs/frontend/ssg/index.md
-      - 从头开始后端开发:
+      - 🕰️ 从头开始后端开发:
           - cs/backend/index.md
   - 🔬 EE:
       - ee/index.md
   - 🇬🇧 English:
       - english/index.md
-      - 四级:
+      - 🔠 四级:
           - english/cet4/index.md
-      - 六级:
+      - 🗨️ 六级:
           - english/cet6/index.md
-      - 雅思:
+      - 🗣️ 雅思:
           - english/ielts/index.md
-      - 托福:
+      - 🇺🇸 托福:
           - english/toefl/index.md
-      - GRE:
+      - 🔡 GRE:
           - english/gre/index.md
   - 🐍 SS:
       - ss/index.md
-      - 经济学原理:
+      - 🏛️ 经济学原理:
           - ss/poe/index.md
-      - 日本经济:
+      - 📢 日本经济:
           - ss/jp-economics/index.md
-      - 社会科学中的计算思维与方法:
+      - 📣 社会科学中的计算思维与方法:
           - ss/ss-cal/index.md
   - 🧑‍🎨 Art:
       - art/index.md
