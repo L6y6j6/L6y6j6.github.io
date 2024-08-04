@@ -1,16 +1,16 @@
-site_name: LYJ 的笔记本
-site_url: https://l6y6j6.github.io/mydocs/
-repo_name: L6y6j6.github.io
-repo_url: https://github.com/L6y6j6/L6y6j6.github.io
+site_name: LYJ 的笔记本 # 网站名称
+site_url: https://l6y6j6.github.io/mydocs/ # 网站链接
+repo_name: L6y6j6.github.io # 仓库名称
+repo_url: https://github.com/L6y6j6/L6y6j6.github.io # 仓库链接
 edit_uri: tree/main/docs
-site_description: LYJ 的笔记本
-copyright: Copyright &copy; 2024-2025 <a href="https://github.com/L6y6j6" target="_blank" rel="noopener">LYJ</a>
-site_author: LYJ
-use_directory_urls: true
+site_description: LYJ 的笔记本 # 网站描述
+copyright: Copyright &copy; 2024-2025 <a href="https://github.com/L6y6j6" target="_blank" rel="noopener">LYJ</a> # 版权信息
+site_author: LYJ # 网站作者
+use_directory_urls: true # 使用目录链接
 
-theme:
-  name: "material"
-  language: "zh"
+theme: # 主题设置
+  name: "material" # 主题名称
+  language: "zh" # 语言
   icon:
     logo: material/notebook-outline
   favicon: assets/images/favicon.ico
@@ -27,7 +27,7 @@ theme:
     - search.highlight
     - search.share
     - header.autohide
-  font: false
+  font: false # 使用默认字体
   palette:
     - scheme: default
 
@@ -74,14 +74,14 @@ validation:
     absolute_links: ignore
     unrecognized_links: ignore
 
-extra_css:
+extra_css: # 额外 CSS
   - https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
   - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
-  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
-  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  # - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css # 霞鹜文楷屏幕阅读版
+  # - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
   # - https://cdn.tonycrane.cc/utils/katex.min.css
-  # - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
-  # - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
   - css/tasklist.css
   - css/custom.css
   - css/card.css
@@ -281,16 +281,16 @@ nav:
               - MPC-HC: pc-guide/windows/player/mpc-hc.md
               - VLC: pc-guide/windows/player/vlc.md
           - ☁️ 云盘管理:
-                - pc-guide/windows/cloud/index.md
-                - Alist: pc-guide/windows/cloud/alist.md
-                - OneDrive: pc-guide/windows/cloud/onedrive.md
-                - Google Drive: pc-guide/windows/cloud/google-drive.md
-                - Dropbox: pc-guide/windows/cloud/dropbox.md
-                - Mega: pc-guide/windows/cloud/mega.md
-                - Baidu Netdisk: pc-guide/windows/cloud/baidu-netdisk.md
-                - Tencent Weiyun: pc-guide/windows/cloud/tencent-weiyun.md
-                - Huawei Cloud: pc-guide/windows/cloud/huawei-cloud.md
-                - 360 Yunpan: pc-guide/windows/cloud/360-yunpan.md
+              - pc-guide/windows/cloud/index.md
+              - Alist: pc-guide/windows/cloud/alist.md
+              - OneDrive: pc-guide/windows/cloud/onedrive.md
+              - Google Drive: pc-guide/windows/cloud/google-drive.md
+              - Dropbox: pc-guide/windows/cloud/dropbox.md
+              - Mega: pc-guide/windows/cloud/mega.md
+              - Baidu Netdisk: pc-guide/windows/cloud/baidu-netdisk.md
+              - Tencent Weiyun: pc-guide/windows/cloud/tencent-weiyun.md
+              - Huawei Cloud: pc-guide/windows/cloud/huawei-cloud.md
+              - 360 Yunpan: pc-guide/windows/cloud/360-yunpan.md
       - 🗺️ macOS 指南:
           - pc-guide/macos/index.md
       - 🗝️ Linux 指南:
@@ -390,46 +390,46 @@ nav:
                       - Gradle: pc-guide/sw/pm/lang/java/gradle.md
                       - Ant: pc-guide/sw/pm/lang/java/ant.md
                   - C#:
-                        - pc-guide/sw/pm/lang/c-sharp/index.md
-                        - NuGet: pc-guide/sw/pm/lang/c-sharp/nuget.md
-                        - Paket: pc-guide/sw/pm/lang/c-sharp/paket.md
+                      - pc-guide/sw/pm/lang/c-sharp/index.md
+                      - NuGet: pc-guide/sw/pm/lang/c-sharp/nuget.md
+                      - Paket: pc-guide/sw/pm/lang/c-sharp/paket.md
                   - Common Lisp:
                       - pc-guide/sw/pm/lang/common-lisp/index.md
                       - Quicklisp: pc-guide/sw/pm/lang/common-lisp/quicklisp.md
                       - ASDF: pc-guide/sw/pm/lang/common-lisp/asdf.md
                   - C++:
-                        - pc-guide/sw/pm/lang/cpp/index.md
-                        - Conan: pc-guide/sw/pm/lang/cpp/conan.md
-                        - Vcpkg: pc-guide/sw/pm/lang/cpp/vcpkg.md
-                        - Hunter: pc-guide/sw/pm/lang/cpp/hunter.md
+                      - pc-guide/sw/pm/lang/cpp/index.md
+                      - Conan: pc-guide/sw/pm/lang/cpp/conan.md
+                      - Vcpkg: pc-guide/sw/pm/lang/cpp/vcpkg.md
+                      - Hunter: pc-guide/sw/pm/lang/cpp/hunter.md
                   - Crystal:
-                        - pc-guide/sw/pm/lang/crystal/index.md
-                        - Shards: pc-guide/sw/pm/lang/crystal/shards.md
-                        - Lucky: pc-guide/sw/pm/lang/crystal/lucky.md
+                      - pc-guide/sw/pm/lang/crystal/index.md
+                      - Shards: pc-guide/sw/pm/lang/crystal/shards.md
+                      - Lucky: pc-guide/sw/pm/lang/crystal/lucky.md
                   - D:
-                        - pc-guide/sw/pm/lang/d/index.md
-                        - Dub: pc-guide/sw/pm/lang/d/dub.md
+                      - pc-guide/sw/pm/lang/d/index.md
+                      - Dub: pc-guide/sw/pm/lang/d/dub.md
                   - Dart:
-                        - pc-guide/sw/pm/lang/dart/index.md
-                        - Pub: pc-guide/sw/pm/lang/dart/pub.md
+                      - pc-guide/sw/pm/lang/dart/index.md
+                      - Pub: pc-guide/sw/pm/lang/dart/pub.md
                   - Elixir:
-                        - pc-guide/sw/pm/lang/elixir/index.md
-                        - Hex: pc-guide/sw/pm/lang/elixir/hex.md
+                      - pc-guide/sw/pm/lang/elixir/index.md
+                      - Hex: pc-guide/sw/pm/lang/elixir/hex.md
                   - Erlang:
-                        - pc-guide/sw/pm/lang/erlang/index.md
-                        - rebar3: pc-guide/sw/pm/lang/erlang/rebar3.md
+                      - pc-guide/sw/pm/lang/erlang/index.md
+                      - rebar3: pc-guide/sw/pm/lang/erlang/rebar3.md
                   - F#:
-                        - pc-guide/sw/pm/lang/f-sharp/index.md
-                        - Paket: pc-guide/sw/pm/lang/f-sharp/paket.md
+                      - pc-guide/sw/pm/lang/f-sharp/index.md
+                      - Paket: pc-guide/sw/pm/lang/f-sharp/paket.md
                   - Go:
-                        - pc-guide/sw/pm/lang/go/index.md
-                        - Go Modules: pc-guide/sw/pm/lang/go/go-modules.md
-                        - Dep: pc-guide/sw/pm/lang/go/dep.md
-                        - Glide: pc-guide/sw/pm/lang/go/glide.md
-                        - Godep: pc-guide/sw/pm/lang/go/godep.md
+                      - pc-guide/sw/pm/lang/go/index.md
+                      - Go Modules: pc-guide/sw/pm/lang/go/go-modules.md
+                      - Dep: pc-guide/sw/pm/lang/go/dep.md
+                      - Glide: pc-guide/sw/pm/lang/go/glide.md
+                      - Godep: pc-guide/sw/pm/lang/go/godep.md
                   - Groovy:
-                        - pc-guide/sw/pm/lang/groovy/index.md
-                        - Grape: pc-guide/sw/pm/lang/groovy/grape.md
+                      - pc-guide/sw/pm/lang/groovy/index.md
+                      - Grape: pc-guide/sw/pm/lang/groovy/grape.md
                   - Haskell:
                       - pc-guide/sw/pm/lang/haskell/index.md
                       - Cabal: pc-guide/sw/pm/lang/haskell/cabal.md
@@ -444,53 +444,53 @@ nav:
                       - Ant: pc-guide/sw/pm/lang/kotlin/ant.md
                       - KScript: pc-guide/sw/pm/lang/kotlin/kscript.md
                   - Lua:
-                        - pc-guide/sw/pm/lang/lua/index.md
-                        - LuaRocks: pc-guide/sw/pm/lang/lua/luarocks.md
+                      - pc-guide/sw/pm/lang/lua/index.md
+                      - LuaRocks: pc-guide/sw/pm/lang/lua/luarocks.md
                   - Nim:
-                        - pc-guide/sw/pm/lang/nim/index.md
-                        - Nimble: pc-guide/sw/pm/lang/nim/nimble.md
+                      - pc-guide/sw/pm/lang/nim/index.md
+                      - Nimble: pc-guide/sw/pm/lang/nim/nimble.md
                   - Objective-C:
-                        - pc-guide/sw/pm/lang/objective-c/index.md
-                        - CocoaPods: pc-guide/sw/pm/lang/objective-c/cocoapods.md
-                        - Carthage: pc-guide/sw/pm/lang/objective-c/carthage.md
+                      - pc-guide/sw/pm/lang/objective-c/index.md
+                      - CocoaPods: pc-guide/sw/pm/lang/objective-c/cocoapods.md
+                      - Carthage: pc-guide/sw/pm/lang/objective-c/carthage.md
                   - OCaml:
-                        - pc-guide/sw/pm/lang/ocaml/index.md
-                        - OPAM: pc-guide/sw/pm/lang/ocaml/opam.md
+                      - pc-guide/sw/pm/lang/ocaml/index.md
+                      - OPAM: pc-guide/sw/pm/lang/ocaml/opam.md
                   - Perl:
-                        - pc-guide/sw/pm/lang/perl/index.md
-                        - CPAN: pc-guide/sw/pm/lang/perl/cpan.md
-                        - Carton: pc-guide/sw/pm/lang/perl/carton.md
-                        - Pinto: pc-guide/sw/pm/lang/perl/pinto.md
-                        - Perlbrew: pc-guide/sw/pm/lang/perl/perlbrew.md
-                        - cpanm: pc-guide/sw/pm/lang/perl/cpanm.md
+                      - pc-guide/sw/pm/lang/perl/index.md
+                      - CPAN: pc-guide/sw/pm/lang/perl/cpan.md
+                      - Carton: pc-guide/sw/pm/lang/perl/carton.md
+                      - Pinto: pc-guide/sw/pm/lang/perl/pinto.md
+                      - Perlbrew: pc-guide/sw/pm/lang/perl/perlbrew.md
+                      - cpanm: pc-guide/sw/pm/lang/perl/cpanm.md
                   - PHP:
-                        - pc-guide/sw/pm/lang/php/index.md
-                        - Composer: pc-guide/sw/pm/lang/php/composer.md
-                        - PEAR: pc-guide/sw/pm/lang/php/pear.md
+                      - pc-guide/sw/pm/lang/php/index.md
+                      - Composer: pc-guide/sw/pm/lang/php/composer.md
+                      - PEAR: pc-guide/sw/pm/lang/php/pear.md
                   - R:
-                        - pc-guide/sw/pm/lang/r/index.md
-                        - CRAN: pc-guide/sw/pm/lang/r/cran.md
-                        - Bioconductor: pc-guide/sw/pm/lang/r/bioconductor.md
+                      - pc-guide/sw/pm/lang/r/index.md
+                      - CRAN: pc-guide/sw/pm/lang/r/cran.md
+                      - Bioconductor: pc-guide/sw/pm/lang/r/bioconductor.md
                   - Racket:
-                        - pc-guide/sw/pm/lang/racket/index.md
-                        - raco: pc-guide/sw/pm/lang/racket/raco.md
+                      - pc-guide/sw/pm/lang/racket/index.md
+                      - raco: pc-guide/sw/pm/lang/racket/raco.md
                   - Ruby:
-                        - pc-guide/sw/pm/lang/ruby/index.md
-                        - RubyGems: pc-guide/sw/pm/lang/ruby/rubygems.md
-                        - Bundler: pc-guide/sw/pm/lang/ruby/bundler.md
+                      - pc-guide/sw/pm/lang/ruby/index.md
+                      - RubyGems: pc-guide/sw/pm/lang/ruby/rubygems.md
+                      - Bundler: pc-guide/sw/pm/lang/ruby/bundler.md
                   - Rust:
-                        - pc-guide/sw/pm/lang/rust/index.md
-                        - Cargo: pc-guide/sw/pm/lang/rust/cargo.md
-                        - Crates.io: pc-guide/sw/pm/lang/rust/crates-io.md
+                      - pc-guide/sw/pm/lang/rust/index.md
+                      - Cargo: pc-guide/sw/pm/lang/rust/cargo.md
+                      - Crates.io: pc-guide/sw/pm/lang/rust/crates-io.md
                   - Scala:
-                        - pc-guide/sw/pm/lang/scala/index.md
-                        - sbt: pc-guide/sw/pm/lang/scala/sbt.md
-                        - Mill: pc-guide/sw/pm/lang/scala/mill.md
+                      - pc-guide/sw/pm/lang/scala/index.md
+                      - sbt: pc-guide/sw/pm/lang/scala/sbt.md
+                      - Mill: pc-guide/sw/pm/lang/scala/mill.md
                   - Swift:
-                        - pc-guide/sw/pm/lang/swift/index.md
-                        - Swift Package Manager: pc-guide/sw/pm/lang/swift/spm.md
-                        - CocoaPods: pc-guide/sw/pm/lang/swift/cocoapods.md
-                        - Carthage: pc-guide/sw/pm/lang/swift/carthage.md
+                      - pc-guide/sw/pm/lang/swift/index.md
+                      - Swift Package Manager: pc-guide/sw/pm/lang/swift/spm.md
+                      - CocoaPods: pc-guide/sw/pm/lang/swift/cocoapods.md
+                      - Carthage: pc-guide/sw/pm/lang/swift/carthage.md
           - 🌐 浏览器:
               - pc-guide/sw/browser/index.md
               - Google Chrome:
@@ -1176,114 +1176,114 @@ nav:
               - 我的 Dotfiles:
                   - z7z8/related-cs/dotfiles/my-dotfiles/index.md
               - Dotfiles 示例:
-                    - z7z8/related-cs/dotfiles/example/index.md
+                  - z7z8/related-cs/dotfiles/example/index.md
           - 数据序列化格式:
-                - z7z8/related-cs/serialization/index.md
-                - JSON: z7z8/related-cs/serialization/json.md
-                - XML: z7z8/related-cs/serialization/xml.md
-                - YAML: z7z8/related-cs/serialization/yaml.md
-                - TOML: z7z8/related-cs/serialization/toml.md
-                - INI: z7z8/related-cs/serialization/ini.md
-                - CSV: z7z8/related-cs/serialization/csv.md
-                - TSV: z7z8/related-cs/serialization/tsv.md
-                - MessagePack: z7z8/related-cs/serialization/msgpack.md
-                - BSON: z7z8/related-cs/serialization/bson.md
-                - Protocol Buffers: z7z8/related-cs/serialization/protobuf.md
-                - Avro: z7z8/related-cs/serialization/avro.md
-                - Thrift: z7z8/related-cs/serialization/thrift.md
-                - Cap'n Proto: z7z8/related-cs/serialization/capnproto.md
-                - FlatBuffers: z7z8/related-cs/serialization/flatbuffers.md
-                - SBE: z7z8/related-cs/serialization/sbe.md
-                - CBOR: z7z8/related-cs/serialization/cbor.md
-                - Smile: z7z8/related-cs/serialization/smile.md
-                - UBJSON: z7z8/related-cs/serialization/ubjson.md
-                - Hessian: z7z8/related-cs/serialization/hessian.md
-                - Kryo: z7z8/related-cs/serialization/kryo.md
-                - FST: z7z8/related-cs/serialization/fst.md
-                - XStream: z7z8/related-cs/serialization/xstream.md
-                - Jackson: z7z8/related-cs/serialization/jackson.md
-                - Gson: z7z8/related-cs/serialization/gson.md
-                - Fastjson: z7z8/related-cs/serialization/fastjson.md
-                - Moshi: z7z8/related-cs/serialization/moshi.md
+              - z7z8/related-cs/serialization/index.md
+              - JSON: z7z8/related-cs/serialization/json.md
+              - XML: z7z8/related-cs/serialization/xml.md
+              - YAML: z7z8/related-cs/serialization/yaml.md
+              - TOML: z7z8/related-cs/serialization/toml.md
+              - INI: z7z8/related-cs/serialization/ini.md
+              - CSV: z7z8/related-cs/serialization/csv.md
+              - TSV: z7z8/related-cs/serialization/tsv.md
+              - MessagePack: z7z8/related-cs/serialization/msgpack.md
+              - BSON: z7z8/related-cs/serialization/bson.md
+              - Protocol Buffers: z7z8/related-cs/serialization/protobuf.md
+              - Avro: z7z8/related-cs/serialization/avro.md
+              - Thrift: z7z8/related-cs/serialization/thrift.md
+              - Cap'n Proto: z7z8/related-cs/serialization/capnproto.md
+              - FlatBuffers: z7z8/related-cs/serialization/flatbuffers.md
+              - SBE: z7z8/related-cs/serialization/sbe.md
+              - CBOR: z7z8/related-cs/serialization/cbor.md
+              - Smile: z7z8/related-cs/serialization/smile.md
+              - UBJSON: z7z8/related-cs/serialization/ubjson.md
+              - Hessian: z7z8/related-cs/serialization/hessian.md
+              - Kryo: z7z8/related-cs/serialization/kryo.md
+              - FST: z7z8/related-cs/serialization/fst.md
+              - XStream: z7z8/related-cs/serialization/xstream.md
+              - Jackson: z7z8/related-cs/serialization/jackson.md
+              - Gson: z7z8/related-cs/serialization/gson.md
+              - Fastjson: z7z8/related-cs/serialization/fastjson.md
+              - Moshi: z7z8/related-cs/serialization/moshi.md
           - 媒体格式介绍:
-                - z7z8/related-cs/media/index.md
-                - 图片格式:
-                    - z7z8/related-cs/media/image/index.md
-                - 音频格式:
-                    - z7z8/related-cs/media/audio/index.md
-                - 视频格式:
-                    - z7z8/related-cs/media/video/index.md
-                    - 视频格式介绍:
-                        - z7z8/related-cs/media/video/format/index.md
-                    - 视频编码: z7z8/related-cs/media/video/codec.md
-                    - 视频容器: z7z8/related-cs/media/video/container.md
-                    - 视频分辨率: z7z8/related-cs/media/video/resolution.md
-                    - 视频帧率: z7z8/related-cs/media/video/framerate.md
-                    - 视频比特率: z7z8/related-cs/media/video/bitrate.md
-                    - 视频编码器: z7z8/related-cs/media/video/encoder.md
-                    - 视频解码器: z7z8/related-cs/media/video/decoder.md
-                - 字体格式:
-                    - z7z8/related-cs/media/font/index.md
-                    - 连字: z7z8/related-cs/media/font/ligature.md
-                - 动画格式:
-                    - z7z8/related-cs/media/animation/index.md
-                - 3D 格式:
-                    - z7z8/related-cs/media/3d/index.md
-                - 矢量图形格式:
-                    - z7z8/related-cs/media/vector/index.md
+              - z7z8/related-cs/media/index.md
+              - 图片格式:
+                  - z7z8/related-cs/media/image/index.md
+              - 音频格式:
+                  - z7z8/related-cs/media/audio/index.md
+              - 视频格式:
+                  - z7z8/related-cs/media/video/index.md
+                  - 视频格式介绍:
+                      - z7z8/related-cs/media/video/format/index.md
+                  - 视频编码: z7z8/related-cs/media/video/codec.md
+                  - 视频容器: z7z8/related-cs/media/video/container.md
+                  - 视频分辨率: z7z8/related-cs/media/video/resolution.md
+                  - 视频帧率: z7z8/related-cs/media/video/framerate.md
+                  - 视频比特率: z7z8/related-cs/media/video/bitrate.md
+                  - 视频编码器: z7z8/related-cs/media/video/encoder.md
+                  - 视频解码器: z7z8/related-cs/media/video/decoder.md
+              - 字体格式:
+                  - z7z8/related-cs/media/font/index.md
+                  - 连字: z7z8/related-cs/media/font/ligature.md
+              - 动画格式:
+                  - z7z8/related-cs/media/animation/index.md
+              - 3D 格式:
+                  - z7z8/related-cs/media/3d/index.md
+              - 矢量图形格式:
+                  - z7z8/related-cs/media/vector/index.md
           - 电子邮件介绍:
               - z7z8/related-cs/email/index.md
               - Gmail: z7z8/related-cs/email/gmail.md
           - 磁盘小传:
-                - z7z8/related-cs/disk/index.md
-                - 硬盘: z7z8/related-cs/disk/hdd.md
-                - 固态硬盘: z7z8/related-cs/disk/ssd.md
-                - 闪存: z7z8/related-cs/disk/flash.md
-                - 光盘: z7z8/related-cs/disk/cd.md
-                - 磁带: z7z8/related-cs/disk/tape.md
+              - z7z8/related-cs/disk/index.md
+              - 硬盘: z7z8/related-cs/disk/hdd.md
+              - 固态硬盘: z7z8/related-cs/disk/ssd.md
+              - 闪存: z7z8/related-cs/disk/flash.md
+              - 光盘: z7z8/related-cs/disk/cd.md
+              - 磁带: z7z8/related-cs/disk/tape.md
           - 正则表达式:
-                - z7z8/related-cs/regex/index.md
+              - z7z8/related-cs/regex/index.md
           - p2p 网络:
-                - z7z8/related-cs/p2p/index.md
-                - PT: z7z8/related-cs/p2p/pt.md
+              - z7z8/related-cs/p2p/index.md
+              - PT: z7z8/related-cs/p2p/pt.md
           - 代码 & 博客风格指南:
-                - z7z8/related-cs/style-guide/index.md
-                - 代码风格指南:
-                    - z7z8/related-cs/style-guide/code/index.md
-                - 博客风格指南:
-                    - z7z8/related-cs/style-guide/blog/index.md
+              - z7z8/related-cs/style-guide/index.md
+              - 代码风格指南:
+                  - z7z8/related-cs/style-guide/code/index.md
+              - 博客风格指南:
+                  - z7z8/related-cs/style-guide/blog/index.md
           - 字符编码小传:
-                - z7z8/related-cs/char-encoding/index.md
-                - Emoji: z7z8/related-cs/char-encoding/emoji.md
+              - z7z8/related-cs/char-encoding/index.md
+              - Emoji: z7z8/related-cs/char-encoding/emoji.md
           - 文件系统:
-                - z7z8/related-cs/fs/index.md
-                - FAT: z7z8/related-cs/fs/fat.md
-                - NTFS: z7z8/related-cs/fs/ntfs.md
-                - ext: z7z8/related-cs/fs/ext.md
-                - HFS: z7z8/related-cs/fs/hfs.md
-                - APFS: z7z8/related-cs/fs/apfs.md
-                - ZFS: z7z8/related-cs/fs/zfs.md
-                - Btrfs: z7z8/related-cs/fs/btrfs.md
-                - ReFS: z7z8/related-cs/fs/refs.md
-                - XFS: z7z8/related-cs/fs/xfs.md
-                - JFS: z7z8/related-cs/fs/jfs.md
-                - UFS: z7z8/related-cs/fs/ufs.md
-                - F2FS: z7z8/related-cs/fs/f2fs.md
-                - exFAT: z7z8/related-cs/fs/exfat.md
-                - ISO 9660: z7z8/related-cs/fs/iso9660.md
-                - UDF: z7z8/related-cs/fs/udf.md
-                - NFS: z7z8/related-cs/fs/nfs.md
-                - SMB: z7z8/related-cs/fs/smb.md
-                - AFP: z7z8/related-cs/fs/afp.md
-                - WebDAV: z7z8/related-cs/fs/webdav.md
-                - FTP: z7z8/related-cs/fs/ftp.md
-                - SFTP: z7z8/related-cs/fs/sftp.md
-                - SCP: z7z8/related-cs/fs/scp.md
-                - Rsync: z7z8/related-cs/fs/rsync.md
-                - SSHFS: z7z8/related-cs/fs/sshfs.md
-                - CIFS: z7z8/related-cs/fs/cifs.md
-                - AFS: z7z8/related-cs/fs/afs.md
-                - DFS: z7z8/related-cs/fs/dfs.md
+              - z7z8/related-cs/fs/index.md
+              - FAT: z7z8/related-cs/fs/fat.md
+              - NTFS: z7z8/related-cs/fs/ntfs.md
+              - ext: z7z8/related-cs/fs/ext.md
+              - HFS: z7z8/related-cs/fs/hfs.md
+              - APFS: z7z8/related-cs/fs/apfs.md
+              - ZFS: z7z8/related-cs/fs/zfs.md
+              - Btrfs: z7z8/related-cs/fs/btrfs.md
+              - ReFS: z7z8/related-cs/fs/refs.md
+              - XFS: z7z8/related-cs/fs/xfs.md
+              - JFS: z7z8/related-cs/fs/jfs.md
+              - UFS: z7z8/related-cs/fs/ufs.md
+              - F2FS: z7z8/related-cs/fs/f2fs.md
+              - exFAT: z7z8/related-cs/fs/exfat.md
+              - ISO 9660: z7z8/related-cs/fs/iso9660.md
+              - UDF: z7z8/related-cs/fs/udf.md
+              - NFS: z7z8/related-cs/fs/nfs.md
+              - SMB: z7z8/related-cs/fs/smb.md
+              - AFP: z7z8/related-cs/fs/afp.md
+              - WebDAV: z7z8/related-cs/fs/webdav.md
+              - FTP: z7z8/related-cs/fs/ftp.md
+              - SFTP: z7z8/related-cs/fs/sftp.md
+              - SCP: z7z8/related-cs/fs/scp.md
+              - Rsync: z7z8/related-cs/fs/rsync.md
+              - SSHFS: z7z8/related-cs/fs/sshfs.md
+              - CIFS: z7z8/related-cs/fs/cifs.md
+              - AFS: z7z8/related-cs/fs/afs.md
+              - DFS: z7z8/related-cs/fs/dfs.md
           - uuid 是什么?: z7z8/related-cs/uuid.md
       - ⛏️ 挖矿:
           - z7z8/mining/index.md
@@ -1291,9 +1291,9 @@ nav:
           - z7z8/seo/index.md
           - 搜索引擎列表: z7z8/seo/search-engine.md
       - RSS:
-            - z7z8/rss/index.md
-            - RSS 阅读器: z7z8/rss/reader.md
-            - RSS 订阅源: z7z8/rss/feed.md
+          - z7z8/rss/index.md
+          - RSS 阅读器: z7z8/rss/reader.md
+          - RSS 订阅源: z7z8/rss/feed.md
       - 🆓 不完全白嫖指南:
           - z7z8/free/index.md
           - 下载器: z7z8/free/downloader.md
@@ -1301,11 +1301,11 @@ nav:
           - 音乐: z7z8/free/music.md
           - 书籍: z7z8/free/book.md
       - 📢 不完全效率指南:
-            - z7z8/efficiency/index.md
-            - 高效搜索术: z7z8/efficiency/info-search.md
-            - 高效使用 ChatGPT: z7z8/efficiency/chatgpt.md
-            - 邮件管理: z7z8/efficiency/email.md
-            - 文章分发: z7z8/efficiency/article-distribution.md
+          - z7z8/efficiency/index.md
+          - 高效搜索术: z7z8/efficiency/info-search.md
+          - 高效使用 ChatGPT: z7z8/efficiency/chatgpt.md
+          - 邮件管理: z7z8/efficiency/email.md
+          - 文章分发: z7z8/efficiency/article-distribution.md
   - 💾 Vault:
       - vault/index.md
       - 知乎:
