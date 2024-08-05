@@ -37,14 +37,14 @@ Repo 地址在这里：[:material-github: **Notebook**](https://github.com/L6y6j
 
 1. 克隆项目到本地并切换到项目目录：
 
-```bash
+```bash linenums="1"
 git clone https://github.com/L6y6j6/L6y6j6.github.io.git
 cd L6y6j6.github.io
 ```
 
 2. 创建并激活虚拟环境：
 
-```bash
+```bash linenums="1"
 python3 -m venv . # 在当前目录创建虚拟环境
 source bin/activate # 激活虚拟环境（Linux，macOS）
 # 或者
@@ -53,13 +53,13 @@ source bin/activate # 激活虚拟环境（Linux，macOS）
 
 3. 安装依赖：
 
-```bash
+```bash linenums="1"
 pip install -r requirements.txt
 ```
 
 4. 构建并启动项目：
 
-```bash
+```bash linenums="1"
 mkdocs serve
 ```
 

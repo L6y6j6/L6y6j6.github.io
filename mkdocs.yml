@@ -13,9 +13,13 @@ theme: # 主题设置
   language: "zh" # 语言
   icon:
     logo: material/notebook-outline
+    repo: fontawesome/brands/github-alt
+    edit: material/lead-pencil
+    view: fontawesome/regular/eye
   favicon: assets/images/favicon.ico
   custom_dir: overrides
   features:
+    - content.action.edit
     - content.code.select
     - content.code.copy
     - content.code.annotate
@@ -30,6 +34,7 @@ theme: # 主题设置
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
@@ -38,6 +43,7 @@ theme: # 主题设置
     - search.suggest
     - search.highlight
     - search.share
+    - announce.dismiss
   font: false # 使用默认字体
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -72,13 +78,24 @@ extra:
           data: 0
           note: >-
             感谢您的反馈！请通过使用我们的<a href="..." target="_blank" rel="noopener">反馈表</a>帮助我们改进这个页面。
-  version:
-    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/L6y6j6
+      # name: GitHub
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/yanjinli
+    - icon: fontawesome/regular/envelope
+      link: mailto:yanjinli502@gmail.com
+  generator: true # 是否显示页脚 Made with Material for MkDocs 通知
+  # version:
+  #   provider: mike
 
 markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
+  - abbr
+  - footnotes
   - meta
   - def_list
   - attr_list
@@ -94,6 +111,10 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -107,6 +128,8 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.betterem:
+      smart_enable: all
 
 validation:
   nav:
@@ -151,6 +174,12 @@ plugins:
   - search
   - blog
   - tags
+  - offline
+  - git-authors
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
   # - social
   - glightbox:
       width: 80%
@@ -162,6 +191,9 @@ plugins:
       exclude:
         - index.md
         - writeups/AAA.md
+  # - git-committers:
+  #     repository: L6y6j6/L6y6j6.github.io
+  #     branch: main
   - changelog
 
 # not_in_nav: todo.md
