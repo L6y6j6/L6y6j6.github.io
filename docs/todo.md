@@ -6,10 +6,13 @@
 
     - [ ] 开始写 Arch Linux 安装教程
     - [ ] 写个人简介 about.md
-    - [ ] 根据 Material for MkDocs 的文档，修改主题，写站点示例 example.md
-    - [ ] 完成各分区的 index.md，细化分区情况
+    - [ ] 根据 Material for MkDocs 的文档，修改主题
+    - [ ] 写站点示例 example.md
+    - [x] 完成各分区的 index.md，细化分区情况
     - [ ] 电脑小队培训大纲写作
-    - [ ] MkDocs 指南 + 翻译 Material for MkDocs 文档
+    - [ ] MkDocs 指南
+    - [ ] 翻译 MkDocs 文档
+    - [ ] 翻译 Material for MkDocs 文档
 
 ## 关于该站
 

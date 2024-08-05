@@ -19,17 +19,61 @@ theme: # 主题设置
     - content.code.select
     - content.code.copy
     - content.code.annotate
+    # - navigation.expand
+    - navigation.prune # 仅将可见的导航项包含在呈现的 HTML 中
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.indexes
-    - navigation.top
+    - navigation.top # 当用户在向下滚动后再次开始向上滚动时，可以显示返回顶部按钮。
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - search.suggest
     - search.highlight
     - search.share
     - header.autohide
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
   font: false # 使用默认字体
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      primary: indigo # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
+      accent: indigo
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      accent: indigo
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 亮色模式
+
+extra:
+  analytics:
+    provider: google
+    property: G-T87G1452XL
+    feedback:
+      title: 本篇文章有帮助吗？ # Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 该文章有帮助 # This page was helpful
+          data: 1
+          note: >-
+            谢谢反馈！
+        - icon: material/emoticon-sad-outline
+          name: 该文章仍有待改进 # This page could be improved
+          data: 0
+          note: >-
+            感谢您的反馈！请通过使用我们的<a href="..." target="_blank" rel="noopener">反馈表</a>帮助我们改进这个页面。
+  version:
+    provider: mike
 
 markdown_extensions:
   - toc:
@@ -97,8 +141,17 @@ extra_javascript:
   # - js/scheme.js # this is in template 'base.html'
 
 plugins:
-  # - rss
+  # - rss:
+  #     match_path: /.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
   - search
+  - blog
+  - tags
+  # - social
   - glightbox:
       width: 80%
   - git-revision-date-localized:
