@@ -29,5 +29,3 @@ git push origin gh-pages
 
 # 清理临时目录
 rm -rf $temp_dir
-
-echo "已清除 cache！"
