@@ -49,3 +49,7 @@ mkdocs serve
 5. Preview in the browser
 
 Open your browser and enter `http://127.0.0.1:8000/mydocs/` to preview.
+
+## Statement
+
+All articles in this notebook adhere to the [Chinese Technical Documentation Writing Standards](https://github.com/ruanyf/document-style-guide)

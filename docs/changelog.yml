@@ -1,20 +1,13 @@
 - "2024":
-    - "2024-08-03":
+    - "2024-08-04":
+        - function: 各分区标题添加 emoji 😄
         - newpage:
             text: 完善文档结构
             href: /mydocs/
+        - pageupdate:
+            text: 完成 Home 页建设！
+            href: /mydocs/
     - "2024-07-30":
         - newpage:
-            text: PC Guide > Install OS（待更新）
-            href: /mydocs/pc-guide/os-install/
-    - "2024-01-16":
-        - pageupdate:
-            text: CS > 理论计算机相关 > 计算理论课程笔记 完结！
-            href: /cs/tcs/toc/
-- "2023":
-    - "2023-11-27":
-        - newpage:
-            text: TPCTF 2023 Writeup
-            href: /writeups/tpctf2023/
-    - "2023-10-26":
-        - function: 各分区首页 UI 大更新！
+            text: 💻 PC > 🧑‍💻 电脑小队（待更新）
+            href: /mydocs/pc-guide/pc-squad/

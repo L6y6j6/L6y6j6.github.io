@@ -122,10 +122,10 @@ nav:
       - 📊 站点示例: example.md
       - 👤 个人简介: about.md
       - 📧 联系方式: contact.md
-      - 🔌 我的设备: equipment.md
+      - 🔌 我的装备: equipment.md
   - 💻 PC:
       - pc-guide/index.md
-      - 🛍️ 选购电脑:
+      - 💰 选购电脑:
           - pc-guide/buy/index.md
           - 🔧 装机 DIY:
               - pc-guide/buy/diy/index.md
@@ -1306,6 +1306,14 @@ nav:
           - 高效使用 ChatGPT: z7z8/efficiency/chatgpt.md
           - 邮件管理: z7z8/efficiency/email.md
           - 文章分发: z7z8/efficiency/article-distribution.md
+  - 🗣️ Translate:
+      - translate/index.md
+      - MkDocs 文档翻译:
+          - translate/mkdocs/index.md
+          - MkDocs 中文文档:
+              - translate/mkdocs/zh-cn/index.md
+          - Material for MkDocs 中文文档:
+              - translate/mkdocs/material-zh-cn/index.md
   - 💾 Vault:
       - vault/index.md
       - 知乎:

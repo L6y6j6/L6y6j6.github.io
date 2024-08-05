@@ -51,3 +51,7 @@ mkdocs serve
 5. 在浏览器中预览
 
 打开浏览器，输入 `http://127.0.0.1:8000/mydocs/` 即可预览。
+
+## 声明
+
+本笔记本的所有文章均遵循[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
