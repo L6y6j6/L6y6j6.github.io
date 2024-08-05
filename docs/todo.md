@@ -31,33 +31,33 @@
 
 ??? list "List"
 
-		- [ ] MIT Missing Semester
-			- [x] Lecture 1: Course Overview & The Shell
-			- [x] Lecture 2: Shell Tools and Scripting
-			- [x] Lecture 3: Editors (Vim)
-			- [ ] Lecture 4: Data Wrangling
-			- [ ] Lecture 5: Command-line Environment
-			- [x] Lecture 6: Version Control (Git)
-			- [ ] Lecture 7: Debugging and Profiling
-			- [ ] Lecture 8: Metaprogramming
-			- [ ] Lecture 9: Security and Cryptography
-			- [ ] Lecture 10: Potpourri
-			- [ ] Lecture 11: Q&A
-		- [ ] Harvard CS50
-			- [x] Week 0: Scratch
-			- [ ] Week 1: C
-			- [ ] Week 2: Arrays
-			- [ ] ······
-		- [ ] UCB CS61A
-			- [ ] Lecture 1: Functions
-			- [ ] Lecture 2: Control
-			- [ ] Lecture 3: Higher-Order Functions
-			- [ ] ······
-		- [ ] MIT Linear Algebra
-			- [ ] Lecture 1: The Geometry of Linear Equations
-			- [ ] Lecture 2: Matrix Algebra
-			- [ ] Lecture 3: Determinants
-			- [ ] ······
+	- [ ] MIT Missing Semester
+		- [x] Lecture 1: Course Overview & The Shell
+		- [x] Lecture 2: Shell Tools and Scripting
+		- [x] Lecture 3: Editors (Vim)
+		- [ ] Lecture 4: Data Wrangling
+		- [ ] Lecture 5: Command-line Environment
+		- [x] Lecture 6: Version Control (Git)
+		- [ ] Lecture 7: Debugging and Profiling
+		- [ ] Lecture 8: Metaprogramming
+		- [ ] Lecture 9: Security and Cryptography
+		- [ ] Lecture 10: Potpourri
+		- [ ] Lecture 11: Q&A
+	- [ ] Harvard CS50
+		- [x] Week 0: Scratch
+		- [ ] Week 1: C
+		- [ ] Week 2: Arrays
+		- [ ] ······
+	- [ ] UCB CS61A
+		- [ ] Lecture 1: Functions
+		- [ ] Lecture 2: Control
+		- [ ] Lecture 3: Higher-Order Functions
+		- [ ] ······
+	- [ ] MIT Linear Algebra
+		- [ ] Lecture 1: The Geometry of Linear Equations
+		- [ ] Lecture 2: Matrix Algebra
+		- [ ] Lecture 3: Determinants
+		- [ ] ······
 
 ## 关于该站
 
