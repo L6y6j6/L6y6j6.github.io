@@ -16,6 +16,34 @@ theme: # 主题设置
     repo: fontawesome/brands/github-alt
     edit: material/lead-pencil
     view: fontawesome/regular/eye
+    admonition:
+      # <type>: <icon>
+      # fontawesome
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+      # octicons
+      # note: octicons/tag-16
+      # abstract: octicons/checklist-16
+      # info: octicons/info-16
+      # tip: octicons/squirrel-16
+      # success: octicons/check-16
+      # question: octicons/question-16
+      # warning: octicons/alert-16
+      # failure: octicons/x-circle-16
+      # danger: octicons/zap-16
+      # bug: octicons/bug-16
+      # example: octicons/beaker-16
+      # quote: octicons/quote-16
   favicon: assets/images/favicon.ico
   custom_dir: overrides
   features:
@@ -87,6 +115,10 @@ extra:
     - icon: fontawesome/regular/envelope
       link: mailto:yanjinli502@gmail.com
   generator: true # 是否显示页脚 Made with Material for MkDocs 通知
+  status:
+    # <identifier>: <description>
+    # identifier 只能包含字母数字字符，破折号和下划线
+    new: Recently added
   # version:
   #   provider: mike
 
@@ -918,7 +950,6 @@ nav:
               - GitHub Campus Expert: cs/tools/github/campus-expert.md
               - GitHub Teacher Toolbox: cs/tools/github/teacher-toolbox.md
               - GitHub Classroom: cs/tools/github/classroom.md
-              - GitHub Enterprise: cs/tools/github/enterprise.md
               - GitHub Profile: cs/tools/github/profile.md
           - GNU Make: cs/tools/GNU_Make.md
           - CMake: cs/tools/CMake.md
