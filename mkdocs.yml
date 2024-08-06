@@ -16,6 +16,7 @@ theme: # 主题设置
     repo: fontawesome/brands/github-alt
     edit: material/lead-pencil
     view: fontawesome/regular/eye
+    annotation: material/star-four-points-circle # material/plus-circle
     admonition:
       # <type>: <icon>
       # fontawesome
@@ -47,8 +48,9 @@ theme: # 主题设置
   favicon: assets/images/favicon.ico
   custom_dir: overrides
   features:
+    - content.tooltips # enable improved tooltips
     - content.action.edit
-    - content.code.select
+    # - content.code.select # insiders
     - content.code.copy
     - content.code.annotate
     # - navigation.expand
@@ -105,7 +107,7 @@ extra:
           name: 该文章仍有待改进 # This page could be improved
           data: 0
           note: >-
-            感谢您的反馈！请通过使用我们的<a href="..." target="_blank" rel="noopener">反馈表</a>帮助我们改进这个页面。
+            感谢您的反馈！
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/L6y6j6
@@ -139,7 +141,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
@@ -174,6 +178,7 @@ validation:
     unrecognized_links: ignore
 
 extra_css: # 额外 CSS
+  - stylesheets/extra.css
   - https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
   - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
   # - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css # 霞鹜文楷屏幕阅读版
@@ -187,13 +192,22 @@ extra_css: # 额外 CSS
   - css/flink.css
   - css/changelog_extra.css
   # - css/heti.css
+  # 官方 KaTeX 配置
+  # - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
-  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
+  # - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
   # - https://cdn.tonycrane.cc/utils/katex.min.js
-  - js/katex.js
+  # - js/katex.js
   # - js/heti.js
   # - js/scheme.js # this is in template 'base.html'
+  # 官方 KaTeX 配置
+  # - js/katex-material.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  # 官方 MathJax 配置
+  - js/mathjax-material.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
   # - rss:
@@ -227,6 +241,9 @@ plugins:
   #     repository: L6y6j6/L6y6j6.github.io
   #     branch: main
   - changelog
+
+watch:
+  - includes
 
 # not_in_nav: todo.md
 

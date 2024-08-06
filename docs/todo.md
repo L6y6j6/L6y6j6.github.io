@@ -2,7 +2,7 @@
 
 ## 站点文章
 
-??? list "List"
+!!! list "List"
 
 	- [ ] 开始写 Arch Linux 安装教程
 	- [ ] 写个人简介 about.md
@@ -61,7 +61,7 @@
 
 ## 关于该站
 
-??? list "List"
+!!! list "List"
 
 	- [x] 暗色主题与自动暗色模式
 	- [ ] 字体大小调整

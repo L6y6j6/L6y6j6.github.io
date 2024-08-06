@@ -11,8 +11,8 @@ statistics: true
 <h2 align="center">欢迎来到 LYJ 的个人笔记本！</h2>
 
 <!-- [:octicons-info-16: 关于我](about/) /  -->
-[:material-clock-time-two-outline: 最近更新](changelog/) /
-[:octicons-link-16: 朋友们!](links/) /
+[:material-clock-time-two-outline: 最近更新](changelog.html) /
+[:octicons-link-16: 朋友们!](links.html) /
 [:material-chart-line: 站点统计](javascript:toggle_statistics();)
 
 ### 简介
