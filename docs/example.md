@@ -655,17 +655,381 @@ def bubble_sort(items):
 
 ### 添加注释
 
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
 
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be written in Markdown.
+
+若要去除注释字符，只需在代码注释的右括号后添加一个 `!`：
+
+``` yaml
+# (1)!
+```
+
+1.  Look ma, less line noise!
+
+> 只能用于单个代码注释，多个注释时无效。
+
+### 添加行号
+
+可以通过在短代码之后直接使用 `linenums="<start>"` 选项将行号添加到代码块中，而 `<start>` 表示起始行号。代码块可以从 `1` 以外的行号开始，这允许拆分大型代码块以提高可读性。
+
+### 高亮显示特定行
+
+通过将行号传递给紧跟在语言短代码之后的 `hl_lines` 参数，可以突出显示特定行。请注意，行计数从 `1` 开始，而不考虑作为 `linenums` 的一部分指定的起始行号。
+
+示例：
+
+高亮 2，3 行：`hl_lines="2 3"`
+
+高亮 3-5 行：`hl_lines="3-5"`
+
+### 高亮显示内联代码块
+
+可以通过在内联代码块前面加上 `shebang` 前缀（即 `#!`）和编程语言的短代码来高亮显示内联代码块。
+
+源码示例：
+
+```markdown
+The `#!python range()` function is used to generate a sequence of numbers.
+```
+
+预览效果：
+
+The `#!python range()` function is used to generate a sequence of numbers.
+
+### 嵌入外部文件
+
+可以直接从代码块中使用 `--8<--` 表示法嵌入其他文件（包括源文件）中的内容。
+
+预览示例：
+
+``` title=".gitignore"
+--8<-- ".gitignore"
+```
 
 ## 选项卡
 
+有时，我们希望将替代内容分组到不同的选项卡下，例如，在描述如何从不同的语言或环境访问 API 时。MkDocs 的材料允许美观且功能强大的标签、分组代码块和其他内容。
+
+### 锚链接
+
+为了链接到内容选项卡并更轻松地共享它们，每个内容选项卡都会自动添加一个锚链接，您可以通过右键单击复制该链接或在新选项卡中打开该链接。
+
+### 链接选项卡
+
+内容选项卡是根据其标签链接的。这意味着，当用户单击内容选项卡时，无论容器内的顺序如何，所有具有相同标签的选项卡都将被激活。此外，此功能与即时加载完全集成，并在页面加载过程中持续存在。
+
+### 代码块分组
+
+预览示例：
+
+=== "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
+### 其他内容分组
+
+预览示例：
+
+=== "Unordered list"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+### 嵌入内容
+
+预览示例：
+
+!!! example
+
+    === "Unordered List"
+
+        ``` markdown
+        * Sed sagittis eleifend rutrum
+        * Donec vitae suscipit est
+        * Nulla tempor lobortis orci
+        ```
+
+    === "Ordered List"
+
+        ``` markdown
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        ```
+
 ## 表格
+
+数据表可以在项目文档中的任何位置使用，并且可以包含任意 Markdown，包括内联代码块，以及图标和 Emoji。
+
+源码示例：
+
+```markdown
+| Method   | Description                          |
+| -------- | ------------------------------------ |
+| `GET`    | :material-check:     Fetch resource  |
+| `PUT`    | :material-check-all: Update resource |
+| `DELETE` | :material-close:     Delete resource |
+```
+
+预览效果：
+
+| Method   | Description                          |
+| -------- | ------------------------------------ |
+| `GET`    | :material-check:     Fetch resource  |
+| `PUT`    | :material-check-all: Update resource |
+| `DELETE` | :material-close:     Delete resource |
+
+### 列对齐
+
+如果要将特定列向左、居中或向右对齐，可以使用[Markdown 语法](https://www.markdownguide.org/extended-syntax/#tables)将 `:` 放置在分隔线的开头或结尾。
 
 ## 图表
 
+图表有助于传达不同技术组件之间的复杂关系和互连，是对项目文档的重要补充。`Material for MkDocs` 与 `Mermaid.js` 集成，这是一种非常流行且灵活的图表绘制解决方案。
+
+### 流程图
+
+流程图是表示工作流或流程的图表。这些步骤被呈现为各种类型的节点，并通过边连接，描述了必要的步骤顺序。
+
+预览示例：
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+### 序列图
+
+序列图将特定方案描述为多个对象之间的顺序交互，包括这些对象之间交换的消息。
+
+预览示例：
+
+``` mermaid
+sequenceDiagram
+  autonumber
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+### 状态图
+
+状态图用于描述系统的行为，将其分解为有限数量的状态，以及这些状态之间的转换。
+
+预览示例：
+
+``` mermaid
+stateDiagram-v2
+  state fork_state <<fork>>
+    [*] --> fork_state
+    fork_state --> State2
+    fork_state --> State3
+
+    state join_state <<join>>
+    State2 --> join_state
+    State3 --> join_state
+    join_state --> State4
+    State4 --> [*]
+```
+
+### 类图
+
+类图是面向对象编程的核心，它通过将实体建模为类以及它们之间的关系来描述系统的结构。
+
+预览示例：
+
+``` mermaid
+classDiagram
+  Person <|-- Student
+  Person <|-- Professor
+  Person : +String name
+  Person : +String phoneNumber
+  Person : +String emailAddress
+  Person: +purchaseParkingPass()
+  Address "1" <-- "0..1" Person:lives at
+  class Student{
+    +int studentNumber
+    +int averageMark
+    +isEligibleToEnrol()
+    +getSeminarsTaken()
+  }
+  class Professor{
+    +int salary
+  }
+  class Address{
+    +String street
+    +String city
+    +String state
+    +int postalCode
+    +String country
+    -validate()
+    +outputAsLabel()  
+  }
+```
+
+### 实体关系图
+
+实体关系图由实体类型组成，并指定实体之间存在的关系。它描述了特定知识领域中相互关联的事物。
+
+预览示例：
+
+``` mermaid
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  LINE-ITEM {
+    string name
+    int pricePerUnit
+  }
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+### 其他
+
+除了上面列出的图表类型外，`Mermaid.js` 还提供对饼图、甘特图、用户旅程、git 图和需求图的支持，所有这些都不受 `Material for MkDocs` 的官方支持。这些图表应该仍然可以像 `Mermaid.js` 宣传的那样工作，但我们不认为它们是一个好的选择，主要是因为它们在移动设备上运行不佳。
+
 ## 脚注
 
-## 格式化
+脚注是在不中断文档流程的情况下向特定单词、短语或句子添加补充或附加信息的好方法。`Material for MkDocs` 提供了定义、引用和呈现脚注的能力。
+
+脚注引用必须用方括号 `[]` 括起来，并且必须以插入符号 `^` 开头，直接后跟任意标识符，这类似于标准 Markdown 链接语法。
+
+源码示例：
+
+```markdown
+You know, smart people get a chance to climb on Top, take reality for a ride, but it’ll never sTop trying to throw you.[^1] And, eventually, it will. There’s no other way off.[^2] My advice -- Take off. Put a saddle on your universe. Let it kick itself out.
+
+[^1]: From Rick and Morty S03
+[^2]:
+    This is Rick!
+    This is Morty!
+```
+
+预览效果：
+
+You know, smart people get a chance to climb on Top, take reality for a ride, but it’ll never sTop trying to throw you.[^1] And, eventually, it will. There’s no other way off.[^2] My advice -- Take off. Put a saddle on your universe. Let it kick itself out.
+
+[^1]: From *Rick and Morty S03*
+[^2]:
+    This is Rick!
+    This is Morty!
+
+## 特殊渲染效果
+
+### 高亮显示更改
+
+增加了突出显示建议的更改以及向文档添加内联注释的功能
+
+源码示例：
+
+```markdown
+Text can be {--deleted--} and replacement text {++added++}. This can also be
+combined into {~~one~>a single~~} operation. {==Highlighting==} is also
+possible {>>and comments can be added inline<<}.
+```
+
+用 `{==······==}` 包围的文本将被高亮显示，用 `{--······--}` 包围的文本将被删除，用 `{++······++}` 包围的文本将被添加，用 `{~~······~>······~~}` 包围的文本将被替换。
+
+预览效果：
+
+Text can be {--deleted--} and replacement text {++added++}. This can also be
+combined into {~~one~>a single~~} operation. {==Highlighting==} is also
+possible {>>and comments can be added inline<<}.
+
+{==
+
+Formatting can also be applied to blocks by putting the opening and closing
+tags on separate lines and adding new lines between the tags and the content.
+
+==}
+
+### 高亮显示文本
+
+当启用 `Caret`、`Mark` 和 `Tilde` 时，可以使用简单的语法来高亮显示文本，这比直接使用相应的 `mark`、`ins` 和 `del` `HTML` 标签更方便。
+
+源码示例：
+
+```markdown
+- ==This was marked (highlight)==
+- ^^This was inserted (underline)^^
+- ~~This was deleted (strikethrough)~~
+```
+
+预览效果：
+
+- ==This was marked (highlight)==
+- ^^This was inserted (underline)^^
+- ~~This was deleted (strikethrough)~~
+
+### 下标和上标
+
+启用 `Caret` 和 `Tilde` 时，可以使用简单的语法对文本进行下标和上标，这比直接使用相应的 `sub` 和 `sup` `HTML` 标签更方便。
+
+源码示例：
+
+```markdown
+- H~2~O
+- A^T^A
+```
+
+预览效果：
+
+- H~2~O
+- A^T^A
+
+### 添加键盘键
+
+启用 `Keys` 后，可以使用简单的语法呈现键盘键。请参阅 [Python Markdown 扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)，了解所有可用的短代码。
+
+源码示例：
+
+```markdown
+++ctrl+alt+del++
+```
+
+预览效果：
+
+++ctrl+alt+del++
 
 ## 网格
 
@@ -677,9 +1041,9 @@ def bubble_sort(items):
 
 🔍 搜索图标和 Emoji: [https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
 
-### 表情符号
+### Emoji
 
-可以通过将表情符号的短代码放在两个冒号之间来将表情符号集成到 `Markdown` 中。如果您正在使用 [Twemoji](https://github.com/twitter/twemoji)（推荐），您可以在 [Emojipedia](https://emojipedia.org/twitter/) 上查找短代码。
+可以通过将Emoji的短代码放在两个冒号之间来将Emoji集成到 `Markdown` 中。如果您正在使用 [Twemoji](https://github.com/twitter/twemoji)（推荐），您可以在 [Emojipedia](https://emojipedia.org/twitter/) 上查找短代码。
 
 源码示例：
 

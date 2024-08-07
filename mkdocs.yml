@@ -53,6 +53,7 @@ theme: # 主题设置
     # - content.code.select # insiders
     - content.code.copy
     - content.code.annotate
+    - content.tabs.link
     # - navigation.expand
     - navigation.prune # 仅将可见的导航项包含在呈现的 HTML 中
     - navigation.tracking
@@ -128,6 +129,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
+  - tables
   - abbr
   - footnotes
   - meta
@@ -145,12 +147,19 @@ markdown_extensions:
       auto_append:
         - includes/abbreviations.md
   - pymdownx.magiclink
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols
   - pymdownx.caret
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
