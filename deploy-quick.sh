@@ -13,7 +13,7 @@ set -e
 temp_dir=$(mktemp -d)
 
 # 克隆仓库的 gh-pages 分支到临时目录
-git clone -b gh-pages --single-branch https://github.com/l6y6j6/l6y6j6.github.io.git $temp_dir
+git clone -b gh-pages --single-branch https://github.com/L6y6j6/L6y6j6.github.io.git $temp_dir
 
 # 创建目标目录（如果不存在）
 mkdir -p $temp_dir/mydocs
