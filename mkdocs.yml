@@ -203,6 +203,8 @@ extra_css: # 额外 CSS
   # - css/heti.css
   # 官方 KaTeX 配置
   # - https://unpkg.com/katex@0/dist/katex.min.css
+  # 网页圆角化设计
+  - css/round-corner.css
 
 extra_javascript:
   # - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
@@ -217,6 +219,11 @@ extra_javascript:
   # 官方 MathJax 配置
   - js/mathjax-material.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  # 背景特效
+  - js/bg-snowflake.js
+  # 光标样式
+  # - js/cursor-magic-2.0.0.js
+  # - https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js
 
 plugins:
   # - rss:
