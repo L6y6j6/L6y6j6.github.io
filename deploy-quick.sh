@@ -24,7 +24,7 @@ cp -r site/* $temp_dir/mydocs
 # 提交并推送更改
 cd $temp_dir
 git add .
-git commit -m "complete notebook structure"
+git commit -m "update site"
 git push origin gh-pages
 
 # 清理临时目录
