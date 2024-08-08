@@ -964,7 +964,7 @@ nav:
           - 翻墙: cs/tools/over-gfw.md
           - Vim: cs/tools/Vim.md
           - Emacs: cs/tools/Emacs.md
-          - Git: cs/tools/Git.md
+          - Git: cs/tools/git.md
           - GitHub:
               - cs/tools/github/index.md
               - GitHub: cs/tools/github/github.md
@@ -1449,6 +1449,7 @@ nav:
           - 影视: z7z8/free/film.md
           - 音乐: z7z8/free/music.md
           - 书籍: z7z8/free/book.md
+          - 软件: z7z8/free/software.md
       - 📢 不完全效率指南:
           - z7z8/efficiency/index.md
           - 高效搜索术: z7z8/efficiency/info-search.md
