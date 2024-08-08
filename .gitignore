@@ -1,3 +1,9 @@
-bin/
 lib/
+bin/
+site/
+.idea/
+.cache/
+.DS_Store
+deploy.sh
+deploy-quick.sh
 pyvenv.cfg
