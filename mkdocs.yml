@@ -421,6 +421,49 @@ nav:
               - 系统维护: pc-guide/windows/basic/maintain.md
           - 🔒 WSL:
               - pc-guide/windows/wsl/index.md
+              - 安装 WSL: pc-guide/windows/wsl/install.md
+              - 特性介绍: pc-guide/windows/wsl/feature.md
+              - 兼容性: pc-guide/windows/wsl/compatibility.md
+              - 推荐工具与相关项目: pc-guide/windows/wsl/tools.md
+              - 环境配置:
+                  - pc-guide/windows/wsl/devenv/index.md
+                  - 远程连接 IDE: pc-guide/windows/wsl/devenv/remote.md
+                  - WSLg: pc-guide/windows/wsl/devenv/wslg.md
+                  - 版本控制: pc-guide/windows/wsl/devenv/git.md
+                  - 数据库: pc-guide/windows/wsl/devenv/db.md
+                  - Docker 远程容器: pc-guide/windows/wsl/devenv/docker.md
+                  - GPU 加速: pc-guide/windows/wsl/devenv/gpu.md
+                  - 编程语言配置:
+                      - pc-guide/windows/wsl/devenv/lang/index.md
+                      - Python: pc-guide/windows/wsl/devenv/lang/python.md
+                      - C/C++: pc-guide/windows/wsl/devenv/lang/c-cpp.md
+                      - LaTeX: pc-guide/windows/wsl/devenv/lang/latex.md
+                      - .NET Core: pc-guide/windows/wsl/devenv/lang/dotnet.md
+                      - Rust: pc-guide/windows/wsl/devenv/lang/rust.md
+                      - Java: pc-guide/windows/wsl/devenv/lang/java.md
+                      - Go: pc-guide/windows/wsl/devenv/lang/go.md
+                      - Node.js: pc-guide/windows/wsl/devenv/lang/nodejs.md
+                      - Ruby: pc-guide/windows/wsl/devenv/lang/ruby.md
+                      - PHP: pc-guide/windows/wsl/devenv/lang/php.md
+                      - Perl: pc-guide/windows/wsl/devenv/lang/perl.md
+              - 其他功能:
+                  - pc-guide/windows/wsl/other/index.md
+                  - 跨文件系统工作: pc-guide/windows/wsl/other/fs.md
+                  - wsl.conf 与 .wslconfig: pc-guide/windows/wsl/other/config.md
+                  - 文件权限: pc-guide/windows/wsl/other/permission.md
+                  - 网络连接: pc-guide/windows/wsl/other/network.md
+                  - 使用 systemd 管理服务: pc-guide/windows/wsl/other/systemd.md
+                  - 生成自定义发行版: pc-guide/windows/wsl/other/custom-distro.md
+                  - 装载 Linux 磁盘: pc-guide/windows/wsl/other/mount-disk.md
+                  - 连接 USB 设备: pc-guide/windows/wsl/other/usb.md
+              - 管理 WSL:
+                  - pc-guide/windows/wsl/manage/index.md
+                  - 启动 WSL: pc-guide/windows/wsl/manage/start.md
+                  - 安装多个 WSL 发行版: pc-guide/windows/wsl/manage/distros.md
+                  - 导入和导出镜像: pc-guide/windows/wsl/manage/im-export.md
+                  - 调整区分大小写: pc-guide/windows/wsl/manage/case.md
+                  - 管理 WSL 磁盘空间: pc-guide/windows/wsl/manage/disk.md
+                  - 卸载 WSL: pc-guide/windows/wsl/manage/uninstall.md
               - 问题日志: pc-guide/windows/wsl/log.md
           - 💼 WSA:
               - pc-guide/windows/wsa/index.md
