@@ -117,7 +117,7 @@ extra:
       link: https://t.me/yanjinli
     - icon: fontawesome/regular/envelope
       link: mailto:yanjinli502@gmail.com
-  generator: true # 是否显示页脚 Made with Material for MkDocs 通知
+  generator: false # 是否显示页脚 Made with Material for MkDocs 通知
   status:
     # <identifier>: <description>
     # identifier 只能包含字母数字字符，破折号和下划线
