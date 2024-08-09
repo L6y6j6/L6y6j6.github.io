@@ -97,7 +97,7 @@ input.md-search__input {
 }
 
 .md-copyright {
-  font-size: 0.55rem;
+  font-size: 0.6rem;
 }
 
 body:not([data-md-prefers-color-scheme="true"])[data-md-color-scheme="slate"]

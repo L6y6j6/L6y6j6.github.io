@@ -1,6 +1,6 @@
 site_name: LYJ 的笔记本 # 网站名称
 site_url: https://l6y6j6.github.io/mydocs/ # 网站链接
-repo_name: L6y6j6.github.io # 仓库名称
+repo_name: Notebook # 仓库名称
 repo_url: https://github.com/L6y6j6/L6y6j6.github.io # 仓库链接
 edit_uri: tree/main/docs
 site_description: LYJ 的笔记本 # 网站描述
@@ -116,7 +116,7 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/yanjinli
     - icon: fontawesome/regular/envelope
-      link: mailto:yanjinli502@gmail.com
+      link: mailto:yanjinli502@stu.pku.edu.cn
   generator: false # 是否显示页脚 Made with Material for MkDocs 通知
   status:
     # <identifier>: <description>
@@ -271,7 +271,7 @@ nav:
       - 🔗 友情链接: links.md
       - 📊 站点示例: example.md
       - 👤 个人简介: about.md
-      - 📧 联系方式: contact.md
+      - 📁 我的项目: projects.md
       - 🔌 我的装备: equipment.md
   - 💻 PC:
       - pc-guide/index.md
@@ -403,6 +403,7 @@ nav:
               - 安装 NetBSD: pc-guide/os-install/unix/netbsd.md
       - 🧭 Windows 指南:
           - pc-guide/windows/index.md
+          - ✅ 验机与重装系统（可选）: pc-guide/windows/check.md
           - 🚀 系统及软件激活:
               - pc-guide/windows/activate/index.md
               - 激活 Windows: pc-guide/windows/activate/win.md
@@ -1007,7 +1008,7 @@ nav:
           - 翻墙: cs/tools/over-gfw.md
           - Vim: cs/tools/Vim.md
           - Emacs: cs/tools/Emacs.md
-          - Git: cs/tools/git.md
+          - Git: cs/tools/Git.md
           - GitHub:
               - cs/tools/github/index.md
               - GitHub: cs/tools/github/github.md
