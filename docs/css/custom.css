@@ -314,3 +314,15 @@ input#mkdocs-content-password {
 .toc-tag-reports::before {
   content: "实验报告";
 }
+
+/* 多图片并列且居中 */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 如果图片高度不一，可以去掉这行 */
+}
+
+/* 多图片并列时图片之间的间隔 */
+.image-container a {
+  margin: 0 4.5px; /* 上下保持0，左右各10px的间隔 */
+}

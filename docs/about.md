@@ -5,6 +5,8 @@ hide:
 
 # 关于我
 
+Wubba lubba dub dub. Gubba nub nub doo rah kah.
+
 你好 👋，我是 Cine Philia，一个热爱折腾的大学牲。
 
 目前就读于北京大学应用物理学专业，大二。
@@ -25,24 +27,120 @@ INTJ。
 
 ## 技术栈
 
+### 操作系统
+
+<!--
+<div class="image-container">
+  <a href="https://archlinux.org/" target="_blank"><img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux"></a>
+  <a href="https://ubuntu.com/" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu Pro 24.04 LTS"></a>
+  <a href="https://www.apple.com/macos/" target="_blank"><img src="https://skillicons.dev/icons?i=apple" alt="macOS Sonoma"></a>
+  <a href="https://www.microsoft.com/windows/" target="_blank"><img src="https://skillicons.dev/icons?i=windows" alt="Windows 11 Pro for Workstations"></a>
+  <a href="https://www.freebsd.org/" target="_blank"><img src="https://skillicons.dev/icons?i=bsd" alt="FreeBSD"></a>
+</div>
+-->
+
+<figure markdown="span">
+  ![桌面端操作系统](https://skillicons.dev/icons?i=arch,ubuntu,apple,windows&theme=dark)
+  <figcaption>桌面端</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![移动端操作系统](https://skillicons.dev/icons?i=androidstudio,apple&theme=dark)
+  <figcaption>移动端</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![服务器端操作系统](https://skillicons.dev/icons?i=redhat,bsd&theme=dark)
+  <figcaption>服务器</figcaption>
+</figure>
+
+### 计算机语言
+
+<figure markdown="span">
+  ![编程语言](https://skillicons.dev/icons?i=c,cpp,py,js,ts,java,rust,go&theme=dark)
+  <figcaption>编程语言</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![标记语言](https://skillicons.dev/icons?i=md,html,css,latex&theme=dark)
+  <figcaption>标记语言</figcaption>
+</figure>
+
+### IDE 与编辑器
+
+<div class="image-container">
+  <a href="https://code.visualstudio.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"></a>
+  <a href="https://neovim.io/" target="_blank"><img src="https://skillicons.dev/icons?i=neovim" alt="Neovim"></a>
+  <a href="https://www.jetbrains.com/idea/" target="_blank"><img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA Ultimate"></a>
+  <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm Professional"></a>
+  <a href="https://www.vim.org/" target="_blank"><img src="https://skillicons.dev/icons?i=vim" alt="Vim"></a>
+</div>
+
+### 笔记与写作
+
+<div class="image-container">
+  <a href="https://obsidian.md/" target="_blank"><img src="https://skillicons.dev/icons?i=obsidian" alt="Obsidian"></a>
+  <a href="https://www.notion.so/" target="_blank"><img src="https://skillicons.dev/icons?i=notion" alt="Notion"></a>
+  <a href="https://code.visualstudio.com/" target="_blank"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"></a>
+  <a href="https://www.markdownguide.org/" target="_blank"><img src="https://skillicons.dev/icons?i=md" alt="Markdown"></a>
+  <a href="https://www.latex-project.org/" target="_blank"><img src="https://skillicons.dev/icons?i=latex" alt="LaTeX"></a>
+</div>
+
+### 其他工具
+
+<div class="image-container">
+  <a href="https://github.com/" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"></a>
+  <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git"></a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://skillicons.dev/icons?i=bash" alt="Bash"></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"></a>
+  <a href="https://www.anaconda.com/" target="_blank"><img src="https://skillicons.dev/icons?i=anaconda" alt="Anaconda"></a>
+  <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><img src="https://skillicons.dev/icons?i=matlab" alt="MATLAB"></a>
+  <a href="https://cmake.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cmake" alt="CMake"></a>
+  <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"></a>
+  <a href="https://yarnpkg.com/" target="_blank"><img src="https://skillicons.dev/icons?i=yarn" alt="Yarn"></a>
+  <a href="https://vitejs.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=vite" alt="Vite"></a>
+  <a href="https://www.adobe.com/products/photoshop.html" target="_blank"><img src="https://skillicons.dev/icons?i=ps" alt="Photoshop"></a>
+</div>
+
 ## 迷影
+
+??? Tip "Caution!"
+
+    以下排名纯属个人YY，包含极大主观性，不喜勿喷。
+
+电影 Top 3：*花样年华*, *2001: A Space Odyssey（《2001 太空漫游》）*, *A Clockwork Orange（《发条橙》）*
+
+电视剧 Top 3：*Friends（《老友记》）*, *Breaking Bad（《绝命毒师》）*, *Better Call Saul（《风骚律师》）*
+
+动画 Top 1：*Rick and Morty（《瑞克和莫蒂》）*
+
+导演 Top 3：*Stanley Kubrick*, *王家卫*, *Quentin Tarantino*
+
+男演员 Top 3：*梁朝伟*, *Robert De Niro*, *Heath Ledger*
+
+女演员 Top 3：*张曼玉*, *Sophie Marceau*, *Natalie Portman*
+
+## 游戏
+
+最爱 [Minecraft](https://www.minecraft.net/zh-hans)，[Plants vs Zombies](https://www.ea.com/ea-studios/popcap/plants-vs-zombies) 与 [Sid Meier’s Civilization® VI](https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/)。
+
+## 运动
+
+喜欢登山，游泳，乒乓球。
 
 ## GitHub Stats
 
-<div align="center">
+<figure markdown="span">
+  ![GitHub Contributions](https://ghchart.rshah.org/LightYourJourney)
+  <figcaption>GitHub Contributions</figcaption>
+</figure>
 
-<img src="https://ghchart.rshah.org/LightYourJourney" alt="gh-contributions">
+<figure markdown="span">
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LightYourJourney&show_icons=true&theme=aura&hide_border=1&border_radius=13)
+  <figcaption>GitHub Stats</figcaption>
+</figure>
 
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LightYourJourney&layout=compact&hide=html&theme=aura&hide_border=1&border_radius=13" alt="lang-stats">
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=LightYourJourney&show_icons=true&theme=aura&hide_border=1&border_radius=13" alt="gh-stats">
-
-</div>
+<figure markdown="span">
+  ![Lang Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=LightYourJourney&layout=compact&hide=html&theme=aura&hide_border=1&border_radius=13)
+  <figcaption>Lang Stats</figcaption>
+</figure>
