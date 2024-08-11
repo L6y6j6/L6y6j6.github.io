@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown>
 
--   :desktop:{ .lg .middle } **<span style="font-size: 19px;">惠普暗影精灵 9</span>**
+-   :simple-hp:{ .lg .middle } **<span style="font-size: 19px;">惠普暗影精灵 9</span>**
 
     ---
 
@@ -27,7 +27,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">MacBook Pro 2020</span>**
+-   :fontawesome-brands-apple:{ .lg .middle } **<span style="font-size: 19px;">MacBook Pro 2020</span>**
 
     ---
 
@@ -48,7 +48,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">ThinkPad L480</span>**
+-   :simple-thinkpad:{ .lg .middle } **<span style="font-size: 19px;">ThinkPad L480</span>**
 
     ---
 
@@ -67,7 +67,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">Thinkpad X240</span>**
+-   :simple-thinkpad:{ .lg .middle } **<span style="font-size: 19px;">Thinkpad X240</span>**
 
     ---
 
@@ -86,7 +86,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">Thinkpad X201</span>**
+-   :simple-thinkpad:{ .lg .middle } **<span style="font-size: 19px;">Thinkpad X201</span>**
 
     ---
 
@@ -107,7 +107,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">惠普暗影精灵 2</span>**
+-   :simple-hp:{ .lg .middle } **<span style="font-size: 19px;">惠普暗影精灵 2</span>**
 
     ---
 
@@ -128,7 +128,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">机械革命笔记本</span>**
+-   :material-laptop:{ .lg .middle } **<span style="font-size: 19px;">机械革命笔记本</span>**
 
     ---
 
@@ -151,7 +151,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">Lenovo 27 英寸 显示器</span>**
+-   :simple-lenovo:{ .lg .middle } **<span style="font-size: 19px;">Lenovo 27 英寸 显示器</span>**
 
     ---
 
@@ -170,7 +170,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">AOC 21.5 英寸 显示器</span>**
+-   :material-monitor-screenshot:{ .lg .middle } **<span style="font-size: 19px;">AOC 21.5 英寸 显示器</span>**
 
     ---
 
@@ -187,7 +187,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">希捷移动硬盘 5TB</span>**
+-   :simple-seagate:{ .lg .middle } **<span style="font-size: 19px;">希捷移动硬盘 5TB</span>**
 
     ---
 
@@ -208,7 +208,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">拓展坞 x2</span>**
+-   :material-hand-extended:{ .lg .middle } **<span style="font-size: 19px;">拓展坞 x2</span>**
 
     ---
 
@@ -229,7 +229,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">机械键盘 x3</span>**
+-   :keyboard:{ .lg .middle } **<span style="font-size: 19px;">机械键盘 x3</span>**
 
     ---
 
@@ -250,7 +250,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">蓝牙耳机</span>**
+-   :simple-bluetooth:{ .lg .middle } **<span style="font-size: 19px;">蓝牙耳机</span>**
 
     ---
 
@@ -271,7 +271,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">鼠标 x2</span>**
+-   :mouse_three_button:{ .lg .middle } **<span style="font-size: 19px;">鼠标 x2</span>**
 
     ---
 
@@ -294,28 +294,28 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">小米 13</span>**
+-   :simple-xiaomi:{ .lg .middle } **<span style="font-size: 19px;">小米 13</span>**
 
     ---
 
     ![Image title](./assets/images/equip/mi-13.svg){ align=left width="300" height="300" }
     
-    - [x] 
+    - [x] 人生的第一台智能手机，高考后购入
     
-    - [x] 
+    - [x] 小屏旗舰，握感良好，性能不错
     
-    - [x] 
+    - [x] 骁龙 8 Gen 2 芯片，23年安卓顶配？
     
-    - [x] 
+    - [x] 许多功能是 IOS 没有的，或许是因为我用惯了 MIUI 的原因吧 :thinking:
     
-    - [x] 
+    - [x] 12GB RAM / 256GB ROM，内存够用，存储勉强够用（512GB 还是靠谱些哈哈哈）
     
-    - [x] 
+    - [x] 玩游戏时略微发热，总体续航不错
 </div>
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">iPad Air 5</span>**
+-   :fontawesome-brands-apple:{ .lg .middle } **<span style="font-size: 19px;">iPad Air 5</span>**
 
     ---
 
@@ -336,7 +336,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">小米手环 8</span>**
+-   :simple-xiaomi:{ .lg .middle } **<span style="font-size: 19px;">小米手环 8</span>**
 
     ---
 
@@ -360,7 +360,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">皮包</span>**
+-   :material-bag-personal-tag:{ .lg .middle } **<span style="font-size: 19px;">皮包</span>**
 
     ---
 
@@ -381,7 +381,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">Adidas 背包</span>**
+-   :baggage_claim:{ .lg .middle } **<span style="font-size: 19px;">Adidas 背包</span>**
 
     ---
 
@@ -402,7 +402,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">魅族背包</span>**
+-   :material-bag-personal:{ .lg .middle } **<span style="font-size: 19px;">魅族背包</span>**
 
     ---
 
@@ -423,7 +423,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">大号行李箱</span>**
+-   :fontawesome-solid-suitcase-rolling:{ .lg .middle } **<span style="font-size: 19px;">大号行李箱</span>**
 
     ---
 
@@ -444,7 +444,7 @@
 
 <div class="grid cards" markdown>
 
--   :computer:{ .lg .middle } **<span style="font-size: 19px;">小号行李箱</span>**
+-   :material-bag-suitcase:{ .lg .middle } **<span style="font-size: 19px;">小号行李箱</span>**
 
     ---
 
