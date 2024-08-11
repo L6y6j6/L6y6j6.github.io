@@ -453,7 +453,7 @@ Nobody exists on purpose. (1) Nobody belongs anywhere.
     You wanted to be safe from the government (2) , so you became a stupid government.
 
 1.  🛸🥼🔫 I'm Rick!
-2.  🍑𓂸 I'm Morty!
+2.  I'm Morty!
 
 #### 选项卡中的注释
 

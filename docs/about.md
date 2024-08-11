@@ -29,16 +29,18 @@ INTJ。
 
 ### 操作系统
 
-<!--
 <div class="image-container">
   <a href="https://archlinux.org/" target="_blank"><img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux"></a>
   <a href="https://ubuntu.com/" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu Pro 24.04 LTS"></a>
   <a href="https://www.apple.com/macos/" target="_blank"><img src="https://skillicons.dev/icons?i=apple" alt="macOS Sonoma"></a>
   <a href="https://www.microsoft.com/windows/" target="_blank"><img src="https://skillicons.dev/icons?i=windows" alt="Windows 11 Pro for Workstations"></a>
+  <a href="https://www.android.com/" target="_blank"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Xiaomi HyperOS powered by Android 14"></a>
+  <a href="https://www.apple.com/ipados/" target="_blank"><img src="https://skillicons.dev/icons?i=apple" alt="iPadOS 18"></a>
+  <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank"><img src="https://skillicons.dev/icons?i=redhat" alt="Red Hat Enterprise Linux"></a>
   <a href="https://www.freebsd.org/" target="_blank"><img src="https://skillicons.dev/icons?i=bsd" alt="FreeBSD"></a>
 </div>
--->
 
+<!--
 <figure markdown="span">
   ![桌面端操作系统](https://skillicons.dev/icons?i=arch,ubuntu,apple,windows&theme=dark)
   <figcaption>桌面端</figcaption>
@@ -53,9 +55,26 @@ INTJ。
   ![服务器端操作系统](https://skillicons.dev/icons?i=redhat,bsd&theme=dark)
   <figcaption>服务器</figcaption>
 </figure>
+-->
 
 ### 计算机语言
 
+<div class="image-container">
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="https://skillicons.dev/icons?i=c" alt="C"></a>
+  <a href="https://www.cplusplus.com/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" alt="C++"></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=py" alt="Python"></a>
+  <a href="https://www.javascript.com/" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"></a>
+  <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img src="https://skillicons.dev/icons?i=css" alt="CSS"></a>
+  <a href="https://html.spec.whatwg.org/multipage/" target="_blank"><img src="https://skillicons.dev/icons?i=html" alt="HTML"></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"></a>
+  <a href="https://www.java.com/" target="_blank"><img src="https://skillicons.dev/icons?i=java" alt="Java"></a>
+  <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust"></a>
+  <a href="https://go.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=go" alt="Go"></a>
+  <a href="https://www.latex-project.org/" target="_blank"><img src="https://skillicons.dev/icons?i=latex" alt="LaTeX"></a>
+  <a href="https://www.markdownguide.org/" target="_blank"><img src="https://skillicons.dev/icons?i=md" alt="Markdown"></a>
+</div>
+
+<!--
 <figure markdown="span">
   ![编程语言](https://skillicons.dev/icons?i=c,cpp,py,js,ts,java,rust,go&theme=dark)
   <figcaption>编程语言</figcaption>
@@ -65,6 +84,7 @@ INTJ。
   ![标记语言](https://skillicons.dev/icons?i=md,html,css,latex&theme=dark)
   <figcaption>标记语言</figcaption>
 </figure>
+-->
 
 ### IDE 与编辑器
 

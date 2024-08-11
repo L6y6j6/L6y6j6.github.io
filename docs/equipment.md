@@ -233,7 +233,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     
@@ -254,7 +254,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     
@@ -275,7 +275,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     
@@ -364,7 +364,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     
@@ -385,9 +385,9 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
-    - [x] 
+    - [x] 从高中开始陪伴我的背包，如今依然轻便耐用
     
     - [x] 
     
@@ -406,9 +406,9 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
-    - [x] 
+    - [x] 朋友送的，容量大，质量好
     
     - [x] 
     
@@ -427,7 +427,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     
@@ -448,7 +448,7 @@
 
     ---
 
-    ![Image title](./assets/images/equip/mbp-2020.svg){ align=left width="360" height="360" }
+    ![Image title](./assets/images/equip/){ align=left width="360" height="360" }
     
     - [x] 
     

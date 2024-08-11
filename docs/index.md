@@ -16,9 +16,9 @@ statistics: true
 
 Repo 地址在这里：[:material-github: **Notebook**](https://github.com/L6y6j6/L6y6j6.github.io)。
 
-本笔记本使用 [**MkDocs**](https://www.mkdocs.org/) 构建，采用 [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/) 主题。中文字体是[**霞鹜文楷屏幕阅读版**](https://github.com/lxgw/LxgwWenKai-Screen)，英文字体是 [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/)（没想到 jbmono 的网页版本也支持连字 :smiling_face_with_3_hearts:）。
+本笔记本使用 [**MkDocs**](https://www.mkdocs.org/) 构建，采用 [:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/) 主题。中文字体是[:fontawesome-brands-github-alt: **霞鹜文楷屏幕阅读版**](https://github.com/lxgw/LxgwWenKai-Screen)，英文字体是 [:simple-jetbrains: **JetBrains Mono**](https://www.jetbrains.com/lp/mono/)（没想到 jbmono 的网页版本也支持连字 :smiling_face_with_3_hearts:）。
 
-欢迎 Fork 和 Star，也欢迎各位大佬提出 Issue 和 PR！
+欢迎 Fork 和 Star，也欢迎各位大佬提出 [Issue](https://github.com/L6y6j6/L6y6j6.github.io/issues) 和 [PR](https://github.com/L6y6j6/L6y6j6.github.io/pulls)！
 
 ### 在线阅读
 
@@ -28,7 +28,7 @@ Repo 地址在这里：[:material-github: **Notebook**](https://github.com/L6y6j
 
 如果你想在本地构建并部署这个项目，可以按照以下步骤操作：
 
-首先请确保你已经安装了 [Python](https://www.python.org/) 和 [pip](https://pypi.org/project/pip/)。
+首先请确保你已经安装了 [:material-language-python: Python](https://www.python.org/) 和 [:material-package: pip](https://pypi.org/project/pip/)。
 
 1. 克隆项目到本地并切换到项目目录：
 
@@ -64,7 +64,7 @@ mkdocs serve
 
 ### 声明
 
-本笔记本的所有文章均遵循[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
+本笔记本的所有文章均遵循[:material-ruler: 中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
 
 
 

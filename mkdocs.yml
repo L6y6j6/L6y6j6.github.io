@@ -1309,7 +1309,7 @@ nav:
           - Windows 为何需要碎片整理: z7z8/why-the-design/why-windows-defragment.md
       - 💽 计算机相关科普:
           - z7z8/related-cs/index.md
-          - 编程语言介绍:
+          - 计算机语言介绍:
               - z7z8/related-cs/pl/index.md
               - C 语言: z7z8/related-cs/pl/c.md
               - C++ 语言: z7z8/related-cs/pl/cpp.md
@@ -1332,8 +1332,6 @@ nav:
               - Haskell 语言: z7z8/related-cs/pl/haskell.md
               - OCaml 语言: z7z8/related-cs/pl/ocaml.md
               - Scheme 语言: z7z8/related-cs/pl/scheme.md
-              - Lisp 语言: z7z8/related-cs/pl/lisp.md
-              - Prolog 语言: z7z8/related-cs/pl/prolog.md
               - Erlang 语言: z7z8/related-cs/pl/erlang.md
               - Elixir 语言: z7z8/related-cs/pl/elixir.md
               - Clojure 语言: z7z8/related-cs/pl/clojure.md
@@ -1344,14 +1342,10 @@ nav:
               - Ruby 语言: z7z8/related-cs/pl/ruby.md
               - Perl 语言: z7z8/related-cs/pl/perl.md
               - PHP 语言: z7z8/related-cs/pl/php.md
-              - ASP 语言: z7z8/related-cs/pl/asp.md
-              - VB 语言: z7z8/related-cs/pl/vb.md
               - C# 语言: z7z8/related-cs/pl/csharp.md
               - F# 语言: z7z8/related-cs/pl/fsharp.md
               - Dart 语言: z7z8/related-cs/pl/dart.md
               - Lua 语言: z7z8/related-cs/pl/lua.md
-              - CoffeeScript 语言: z7z8/related-cs/pl/coffeescript.md
-              - ActionScript 语言: z7z8/related-cs/pl/actionscript.md
           - 各种开源协议:
               - z7z8/related-cs/os-license/index.md
               - GPL: z7z8/related-cs/os-license/gpl.md
@@ -1428,15 +1422,16 @@ nav:
           - 电子邮件介绍:
               - z7z8/related-cs/email/index.md
               - Gmail: z7z8/related-cs/email/gmail.md
-          - 磁盘小传:
+          - 存储介质介绍:
               - z7z8/related-cs/disk/index.md
-              - 硬盘: z7z8/related-cs/disk/hdd.md
+              - 机械硬盘: z7z8/related-cs/disk/hdd.md
               - 固态硬盘: z7z8/related-cs/disk/ssd.md
               - 闪存: z7z8/related-cs/disk/flash.md
               - 光盘: z7z8/related-cs/disk/cd.md
               - 磁带: z7z8/related-cs/disk/tape.md
           - 正则表达式:
               - z7z8/related-cs/regex/index.md
+              - 速记: z7z8/related-cs/regex/cheatsheet.md
           - p2p 网络:
               - z7z8/related-cs/p2p/index.md
               - PT: z7z8/related-cs/p2p/pt.md

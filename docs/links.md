@@ -7,7 +7,7 @@ nostatistics: True
 # 友链
 
 !!! Note
-    朋友们的笔记本，欢迎互换友链！
+    朋友们的博客，欢迎大佬们互换友链！
 
 <div class="flink-list">
 
