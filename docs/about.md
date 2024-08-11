@@ -34,6 +34,7 @@ INTJ。
   <a href="https://ubuntu.com/" target="_blank"><img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu Pro 24.04 LTS"></a>
   <a href="https://www.apple.com/macos/" target="_blank"><img src="https://skillicons.dev/icons?i=apple" alt="macOS Sonoma"></a>
   <a href="https://www.microsoft.com/windows/" target="_blank"><img src="https://skillicons.dev/icons?i=windows" alt="Windows 11 Pro for Workstations"></a>
+  <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://skillicons.dev/icons?i=raspberrypi" alt="Raspberry Pi OS"></a>
   <a href="https://www.android.com/" target="_blank"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Xiaomi HyperOS powered by Android 14"></a>
   <a href="https://www.apple.com/ipados/" target="_blank"><img src="https://skillicons.dev/icons?i=apple" alt="iPadOS 18"></a>
   <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank"><img src="https://skillicons.dev/icons?i=redhat" alt="Red Hat Enterprise Linux"></a>
@@ -70,8 +71,6 @@ INTJ。
   <a href="https://www.java.com/" target="_blank"><img src="https://skillicons.dev/icons?i=java" alt="Java"></a>
   <a href="https://www.rust-lang.org/" target="_blank"><img src="https://skillicons.dev/icons?i=rust" alt="Rust"></a>
   <a href="https://go.dev/" target="_blank"><img src="https://skillicons.dev/icons?i=go" alt="Go"></a>
-  <a href="https://www.latex-project.org/" target="_blank"><img src="https://skillicons.dev/icons?i=latex" alt="LaTeX"></a>
-  <a href="https://www.markdownguide.org/" target="_blank"><img src="https://skillicons.dev/icons?i=md" alt="Markdown"></a>
 </div>
 
 <!--
@@ -93,7 +92,11 @@ INTJ。
   <a href="https://neovim.io/" target="_blank"><img src="https://skillicons.dev/icons?i=neovim" alt="Neovim"></a>
   <a href="https://www.jetbrains.com/idea/" target="_blank"><img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA Ultimate"></a>
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm Professional"></a>
+  <a href="https://www.jetbrains.com/clion/" target="_blank"><img src="https://skillicons.dev/icons?i=clion" alt="CLion"></a>
+  <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src="https://skillicons.dev/icons?i=webstorm" alt="WebStorm"></a>
+  <a href="https://www.sublimetext.com/" target="_blank"><img src="https://skillicons.dev/icons?i=sublime" alt="Sublime Text"></a>
   <a href="https://www.vim.org/" target="_blank"><img src="https://skillicons.dev/icons?i=vim" alt="Vim"></a>
+  <a href="https://www.gnu.org/software/emacs/" target="_blank"><img src="https://skillicons.dev/icons?i=emacs" alt="Emacs"></a>
 </div>
 
 ### 笔记与写作
@@ -105,6 +108,16 @@ INTJ。
   <a href="https://www.markdownguide.org/" target="_blank"><img src="https://skillicons.dev/icons?i=md" alt="Markdown"></a>
   <a href="https://www.latex-project.org/" target="_blank"><img src="https://skillicons.dev/icons?i=latex" alt="LaTeX"></a>
 </div>
+
+### 音乐与视频编辑
+
+<div class="image-container">
+  <a href="https://www.blender.org/" target="_blank"><img src="https://skillicons.dev/icons?i=blender" alt="Blender"></a>
+  <a href="https://www.adobe.com/products/photoshop.html" target="_blank"><img src="https://skillicons.dev/icons?i=ps" alt="Photoshop"></a>
+  <a href="https://www.adobe.com/products/premiere.html" target="_blank"><img src="https://skillicons.dev/icons?i=premiere" alt="Premiere Pro"></a>
+  <a href="https://www.adobe.com/products/aftereffects.html" target="_blank"><img src="https://skillicons.dev/icons?i=ae" alt="After Effects"></a>
+  <a href="https://www.adobe.com/products/audition.html" target="_blank"><img src="https://skillicons.dev/icons?i=audition" alt="Audition"></a>
+  <a href="https://www.adobe.com/products/xd.html" target="_blank"><img src="https://skillicons.dev/icons?i=xd" alt="XD"></a>
 
 ### 其他工具
 

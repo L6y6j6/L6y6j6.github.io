@@ -14,6 +14,7 @@
     - [ ] [MkDocs: Project documentation with Markdown.](https://www.mkdocs.org/)
     - [ ] [Astro: The web framework for content-driven websites](https://astro.build/)
     - [ ] [VitePress: Vite & Vue Powered Static Site Generator](https://vitepress.dev/)
+    - [ ] [Mix Space: An Alternative Personal Space](https://mx-space.js.org/)
 
 !!! abstract "SSG 开发进度"
 
