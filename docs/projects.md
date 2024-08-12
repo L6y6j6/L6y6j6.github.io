@@ -20,3 +20,5 @@
 
     - [x] 2024-08-11 Repo Created: [:simple-github: Shire: Innovative static site generator](https://github.com/LightYourJourney/shire)
     - [ ] To be continued...
+
+## 自己造轮子

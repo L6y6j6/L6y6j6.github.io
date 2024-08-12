@@ -10,7 +10,7 @@ statistics: true
 
 <h2 align="center">欢迎来到 LYJ 的个人笔记本！</h2>
 
-### 简介
+### :material-briefcase-check: 简介
 
 这是一个非常粗糙的[**在线公开笔记本**](https://l6y6j6.github.io/mydocs/)，主要用来记录和备份平日学到的东西。
 
@@ -20,11 +20,11 @@ Repo 地址在这里：[:material-github: **Notebook**](https://github.com/L6y6j
 
 欢迎 Fork 和 Star，也欢迎各位大佬提出 [Issue](https://github.com/L6y6j6/L6y6j6.github.io/issues) 和 [PR](https://github.com/L6y6j6/L6y6j6.github.io/pulls)！
 
-### 在线阅读
+### :simple-tryitonline: 在线阅读
 
 本项目托管在 [:material-github: GitHub Pages](https://pages.github.com/) 上，可以通过 [https://l6y6j6.github.io/mydocs/](https://l6y6j6.github.io/mydocs/) 在线阅读。
 
-### 本地构建部署
+### :simple-local: 本地构建部署
 
 如果你想在本地构建并部署这个项目，可以按照以下步骤操作：
 
@@ -62,7 +62,7 @@ mkdocs serve
 
 打开浏览器，输入 `http://127.0.0.1:8000/mydocs/` 即可预览。
 
-### 声明
+### :material-license: 声明
 
 本笔记本的所有文章均遵循[:material-ruler: 中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
 

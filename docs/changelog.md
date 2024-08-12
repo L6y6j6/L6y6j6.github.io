@@ -4,7 +4,7 @@ changelog: True
 nostatistics: True
 ---
 
-# 更新记录
+# :material-update: 更新记录
 
 !!! Abstract
     这是笔记本的更新日志，比较重大的更新会放在上面。
