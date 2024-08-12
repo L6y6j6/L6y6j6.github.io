@@ -2,6 +2,21 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+<div align="center">
+
+[![Auth](https://img.shields.io/badge/Auth-LYJ-ff69b4)](https://github.com/LightYourJourney)
+[![GitHub Issues](https://img.shields.io/github/issues/L6y6j6/L6y6j6.github.io.svg)](https://github.com/L6y6j6/L6y6j6.github.io/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/stars/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/stargazers)
+[![GitHub license](https://img.shields.io/github/license/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/blob/main/LICENSE)
+[![HitCount](https://views.whatilearened.today/views/github/L6y6j6/L6y6j6.github.io.svg)](https://github.com/L6y6j6/L6y6j6.github.io)
+
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="800"  height="3">
+</div><br>
+
 This is a **very rough** [online public notebook 📝](https://l6y6j6.github.io/mydocs/), mainly used to record and back up things learned daily.
 
 This notebook is built using [MkDocs](https://www.mkdocs.org/) and uses the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme. The Chinese font is [LXGW WenKai Screen](https://github.com/lxgw/LxgwWenKai-Screen), and the English font is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).

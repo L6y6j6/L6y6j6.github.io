@@ -2,7 +2,20 @@
 
 [English](./README.md) | 简体中文
 
-[![License](https://img.shields.io/github/license/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/blob/master/LICENSE) [![Issues](https://img.shields.io/github/issues/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/issues) [![Stars](https://img.shields.io/github/stars/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io)
+<div align="center">
+
+[![Auth](https://img.shields.io/badge/Auth-LYJ-ff69b4)](https://github.com/LightYourJourney)
+[![GitHub Issues](https://img.shields.io/github/issues/L6y6j6/L6y6j6.github.io.svg)](https://github.com/L6y6j6/L6y6j6.github.io/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/stars/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/stargazers)
+[![GitHub license](https://img.shields.io/github/license/L6y6j6/L6y6j6.github.io)](https://github.com/L6y6j6/L6y6j6.github.io/blob/main/LICENSE)
+[![HitCount](https://views.whatilearened.today/views/github/L6y6j6/L6y6j6.github.io.svg)](https://github.com/L6y6j6/L6y6j6.github.io)
+
+</div>
+
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="800"  height="3">
+</div><br>
 
 这是一个**非常粗糙**的[在线公开笔记本 📝](https://l6y6j6.github.io/mydocs/)，主要用来记录和备份平日学到的东西。
 
