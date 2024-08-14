@@ -4,7 +4,7 @@ repo_name: Notebook # 仓库名称
 repo_url: https://github.com/L6y6j6/L6y6j6.github.io # 仓库链接
 edit_uri: tree/main/docs
 site_description: LYJ 的笔记本 # 网站描述
-copyright: Copyright &copy; 2024-2025 <a href="https://github.com/L6y6j6" target="_blank" rel="noopener">LYJ</a> # 版权信息
+copyright: Copyright &copy; 2024 <a href="https://github.com/L6y6j6" target="_blank" rel="noopener">LYJ</a> # 版权信息
 site_author: LYJ # 网站作者
 use_directory_urls: true # 使用目录链接
 
@@ -238,7 +238,7 @@ plugins:
   - blog
   - tags
   - offline
-  - git-authors
+  # - git-authors
   - minify:
       minify_html: true
       minify_js: true
@@ -254,9 +254,9 @@ plugins:
       exclude:
         - index.md
         - writeups/AAA.md
-  # - git-committers:
-  #     repository: L6y6j6/L6y6j6.github.io
-  #     branch: main
+  - git-committers:
+      repository: L6y6j6/L6y6j6.github.io
+      branch: main
   - changelog
 
 watch:
@@ -1297,7 +1297,6 @@ nav:
               - SQL 语言: z7z8/related-cs/pl/sql.md
               - HTML 语言: z7z8/related-cs/pl/html.md
               - CSS 语言: z7z8/related-cs/pl/css.md
-              - Markdown 语言: z7z8/related-cs/pl/markdown.md
               - LaTeX 语言: z7z8/related-cs/pl/latex.md
               - R 语言: z7z8/related-cs/pl/r.md
               - Julia 语言: z7z8/related-cs/pl/julia.md
@@ -1484,5 +1483,8 @@ nav:
           - vault/zhihu/index.md
       - 豆瓣:
           - vault/douban/index.md
+      - 好文转载:
+          - vault/ga/index.md
+          - 提问的智慧: vault/ga/how-to-ask.md
   - 🗑️ Trash:
       - trash/index.md

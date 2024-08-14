@@ -5,6 +5,7 @@
 !!! list "List"
 
 	- [ ] 开始写 Arch Linux 安装教程
+	- [ ] 转载《提问的智慧》
 	- [x] 写个人简介 about.md
 	- [x] 根据 Material for MkDocs 的文档，修改主题
 	- [x] 站点示例 example.md 润色

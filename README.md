@@ -65,6 +65,14 @@ mkdocs serve
 
 Open your browser and enter `http://127.0.0.1:8000/mydocs/` to preview.
 
+## Project Status
+
+![Repo Status](https://repobeats.axiom.co/api/embed/4a9bf61ce86de837edc7c393171a5e2ecdda2d53.svg)
+
 ## Statement
 
 All articles in this notebook adhere to the [Chinese Technical Documentation Writing Standards](https://github.com/ruanyf/document-style-guide)
+
+## Permission
+
+This notebook is available freely under [the CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). See more details in [LICENSE](./LICENSE)。

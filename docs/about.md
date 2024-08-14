@@ -118,6 +118,7 @@ INTJ。
   <a href="https://www.adobe.com/products/aftereffects.html" target="_blank"><img src="https://skillicons.dev/icons?i=ae" alt="After Effects"></a>
   <a href="https://www.adobe.com/products/audition.html" target="_blank"><img src="https://skillicons.dev/icons?i=audition" alt="Audition"></a>
   <a href="https://www.adobe.com/products/xd.html" target="_blank"><img src="https://skillicons.dev/icons?i=xd" alt="XD"></a>
+</div>
 
 ### :material-tools: 其他工具
 

@@ -52,6 +52,7 @@
   font-size: inherit;
 }
 
+/*
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #efefef;
   --md-primary-bg-color: #000000;
@@ -95,6 +96,7 @@ input.md-search__input {
 [data-md-color-scheme="slate"] .md-typeset .md-content__button {
   color: #555555;
 }
+*/
 
 .md-copyright {
   font-size: 0.6rem;

@@ -1,3 +1,4 @@
+*[AOSP]: Android Open Source Project
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
 *[CSS]: Cascading Style Sheets
@@ -17,3 +18,8 @@
 *[XML]: Extensible Markup Language
 *[YAML]: YAML Ain't Markup Language
 *[MDX]: Markdown + JSX
+*[STFW]: Search The Fucking Web
+*[RTFM]: Read The Fucking Manual
+*[RTFSC]: Read The Fucking Source Code
+*[IRC]: Internet Relay Chat
+*[MIME]: Multipurpose Internet Mail Extensions

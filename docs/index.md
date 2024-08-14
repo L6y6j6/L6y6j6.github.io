@@ -62,9 +62,13 @@ mkdocs serve
 
 打开浏览器，输入 `http://127.0.0.1:8000/mydocs/` 即可预览。
 
+### :simple-statuspage: 笔记动态
+
+![Repo Status](https://repobeats.axiom.co/api/embed/4a9bf61ce86de837edc7c393171a5e2ecdda2d53.svg)
+
 ### :material-license: 声明
 
-本笔记本的所有文章均遵循[:material-ruler: 中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
+本笔记本的所有文章均遵循 [:material-ruler: 中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
 
 
 

@@ -1,6 +1,6 @@
 # :fontawesome-solid-sitemap: 站点示例
 
-本篇文章是自己给自己的一份备忘录，用于记录 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 主题的使用方法及预览效果，也可以为新手提供一些参考。
+篇文章是自己给自己的一份备忘录，用于记录 [[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/) 主题的使用方法及预览效果，也可以为新手提供一些参考。
 
 ## :material-eye-settings: 页面设置
 
@@ -361,7 +361,7 @@ __当以 `???` 而不是 `!!!` 开头时，标注将呈现为可折叠的块（�
 
 ### :material-record-circle: 注释图标
 
-`Material for MkDocs` 主题最突出的功能之一就是能够注入注释 —— 你几乎可以在文档的任何地方添加的小标记，并在单击时显示注释。
+`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 主题最突出的功能之一就是能够注入注释 —— 你几乎可以在文档的任何地方添加的小标记，并在单击时显示注释。
 
 注释图标可以更改为与主题捆绑的任何图标，甚至可以更改为自定义图标，例如 `material/arrow-right-circle`。只需将以下行添加到 `mkdocs.yml` 中：
 
@@ -521,7 +521,7 @@ Nobody exists on purpose. (1) Nobody belongs anywhere.
 
 ## :material-button-cursor: 按钮
 
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 为主要和次要按钮提供专用样式，可以添加到任何链接、标签或按钮元素中。这对于具有专用号召性用语的文档或登录页面特别有用。
+[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/) 为主要和次要按钮提供专用样式，可以添加到任何链接、标签或按钮元素中。这对于具有专用号召性用语的文档或登录页面特别有用。
 
 ### 添加按钮
 
@@ -539,7 +539,7 @@ Nobody exists on purpose. (1) Nobody belongs anywhere.
 
 ### :material-gesture-tap-button: 添加主按钮
 
-如果要显示已填充的主按钮（例如在 `Material for MkDocs` 的登录页面上），请添加 `.md-button` 和 `.md-button--primary` CSS 类选择器。
+如果要显示已填充的主按钮（例如在 `[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 的登录页面上），请添加 `.md-button` 和 `.md-button--primary` CSS 类选择器。
 
 源码示例：
 
@@ -565,7 +565,7 @@ Nobody exists on purpose. (1) Nobody belongs anywhere.
 
 ## :material-code-block-parentheses: 代码块
 
-代码块和示例是技术项目文档的重要组成部分。`Material for MkDocs` 提供了不同的方法来设置代码块的语法高亮显示，无论是在使用 `Pygments` 构建期间还是在运行时使用 `JavaScript` 语法高亮器。
+代码块和示例是技术项目文档的重要组成部分。`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 提供了不同的方法来设置代码块的语法高亮显示，无论是在使用 `Pygments` 构建期间还是在运行时使用 `JavaScript` 语法高亮器。
 
 ### :simple-editorconfig: 配置
 
@@ -806,7 +806,7 @@ The `#!python range()` function is used to generate a sequence of numbers.
 
 ## :simple-mermaid: 图表
 
-图表有助于传达不同技术组件之间的复杂关系和互连，是对项目文档的重要补充。`Material for MkDocs` 与 `Mermaid.js` 集成，这是一种非常流行且灵活的图表绘制解决方案。
+图表有助于传达不同技术组件之间的复杂关系和互连，是对项目文档的重要补充。`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 与 `Mermaid.js` 集成，这是一种非常流行且灵活的图表绘制解决方案。
 
 ### :simple-processwire: 流程图
 
@@ -916,11 +916,11 @@ erDiagram
 
 ### :material-chart-gantt: 其他
 
-除了上面列出的图表类型外，`Mermaid.js` 还提供对饼图、甘特图、用户旅程、git 图和需求图的支持，所有这些都不受 `Material for MkDocs` 的官方支持。这些图表应该仍然可以像 `Mermaid.js` 宣传的那样工作，但我们不认为它们是一个好的选择，主要是因为它们在移动设备上运行不佳。
+除了上面列出的图表类型外，`Mermaid.js` 还提供对饼图、甘特图、用户旅程、git 图和需求图的支持，所有这些都不受 `[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 的官方支持。这些图表应该仍然可以像 `Mermaid.js` 宣传的那样工作，但我们不认为它们是一个好的选择，主要是因为它们在移动设备上运行不佳。
 
 ## :fontawesome-solid-subscript: 脚注
 
-脚注是在不中断文档流程的情况下向特定单词、短语或句子添加补充或附加信息的好方法。`Material for MkDocs` 提供了定义、引用和呈现脚注的能力。
+脚注是在不中断文档流程的情况下向特定单词、短语或句子添加补充或附加信息的好方法。`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 提供了定义、引用和呈现脚注的能力。
 
 脚注引用必须用方括号 `[]` 括起来，并且必须以插入符号 `^` 开头，直接后跟任意标识符，这类似于标准 Markdown 链接语法。
 
@@ -1023,7 +1023,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 ## :material-view-grid-plus: 网格
 
-`Material for MkDocs` 可以轻松地将部分排列成网格，将传达相似含义或同等重要性的块分组。网格非常适合构建索引页，这些索引页显示了文档大部分的简要概述。
+`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 可以轻松地将部分排列成网格，将传达相似含义或同等重要性的块分组。网格非常适合构建索引页，这些索引页显示了文档大部分的简要概述。
 
 网格有两种类型：卡片网格和通用网格，前者将每个元素包裹在悬停时悬浮的卡片中，后者允许将任意块元素排列成矩形形状。
 
@@ -1087,7 +1087,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 ## :material-picture-in-picture-bottom-right-outline: 图片
 
-虽然图像在 Markdown 中很重要，并且是核心语法的一部分，但在使用上可能有些困难。`Material for MkDocs` 使处理图像更加舒适，为图像对齐和图像标题提供样式。
+虽然图像在 Markdown 中很重要，并且是核心语法的一部分，但在使用上可能有些困难。`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 使处理图像更加舒适，为图像对齐和图像标题提供样式。
 
 ### :material-picture-in-picture-bottom-right: 图像对齐
 
@@ -1158,7 +1158,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 ## :material-format-list-text: 列表
 
-`Material for MkDocs` 支持多种风格的列表，以满足不同的用例，包括通过标准 `Markdown` 支持的无序列表和有序列表，以及通过扩展支持的定义列表和任务列表。
+`[:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)` 支持多种风格的列表，以满足不同的用例，包括通过标准 `Markdown` 支持的无序列表和有序列表，以及通过扩展支持的定义列表和任务列表。
 
 ### :octicons-list-unordered-24: 无序列表
 
@@ -1376,5 +1376,5 @@ The HTML specification is maintained by the W3C.
 
 ## :octicons-cross-reference-24: 参考文档
 
-- Reference of Material for MkDocs: [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
+- Reference of [:simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/): [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
 - MkDocs 教程: [https://wcowin.work/](https://wcowin.work/)
